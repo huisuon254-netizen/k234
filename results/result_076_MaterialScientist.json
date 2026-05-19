@@ -1,0 +1,26 @@
+{
+  "task_id": 76,
+  "agent": "MaterialScientist",
+  "description": "lava_rock material enhancement",
+  "input_prompt": "Enhance lava_rock: {\"base_color\": [0.8, 0.2, 0.05], \"roughness\": 0.9, \"metallic\": 0.1, \"emissive\": [0.6, 0.1, 0.0], \"emissive_intensity\": 2.0}",
+  "output": {
+    "base_color": [
+      0.8,
+      0.2,
+      0.05
+    ],
+    "roughness": 0.9,
+    "metallic": 0.1,
+    "clearcoat": 0.8,
+    "anisotropy": 0.5,
+    "emissive": [
+      0.6,
+      0.1,
+      0.0
+    ],
+    "emissive_intensity": 2.0
+  },
+  "elapsed_s": 4.0,
+  "timestamp": 1779185537.2237794,
+  "wave": 6
+}

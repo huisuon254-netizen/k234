@@ -1,0 +1,27 @@
+{
+  "task_id": 78,
+  "agent": "MaterialScientist",
+  "description": "neon_glass material enhancement",
+  "input_prompt": "Enhance neon_glass: {\"base_color\": [0.0, 1.0, 0.5], \"roughness\": 0.0, \"metallic\": 0.0, \"transmission\": 0.7, \"ior\": 1.52, \"emissive\": [0.0, 0.8, 0.4]}",
+  "output": {
+    "base_color": [
+      0.0,
+      1.0,
+      0.5
+    ],
+    "roughness": 0.0,
+    "metallic": 0.0,
+    "clearcoat": 0.8,
+    "anisotropy": 0.0,
+    "transmission": 0.7,
+    "ior": 1.52,
+    "emissive": [
+      0.0,
+      0.8,
+      0.4
+    ]
+  },
+  "elapsed_s": 4.7,
+  "timestamp": 1779185547.614008,
+  "wave": 6
+}
