@@ -4,7 +4,7 @@
   "description": "stealth_jet evolution mutation",
   "input_prompt": "Mutate this stealth_jet: {\"base_shape\": \"stealth_aircraft\", \"length\": 19.5, \"wingspan\": 14.0, \"height\": 4.8, \"radar_signature\": 0.01, \"thrust\": 180}",
   "output": null,
-  "elapsed_s": 1.2,
-  "timestamp": 1779185574.7739809,
+  "elapsed_s": 7.0,
+  "timestamp": 1779190213.9016068,
   "wave": 7
 }

@@ -1,0 +1,31 @@
+name: k234-build-pipeline
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install numpy pillow pyglet
+      - name: Run k234 Asset Generator
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 agent_orchestrator.py --mode dev --tasks 100
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: k234-assets
+          path: |
+            cache/ai_generated/
+            build/

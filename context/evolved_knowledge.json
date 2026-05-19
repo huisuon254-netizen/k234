@@ -1,32 +1,11 @@
 {
-  "timestamp": 1779189900.7592633,
-  "generation_run": 16,
-  "total_tasks_completed": 70,
-  "latest_insights": [
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.7 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from ",
-    "Geometry score: 0.7 from ",
-    "Complexity: 0.4 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.5 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.7 from ",
-    "Geometry score: 0.8 from ",
-    "Complexity: 0.6 from "
-  ],
+  "timestamp": 1779190166.7197926,
+  "generation_run": 17,
+  "total_tasks_completed": 80,
+  "latest_insights": [],
   "shape_dna": {
     "avg_L_W": 1779176836.9771469,
     "principle_count": 17,
-    "generation": 16
+    "generation": 17
   }
 }

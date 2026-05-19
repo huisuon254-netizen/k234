@@ -4,7 +4,7 @@
   "description": "battle_cruiser evolution mutation",
   "input_prompt": "Mutate this battle_cruiser: {\"base_shape\": \"capital_ship\", \"length\": 400, \"beam\": 60, \"height\": 80, \"shield_capacity\": 5000, \"weapon_batteries\": 12}",
   "output": null,
-  "elapsed_s": 3.7,
-  "timestamp": 1779185579.7617962,
+  "elapsed_s": 4.4,
+  "timestamp": 1779190236.4684715,
   "wave": 7
 }
