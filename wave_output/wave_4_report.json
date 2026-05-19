@@ -3,7 +3,7 @@
   "tasks": 15,
   "completed": 15,
   "failed": 0,
-  "timestamp": 1779185429.314657,
+  "timestamp": 1779189482.3355432,
   "results": [
     {
       "task_id": 46,
@@ -20,16 +20,16 @@
           "L_W": 2.3646,
           "W_H": 2.0
         },
-        "match_score": 0.999,
+        "match_score": 0.98,
         "adjustments": {
-          "length": -0.0006,
-          "width": 0.0,
+          "length": 0.0,
+          "width": -0.0,
           "height": 0.0
         },
         "notes": []
       },
-      "elapsed_s": 3.2,
-      "timestamp": 1779185351.2703202,
+      "elapsed_s": 4.7,
+      "timestamp": 1779189141.0178626,
       "wave": 4
     },
     {
@@ -51,15 +51,16 @@
         "adjustments": {
           "length": 0.0,
           "width": -0.2,
-          "height": 0.14285714285714285
+          "height": -0.14285714285714285
         },
         "notes": [
-          "The length to width ratio matches the expected proportion for an armored vehicle.",
-          "The width to height ratio is slightly higher than expected, indicating a more compact design."
+          "Actual proportions match expected proportions for length to width ratio",
+          "Actual proportions do not match expected proportions for width to height ratio",
+          "Adjustments are minimal, indicating a good match between expected and actual proportions"
         ]
       },
-      "elapsed_s": 4.4,
-      "timestamp": 1779185356.0410907,
+      "elapsed_s": 9.5,
+      "timestamp": 1779189168.4898837,
       "wave": 4
     },
     {
@@ -85,8 +86,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.5,
-      "timestamp": 1779185361.0652914,
+      "elapsed_s": 4.2,
+      "timestamp": 1779189190.170413,
       "wave": 4
     },
     {
@@ -112,8 +113,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.1,
-      "timestamp": 1779185366.0738237,
+      "elapsed_s": 4.8,
+      "timestamp": 1779189213.155516,
       "wave": 4
     },
     {
@@ -139,8 +140,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.9,
-      "timestamp": 1779185371.890423,
+      "elapsed_s": 4.3,
+      "timestamp": 1779189240.4134352,
       "wave": 4
     },
     {
@@ -166,8 +167,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 3.0,
-      "timestamp": 1779185376.1142735,
+      "elapsed_s": 2.2,
+      "timestamp": 1779189263.081362,
       "wave": 4
     },
     {
@@ -178,26 +179,23 @@
       "output": {
         "type_detected": "land_vehicle",
         "expected_proportions": {
-          "L_W": 1.6666666666666667,
+          "L_W": 1.67,
           "W_H": 1.5
         },
         "actual_proportions": {
-          "L_W": 1.6666666666666667,
-          "W_H": 1.25
+          "L_W": 1.67,
+          "W_H": 1.5
         },
-        "match_score": 0.75,
+        "match_score": 1.0,
         "adjustments": {
-          "length": 0,
-          "width": -5,
-          "height": 0
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
         },
-        "notes": [
-          "The actual proportions of the vehicle match the expected proportions of a land vehicle, but the width is slightly smaller than expected.",
-          "The height of the vehicle is as expected."
-        ]
+        "notes": []
       },
-      "elapsed_s": 4.1,
-      "timestamp": 1779185381.19971,
+      "elapsed_s": 4.7,
+      "timestamp": 1779189285.825651,
       "wave": 4
     },
     {
@@ -223,8 +221,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 0.6,
-      "timestamp": 1779185388.2057042,
+      "elapsed_s": 4.8,
+      "timestamp": 1779189308.4648616,
       "wave": 4
     },
     {
@@ -235,11 +233,11 @@
       "output": {
         "type_detected": "warship",
         "expected_proportions": {
-          "L_W": 8.333333333333334,
+          "L_W": 8.333333333333332,
           "W_H": 1.5
         },
         "actual_proportions": {
-          "L_W": 8.333333333333334,
+          "L_W": 8.333333333333332,
           "W_H": 1.5
         },
         "match_score": 1.0,
@@ -250,8 +248,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.0,
-      "timestamp": 1779185393.187206,
+      "elapsed_s": 4.7,
+      "timestamp": 1779189330.1380806,
       "wave": 4
     },
     {
@@ -277,8 +275,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.6,
-      "timestamp": 1779185398.402853,
+      "elapsed_s": 4.9,
+      "timestamp": 1779189352.7933862,
       "wave": 4
     },
     {
@@ -298,19 +296,19 @@
         },
         "match_score": 0.5,
         "adjustments": {
-          "length": 0.0,
-          "width": -0.75,
-          "height": -0.6666666666666666
+          "length": -25.0,
+          "width": 25.0,
+          "height": -15.0
         },
         "notes": [
-          "Expected proportions for an airship: Length/Width = 6, Width/Height = 0.8333333333333334",
-          "Actual Length/Width = 6, Actual Width/Height = 1",
-          "Adjustments: Length = 0%, Width = -30%, Height = -22%",
-          "Match score: 0.5 (50%)"
+          "The length and width proportions match the expected airship proportions.",
+          "The width and height proportions do not match the expected airship proportions.",
+          "The actual width is 25, which is 100% of the expected width.",
+          "The actual height is 30, which is 85.71% of the expected height."
         ]
       },
-      "elapsed_s": 4.0,
-      "timestamp": 1779185403.3396113,
+      "elapsed_s": 4.6,
+      "timestamp": 1779189374.717046,
       "wave": 4
     },
     {
@@ -332,15 +330,15 @@
         "adjustments": {
           "length": 0,
           "width": -0.25,
-          "height": 0
+          "height": -12.5
         },
         "notes": [
-          "Actual proportions match expected proportions for length to width ratio, but not for width to height ratio.",
-          "Adjustments suggest a slight reduction in width to better match expected proportions."
+          "Actual proportions match expected proportions for length to width ratio.",
+          "Actual height is significantly lower than expected, suggesting a possible design or measurement error."
         ]
       },
-      "elapsed_s": 3.8,
-      "timestamp": 1779185408.0835016,
+      "elapsed_s": 4.4,
+      "timestamp": 1779189397.2594388,
       "wave": 4
     },
     {
@@ -367,7 +365,7 @@
         "notes": []
       },
       "elapsed_s": 4.4,
-      "timestamp": 1779185413.0386868,
+      "timestamp": 1779189419.2889822,
       "wave": 4
     },
     {
@@ -393,8 +391,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 3.6,
-      "timestamp": 1779185418.0885243,
+      "elapsed_s": 4.5,
+      "timestamp": 1779189441.14372,
       "wave": 4
     },
     {
@@ -420,8 +418,8 @@
         },
         "notes": []
       },
-      "elapsed_s": 4.4,
-      "timestamp": 1779185423.1225069,
+      "elapsed_s": 4.8,
+      "timestamp": 1779189462.7451408,
       "wave": 4
     }
   ]

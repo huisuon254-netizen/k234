@@ -7,170 +7,204 @@
     "game_type": "4X Space Game",
     "required_assets": [
       {
-        "name": "Procedural Galaxy Generator",
-        "type": "Algorithm",
+        "name": "Galaxy Map",
+        "type": "Image",
         "count": 1
       },
       {
-        "name": "Tech Tree Database",
-        "type": "Database",
-        "count": 1
-      },
-      {
-        "name": "Faction Assets",
-        "type": "3D Models",
+        "name": "Faction Icons",
+        "type": "Image",
         "count": 8
       },
       {
-        "name": "Spacecraft Blueprints",
-        "type": "Blueprints",
+        "name": "Tech Tree",
+        "type": "JSON",
+        "count": 1
+      },
+      {
+        "name": "Planet Models",
+        "type": "3D Model",
+        "count": 100
+      },
+      {
+        "name": "Ship Models",
+        "type": "3D Model",
         "count": 50
       },
       {
-        "name": "Planetary Environments",
-        "type": "Textures",
+        "name": "Sound Effects",
+        "type": "Audio",
         "count": 100
+      },
+      {
+        "name": "Music",
+        "type": "Audio",
+        "count": 5
       }
     ],
     "rules": [
       {
-        "name": "Resource Management",
-        "description": "Players must manage resources (minerals, energy, etc.) to build and maintain their empire."
+        "name": "Faction Expansion",
+        "description": "Factions can expand their territory by colonizing new planets."
       },
       {
-        "name": "Tech Tree Progression",
-        "description": "Players can research new technologies to improve their empire's capabilities."
+        "name": "Tech Advancement",
+        "description": "Factions can research new technologies to improve their ships, planets, and economy."
       },
       {
-        "name": "Diplomacy and Trade",
-        "description": "Players can interact with other factions through diplomacy and trade, forming alliances or rivalries."
+        "name": "Diplomacy",
+        "description": "Factions can form alliances, trade, or declare war on each other."
       },
       {
         "name": "Fleet Combat",
-        "description": "Players can engage in space battles with other factions to defend their territory or expand their empire."
+        "description": "Factions can engage in space battles to defend their territory or attack their enemies."
       },
       {
         "name": "Planetary Management",
-        "description": "Players can manage their planets, building infrastructure and harvesting resources."
+        "description": "Factions can manage their planets' resources, build structures, and defend against attacks."
       },
       {
         "name": "Espionage",
-        "description": "Players can gather intelligence on other factions to gain an advantage in diplomacy, trade, or combat."
+        "description": "Factions can gather intelligence on their enemies, sabotage their operations, or steal their secrets."
       }
     ],
     "systems": [
       {
-        "name": "Resource System",
+        "name": "Galaxy Generation",
         "components": [
-          "Resource Generation",
-          "Resource Distribution"
+          "Procedural Generation",
+          "Galaxy Map"
+        ]
+      },
+      {
+        "name": "Faction System",
+        "components": [
+          "Faction Expansion",
+          "Diplomacy",
+          "Economy"
         ]
       },
       {
         "name": "Tech Tree System",
         "components": [
-          "Tech Research",
-          "Tech Unlocking"
-        ]
-      },
-      {
-        "name": "Diplomacy System",
-        "components": [
-          "Diplomatic Relations",
-          "Trade Agreements"
+          "Tech Advancement",
+          "Research Queue"
         ]
       },
       {
         "name": "Fleet System",
         "components": [
           "Ship Design",
-          "Combat Resolution"
+          "Fleet Combat"
         ]
       },
       {
         "name": "Planetary System",
         "components": [
-          "Planet Generation",
-          "Infrastructure Building"
+          "Planetary Management",
+          "Resource Management"
         ]
       },
       {
         "name": "Espionage System",
         "components": [
-          "Spy Network",
-          "Intelligence Gathering"
+          "Intelligence Gathering",
+          "Sabotage"
         ]
       }
     ],
     "interactions": [
       {
+        "action": "Colonize Planet",
+        "result": "Faction Expansion"
+      },
+      {
         "action": "Research Tech",
-        "result": "Unlock new technologies and improve empire capabilities"
+        "result": "Tech Advancement"
       },
       {
         "action": "Form Alliance",
-        "result": "Gain access to shared resources and trade agreements"
+        "result": "Diplomacy"
       },
       {
         "action": "Declare War",
-        "result": "Engage in fleet combat and potentially gain territory"
+        "result": "Fleet Combat"
       },
       {
-        "action": "Build Infrastructure",
-        "result": "Improve planetary resources and capacity"
+        "action": "Build Structure",
+        "result": "Planetary Management"
       },
       {
         "action": "Gather Intelligence",
-        "result": "Gain insight into enemy faction's plans and capabilities"
+        "result": "Espionage"
       }
     ],
     "state_machine": {
       "states": [
         "Idle",
         "Exploring",
-        "Building",
-        "Trading",
-        "Warring",
-        "Diplomating"
+        "Colonizing",
+        "Researching",
+        "Diplomacy",
+        "Fighting",
+        "Managing",
+        "Espionage"
       ],
       "transitions": [
         {
           "from": "Idle",
           "to": "Exploring",
-          "trigger": "Player selects a planet to explore"
+          "trigger": "Player Selects Galaxy"
         },
         {
           "from": "Exploring",
-          "to": "Building",
-          "trigger": "Player discovers a habitable planet"
+          "to": "Colonizing",
+          "trigger": "Player Selects Planet"
         },
         {
-          "from": "Building",
-          "to": "Trading",
-          "trigger": "Player completes a building project"
+          "from": "Exploring",
+          "to": "Researching",
+          "trigger": "Player Selects Tech"
         },
         {
-          "from": "Trading",
-          "to": "Warring",
-          "trigger": "Player is attacked by another faction"
+          "from": "Colonizing",
+          "to": "Diplomacy",
+          "trigger": "Player Forms Alliance"
         },
         {
-          "from": "Warring",
-          "to": "Diplomating",
-          "trigger": "Player surrenders or forms an alliance"
+          "from": "Diplomacy",
+          "to": "Fighting",
+          "trigger": "Player Declares War"
+        },
+        {
+          "from": "Fighting",
+          "to": "Managing",
+          "trigger": "Player Wins Battle"
+        },
+        {
+          "from": "Managing",
+          "to": "Espionage",
+          "trigger": "Player Selects Espionage Action"
+        },
+        {
+          "from": "Espionage",
+          "to": "Idle",
+          "trigger": "Player Completes Espionage Action"
         }
       ]
     },
     "implementation_steps": [
-      "Implement procedural galaxy generation using a combination of algorithms and data structures.",
-      "Design and implement the tech tree system, including research and unlocking mechanics.",
-      "Develop the diplomacy system, including diplomatic relations and trade agreements.",
-      "Create the fleet system, including ship design and combat resolution.",
-      "Implement the planetary system, including planet generation and infrastructure building.",
-      "Develop the espionage system, including spy networks and intelligence gathering."
+      "Implement Galaxy Generation",
+      "Implement Faction System",
+      "Implement Tech Tree System",
+      "Implement Fleet System",
+      "Implement Planetary System",
+      "Implement Espionage System",
+      "Implement State Machine",
+      "Implement User Interface"
     ]
   },
-  "elapsed_s": 1.4,
-  "timestamp": 1779185430.716731,
+  "elapsed_s": 8.6,
+  "timestamp": 1779189490.9718258,
   "wave": 5
 }
