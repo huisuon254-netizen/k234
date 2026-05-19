@@ -3,7 +3,7 @@
   "tasks": 15,
   "completed": 15,
   "failed": 0,
-  "timestamp": 1779185163.2924283,
+  "timestamp": 1779188213.4435434,
   "results": [
     {
       "task_id": 1,
@@ -13,7 +13,7 @@
       "output": {
         "proportions": {
           "length_width_ratio": 2.381,
-          "width_height_ratio": 1.8365
+          "width_height_ratio": 1.8391
         },
         "silhouette": {
           "is_symmetric": true,
@@ -21,44 +21,44 @@
         },
         "design_language": [
           "aggressive",
-          "sporty"
+          "high-performance"
         ],
         "key_features": [
           {
-            "name": "Front Splitter",
+            "name": "Front Fenders",
             "position": [
               2.5,
               0,
               1.05
             ],
-            "description": "Aerodynamic feature at the front of the vehicle"
+            "description": "Angular and aggressive design"
           },
           {
-            "name": "Rear Diffuser",
+            "name": "Rear Fenders",
             "position": [
               -2.5,
               0,
-              -1.05
+              1.05
             ],
-            "description": "Aerodynamic feature at the rear of the vehicle"
+            "description": "Angular and aggressive design"
           },
           {
-            "name": "Side Sill",
+            "name": "Front Grill",
             "position": [
               2.3,
               0.25,
               0.95
             ],
-            "description": "Structural feature along the side of the vehicle"
+            "description": "Aerodynamic design"
           },
           {
-            "name": "Side Sill",
+            "name": "Rear Diffuser",
             "position": [
               -2.3,
               0.25,
               0.95
             ],
-            "description": "Structural feature along the side of the vehicle"
+            "description": "Aerodynamic design"
           },
           {
             "name": "Front Bumper",
@@ -67,23 +67,14 @@
               0.4,
               1.0
             ],
-            "description": "Protective feature at the front of the vehicle"
-          },
-          {
-            "name": "Front Bumper",
-            "position": [
-              2.5,
-              0.4,
-              -1.0
-            ],
-            "description": "Protective feature at the front of the vehicle"
+            "description": "Aggressive design"
           }
         ],
         "style_archetype": "aggressive",
-        "complexity_score": 0.95
+        "complexity_score": 0.8
       },
-      "elapsed_s": 1.3,
-      "timestamp": 1779185032.4917617,
+      "elapsed_s": 1.2,
+      "timestamp": 1779187872.833367,
       "wave": 1
     },
     {
@@ -101,8 +92,8 @@
           "primary_axis": "x"
         },
         "design_language": [
-          "luxurious",
-          "sleek"
+          "luxury",
+          "marine"
         ],
         "key_features": [
           {
@@ -112,7 +103,7 @@
               0,
               3.5
             ],
-            "description": "The front of the yacht, typically the most prominent feature."
+            "description": "The forward section of the yacht"
           },
           {
             "name": "Stern",
@@ -121,68 +112,41 @@
               0,
               3.5
             ],
-            "description": "The back of the yacht, often featuring a distinctive design element."
+            "description": "The rear section of the yacht"
           },
           {
-            "name": "Side Windows",
+            "name": "Portside",
             "position": [
               14,
               2,
               3
             ],
-            "description": "Large windows that provide natural light and offer a view of the surroundings."
+            "description": "The left side of the yacht"
           },
           {
-            "name": "Side Windows",
+            "name": "Starboard",
             "position": [
               -14,
               2,
               3
             ],
-            "description": "Large windows that provide natural light and offer a view of the surroundings."
+            "description": "The right side of the yacht"
           },
           {
-            "name": "Side Windows",
+            "name": "Midship",
             "position": [
-              14,
-              2,
-              -3
-            ],
-            "description": "Large windows that provide natural light and offer a view of the surroundings."
-          },
-          {
-            "name": "Side Windows",
-            "position": [
-              -14,
-              2,
-              -3
-            ],
-            "description": "Large windows that provide natural light and offer a view of the surroundings."
-          },
-          {
-            "name": "Upper Deck",
-            "position": [
-              15,
+              0,
               8,
               2.5
             ],
-            "description": "A raised platform that provides additional space for passengers and crew."
-          },
-          {
-            "name": "Upper Deck",
-            "position": [
-              -15,
-              8,
-              2.5
-            ],
-            "description": "A raised platform that provides additional space for passengers and crew."
+            "description": "The middle section of the yacht"
           }
         ],
         "style_archetype": "elegant",
         "complexity_score": 0.8
       },
-      "elapsed_s": 3.9,
-      "timestamp": 1779185037.5669367,
+      "elapsed_s": 4.9,
+      "timestamp": 1779187895.805523,
       "wave": 1
     },
     {
@@ -200,8 +164,8 @@
           "primary_axis": "x"
         },
         "design_language": [
-          "aerodynamic",
-          "military"
+          "minimalist",
+          "utilitarian"
         ],
         "key_features": [
           {
@@ -216,27 +180,27 @@
           {
             "name": "wings",
             "position": [
-              -10.5,
-              0,
-              0
+              9,
+              0.6,
+              4.5
             ],
-            "description": "The primary lifting surfaces of the aircraft, providing lift and stability during flight."
+            "description": "The wings provide lift and control during flight."
           },
           {
-            "name": "cockpit",
+            "name": "tail section",
             "position": [
-              0,
-              0,
-              3.5
+              -6,
+              1.2,
+              -0.8
             ],
-            "description": "The control center of the aircraft, housing the crew and providing access to essential systems."
+            "description": "The tail section provides stability and control during flight."
           }
         ],
-        "style_archetype": "aggressive",
-        "complexity_score": 0.85
+        "style_archetype": "utilitarian",
+        "complexity_score": 0.8
       },
-      "elapsed_s": 3.3,
-      "timestamp": 1779185041.8211403,
+      "elapsed_s": 4.9,
+      "timestamp": 1779187918.989811,
       "wave": 1
     },
     {
@@ -251,7 +215,7 @@
         },
         "silhouette": {
           "is_symmetric": true,
-          "primary_axis": "z"
+          "primary_axis": "y"
         },
         "design_language": [
           "industrial",
@@ -259,29 +223,101 @@
         ],
         "key_features": [
           {
-            "name": "Shoulder",
+            "name": "Shoulder Joint",
             "position": [
               0.6,
               0,
               0.4
             ],
-            "description": "The shoulder joint of the mecha suit"
+            "description": "A joint connecting the arm to the body."
           },
           {
-            "name": "Hip",
+            "name": "Shoulder Joint",
+            "position": [
+              -0.6,
+              0,
+              0.4
+            ],
+            "description": "A joint connecting the arm to the body."
+          },
+          {
+            "name": "Hip Joint",
+            "position": [
+              0.6,
+              0,
+              -0.4
+            ],
+            "description": "A joint connecting the leg to the body."
+          },
+          {
+            "name": "Hip Joint",
+            "position": [
+              -0.6,
+              0,
+              -0.4
+            ],
+            "description": "A joint connecting the leg to the body."
+          },
+          {
+            "name": "Arm",
+            "position": [
+              0.4,
+              0.5,
+              0.3
+            ],
+            "description": "A long, thin structure extending from the body."
+          },
+          {
+            "name": "Arm",
+            "position": [
+              -0.4,
+              0.5,
+              0.3
+            ],
+            "description": "A long, thin structure extending from the body."
+          },
+          {
+            "name": "Leg",
+            "position": [
+              0.4,
+              0.5,
+              -0.3
+            ],
+            "description": "A long, thin structure extending from the body."
+          },
+          {
+            "name": "Leg",
+            "position": [
+              -0.4,
+              0.5,
+              -0.3
+            ],
+            "description": "A long, thin structure extending from the body."
+          },
+          {
+            "name": "Head",
             "position": [
               0.5,
               2.3,
               0.2
             ],
-            "description": "The hip joint of the mecha suit"
+            "description": "The upper part of the body, housing the brain and sensory organs."
+          },
+          {
+            "name": "Head",
+            "position": [
+              -0.5,
+              2.3,
+              0.2
+            ],
+            "description": "The upper part of the body, housing the brain and sensory organs."
           }
         ],
         "style_archetype": "aggressive",
-        "complexity_score": 0.6
+        "complexity_score": 0.8
       },
-      "elapsed_s": 35.2,
-      "timestamp": 1779185077.5876386,
+      "elapsed_s": 5.3,
+      "timestamp": 1779187942.0214884,
       "wave": 1
     },
     {
@@ -304,38 +340,38 @@
         ],
         "key_features": [
           {
-            "name": "docking_bay",
+            "name": "docking_bays",
             "position": [
               25.0,
               0.0,
               25.0
             ],
-            "description": "A large opening on the top surface of the space station for docking and undocking spacecraft."
+            "description": "Large docking bays for spacecraft"
           },
           {
-            "name": "service_module",
+            "name": "life_support",
             "position": [
               0.0,
               15.0,
               0.0
             ],
-            "description": "A module on the top surface of the space station that provides access to the interior for maintenance and repairs."
+            "description": "Central life support module"
           },
           {
-            "name": "life_support_module",
+            "name": "solar_panels",
             "position": [
               10.0,
               5.0,
               10.0
             ],
-            "description": "A module on the space station that provides life support systems, including air, water, and food."
+            "description": "Solar panels for energy generation"
           }
         ],
-        "style_archetype": "classic",
-        "complexity_score": 0.5
+        "style_archetype": "modern",
+        "complexity_score": 0.8
       },
-      "elapsed_s": 4.3,
-      "timestamp": 1779185082.490082,
+      "elapsed_s": 5.0,
+      "timestamp": 1779187964.7541804,
       "wave": 1
     },
     {
@@ -350,7 +386,7 @@
         },
         "silhouette": {
           "is_symmetric": true,
-          "primary_axis": "x"
+          "primary_axis": "y"
         },
         "design_language": [
           "organic",
@@ -364,7 +400,7 @@
               0,
               0
             ],
-            "description": "Large, curved wings that provide lift and stability"
+            "description": "Large, symmetrical wings provide lift and stability."
           },
           {
             "name": "Body",
@@ -373,7 +409,7 @@
               0,
               0
             ],
-            "description": "Long, slender body that houses the dragon's vital organs"
+            "description": "Long, slender body with a rounded cross-section."
           },
           {
             "name": "Tail",
@@ -382,23 +418,14 @@
               0,
               0
             ],
-            "description": "Long, whip-like tail that provides balance and agility"
-          },
-          {
-            "name": "Head",
-            "position": [
-              0,
-              0,
-              0
-            ],
-            "description": "Large, menacing head with sharp teeth and claws"
+            "description": "Long, thin tail provides balance and steering."
           }
         ],
-        "style_archetype": "aggressive",
+        "style_archetype": "organic",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.2,
-      "timestamp": 1779185087.0365272,
+      "elapsed_s": 5.0,
+      "timestamp": 1779187986.815068,
       "wave": 1
     },
     {
@@ -416,34 +443,43 @@
           "primary_axis": "y"
         },
         "design_language": [
-          "futuristic",
-          "industrial"
+          "cyberpunk",
+          "futuristic"
         ],
         "key_features": [
           {
-            "name": "entry_point",
-            "position": [
-              -10,
-              50,
-              -8
-            ],
-            "description": "Main entrance of the skyscraper"
-          },
-          {
-            "name": "peak",
+            "name": "angled corners",
             "position": [
               -12.5,
+              0,
+              -10
+            ],
+            "description": "Sharp, angular corners give the skyscraper a futuristic feel."
+          },
+          {
+            "name": "tiered structure",
+            "position": [
+              12.5,
               200,
               10
             ],
-            "description": "Highest point of the skyscraper"
+            "description": "The skyscraper's tiered structure creates a sense of depth and visual interest."
+          },
+          {
+            "name": "angled roof",
+            "position": [
+              10,
+              50,
+              -8
+            ],
+            "description": "The angled roof adds a touch of dynamism to the skyscraper's design."
           }
         ],
         "style_archetype": "futuristic",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.3,
-      "timestamp": 1779185092.2476366,
+      "elapsed_s": 4.9,
+      "timestamp": 1779188009.2921412,
       "wave": 1
     },
     {
@@ -468,27 +504,27 @@
           {
             "name": "turret",
             "position": [
-              3.5,
-              0.8,
-              1.8
+              0.0,
+              0.0,
+              2.0
             ],
             "description": "rotating platform for gun"
           },
           {
-            "name": "main_gun",
+            "name": "gun",
             "position": [
-              0,
-              0,
-              0
+              3.5,
+              0.8,
+              1.8
             ],
-            "description": "primary armament"
+            "description": "main armament"
           },
           {
             "name": "track",
             "position": [
-              4,
-              0,
-              2
+              4.0,
+              0.0,
+              2.0
             ],
             "description": "mechanism for movement"
           }
@@ -496,8 +532,8 @@
         "style_archetype": "aggressive",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.5,
-      "timestamp": 1779185097.3344915,
+      "elapsed_s": 4.7,
+      "timestamp": 1779188032.3579326,
       "wave": 1
     },
     {
@@ -522,36 +558,63 @@
           {
             "name": "Head",
             "position": [
-              0.0,
+              1.25,
+              0,
+              0.75
+            ],
+            "description": "The head of the alien creature is positioned at the top center of the body."
+          },
+          {
+            "name": "Tail",
+            "position": [
+              -1.25,
+              0,
+              -0.75
+            ],
+            "description": "The tail of the alien creature is positioned at the bottom center of the body."
+          },
+          {
+            "name": "Shoulder",
+            "position": [
+              1,
+              0.8,
+              0.5
+            ],
+            "description": "The shoulder of the alien creature is positioned at the top left of the body."
+          },
+          {
+            "name": "Shoulder",
+            "position": [
+              -1,
+              0.8,
+              0.5
+            ],
+            "description": "The shoulder of the alien creature is positioned at the top right of the body."
+          },
+          {
+            "name": "Hip",
+            "position": [
+              0.5,
               2.8,
               0.3
             ],
-            "description": "The rounded feature at the top of the creature's body."
+            "description": "The hip of the alien creature is positioned at the bottom left of the body."
           },
           {
-            "name": "Shoulders",
+            "name": "Hip",
             "position": [
-              1.25,
-              0.0,
-              0.75
+              -0.5,
+              2.8,
+              0.3
             ],
-            "description": "The rounded features at the top of the creature's body, near the head."
-          },
-          {
-            "name": "Legs",
-            "position": [
-              1.25,
-              0.0,
-              -0.75
-            ],
-            "description": "The long, thin features at the bottom of the creature's body."
+            "description": "The hip of the alien creature is positioned at the bottom right of the body."
           }
         ],
-        "style_archetype": "organic",
+        "style_archetype": "biomechanical",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.6,
-      "timestamp": 1779185102.4719117,
+      "elapsed_s": 5.1,
+      "timestamp": 1779188055.1719155,
       "wave": 1
     },
     {
@@ -569,43 +632,43 @@
           "primary_axis": "x"
         },
         "design_language": [
-          "Industrial",
-          "Mechanical"
+          "streamlined",
+          "utilitarian"
         ],
         "key_features": [
           {
             "name": "Hull",
             "position": [
-              12.5,
               0,
-              2
+              0,
+              0
             ],
-            "description": "Main body of the submarine"
+            "description": "The main body of the submarine, providing buoyancy and protection."
           },
           {
             "name": "Sail",
             "position": [
-              12,
-              1.5,
-              1.8
+              12.5,
+              0,
+              2
             ],
-            "description": "Conical structure on top of the submarine"
+            "description": "The conning tower, housing the control room and command center."
           },
           {
-            "name": "Propeller",
+            "name": "Dive planes",
             "position": [
               10,
               0.5,
               0
             ],
-            "description": "Rotating blade at the rear of the submarine"
+            "description": "Control surfaces used to stabilize and maneuver the submarine."
           }
         ],
-        "style_archetype": "Industrial",
+        "style_archetype": "utilitarian",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.0,
-      "timestamp": 1779185107.3958535,
+      "elapsed_s": 5.1,
+      "timestamp": 1779188077.2310774,
       "wave": 1
     },
     {
@@ -624,42 +687,69 @@
         },
         "design_language": [
           "futuristic",
-          "high-tech"
+          "streamlined"
         ],
         "key_features": [
           {
-            "name": "front windows",
-            "position": [
-              29.5,
-              1.25,
-              0
-            ],
-            "description": "Two large windows on the front of the train"
-          },
-          {
-            "name": "side windows",
-            "position": [
-              28.5,
-              0.75,
-              0
-            ],
-            "description": "Smaller windows on the sides of the train"
-          },
-          {
-            "name": "engine",
+            "name": "nose",
             "position": [
               30,
               0,
               1.75
             ],
-            "description": "The engine of the train, located at the front"
+            "description": "The pointed front of the train, giving it a sleek appearance."
+          },
+          {
+            "name": "tail",
+            "position": [
+              -30,
+              0,
+              1.75
+            ],
+            "description": "The rear section of the train, providing stability and balance."
+          },
+          {
+            "name": "side_winglets",
+            "position": [
+              29,
+              1.5,
+              1.5
+            ],
+            "description": "Small wing-like protrusions on the sides of the train, reducing drag and improving aerodynamics."
+          },
+          {
+            "name": "side_winglets",
+            "position": [
+              -29,
+              1.5,
+              1.5
+            ],
+            "description": "Small wing-like protrusions on the sides of the train, reducing drag and improving aerodynamics."
+          },
+          {
+            "name": "side_supports",
+            "position": [
+              28,
+              0.5,
+              1
+            ],
+            "description": "Thin supports on the sides of the train, providing structural integrity and stability."
+          },
+          {
+            "name": "side_supports",
+            "position": [
+              -28,
+              0.5,
+              1
+            ],
+            "description": "Thin supports on the sides of the train, providing structural integrity and stability."
           }
         ],
         "style_archetype": "futuristic",
-        "complexity_score": 0.8
+        "complexity_score": 0.85
       },
-      "elapsed_s": 2.2,
-      "timestamp": 1779185112.1910715,
+      "elapsed_s": 1.2,
+      "timestamp": 1779188099.2491288,
       "wave": 1
     },
     {
@@ -674,11 +764,11 @@
         },
         "silhouette": {
           "is_symmetric": true,
-          "primary_axis": "y"
+          "primary_axis": "z"
         },
         "design_language": [
           "industrial",
-          "military"
+          "mechanical"
         ],
         "key_features": [
           {
@@ -688,7 +778,7 @@
               0,
               1.25
             ],
-            "description": "Supports the weight of the battle mech"
+            "description": "Sturdy legs for stability"
           },
           {
             "name": "legs",
@@ -697,7 +787,7 @@
               0,
               1.25
             ],
-            "description": "Supports the weight of the battle mech"
+            "description": "Sturdy legs for stability"
           },
           {
             "name": "legs",
@@ -706,7 +796,7 @@
               0,
               -1.25
             ],
-            "description": "Supports the weight of the battle mech"
+            "description": "Sturdy legs for stability"
           },
           {
             "name": "legs",
@@ -715,43 +805,43 @@
               0,
               -1.25
             ],
-            "description": "Supports the weight of the battle mech"
+            "description": "Sturdy legs for stability"
           },
           {
-            "name": "shoulders",
+            "name": "body",
             "position": [
               1.2,
               1.0,
               1.0
             ],
-            "description": "Supports the weight of the battle mech's arms"
+            "description": "Main body of the battle mech"
           },
           {
-            "name": "shoulders",
+            "name": "body",
             "position": [
               -1.2,
               1.0,
               1.0
             ],
-            "description": "Supports the weight of the battle mech's arms"
+            "description": "Main body of the battle mech"
           },
           {
-            "name": "shoulders",
+            "name": "body",
             "position": [
               1.2,
               1.0,
               -1.0
             ],
-            "description": "Supports the weight of the battle mech's arms"
+            "description": "Main body of the battle mech"
           },
           {
-            "name": "shoulders",
+            "name": "body",
             "position": [
               -1.2,
               1.0,
               -1.0
             ],
-            "description": "Supports the weight of the battle mech's arms"
+            "description": "Main body of the battle mech"
           },
           {
             "name": "head",
@@ -760,7 +850,7 @@
               5.5,
               0.8
             ],
-            "description": "Houses the battle mech's sensors and control systems"
+            "description": "Command center of the battle mech"
           },
           {
             "name": "head",
@@ -769,14 +859,14 @@
               5.5,
               0.8
             ],
-            "description": "Houses the battle mech's sensors and control systems"
+            "description": "Command center of the battle mech"
           }
         ],
         "style_archetype": "aggressive",
         "complexity_score": 0.8
       },
-      "elapsed_s": 4.5,
-      "timestamp": 1779185117.2980053,
+      "elapsed_s": 10.4,
+      "timestamp": 1779188128.2108643,
       "wave": 1
     },
     {
@@ -794,43 +884,43 @@
           "primary_axis": "y"
         },
         "design_language": [
-          "modern",
-          "aerodynamic"
+          "aerodynamic",
+          "streamlined"
         ],
         "key_features": [
           {
-            "name": "Solar Sail",
+            "name": "sail",
             "position": [
-              20,
-              0,
-              30
+              15,
+              40,
+              25
             ],
-            "description": "A large, flat surface that captures solar energy to propel the ship"
+            "description": "large, flat surface"
           },
           {
-            "name": "Main Boom",
-            "position": [
-              -20,
-              0,
-              30
-            ],
-            "description": "A long, thin structure that supports the solar sail"
-          },
-          {
-            "name": "Keel",
+            "name": "mast",
             "position": [
               0,
               0,
               0
             ],
-            "description": "A central axis that provides stability to the ship"
+            "description": "vertical structure supporting the sail"
+          },
+          {
+            "name": "keel",
+            "position": [
+              0,
+              0,
+              -40
+            ],
+            "description": "horizontal structure at the base"
           }
         ],
-        "style_archetype": "modern",
-        "complexity_score": 0.7
+        "style_archetype": "elegant",
+        "complexity_score": 0.8
       },
-      "elapsed_s": 34.4,
-      "timestamp": 1779185152.3039143,
+      "elapsed_s": 5.0,
+      "timestamp": 1779188150.4734333,
       "wave": 1
     },
     {
@@ -845,46 +935,55 @@
         },
         "silhouette": {
           "is_symmetric": true,
-          "primary_axis": "y"
+          "primary_axis": "x"
         },
         "design_language": [
-          "organic",
-          "curvaceous"
+          "underwater",
+          "submerged"
         ],
         "key_features": [
           {
-            "name": "Central Dome",
+            "name": "Main Entrance",
             "position": [
-              0.0,
-              0.0,
-              25.0
+              50,
+              0,
+              50
             ],
-            "description": "The main structure of the underwater city, providing a central hub for inhabitants."
+            "description": "The main entrance to the underwater city, providing access to the city's interior."
           },
           {
-            "name": "Entrance Tunnels",
+            "name": "City Center",
             "position": [
-              -50.0,
-              0.0,
-              -25.0
+              0,
+              0,
+              0
             ],
-            "description": "The primary entry points for inhabitants and visitors, connecting the city to the surrounding ocean."
+            "description": "The central hub of the underwater city, featuring shops, restaurants, and other amenities."
           },
           {
-            "name": "Supporting Pillars",
+            "name": "Residential Area",
             "position": [
-              0.0,
-              0.0,
-              0.0
+              -50,
+              0,
+              0
             ],
-            "description": "Structural elements providing support and stability to the city's architecture."
+            "description": "A residential area within the underwater city, featuring homes and living spaces."
+          },
+          {
+            "name": "Observation Deck",
+            "position": [
+              40,
+              50,
+              40
+            ],
+            "description": "An observation deck offering panoramic views of the surrounding ocean."
           }
         ],
-        "style_archetype": "elegant",
+        "style_archetype": "classic",
         "complexity_score": 0.7
       },
-      "elapsed_s": 4.1,
-      "timestamp": 1779185157.34265,
+      "elapsed_s": 4.4,
+      "timestamp": 1779188173.343915,
       "wave": 1
     },
     {
@@ -902,43 +1001,52 @@
           "primary_axis": "x"
         },
         "design_language": [
-          "futuristic",
-          "industrial"
+          "Aviation",
+          "Industrial"
         ],
         "key_features": [
           {
-            "name": "nose",
+            "name": "Nose",
             "position": [
               40.0,
               0.0,
               20.0
             ],
-            "description": "The pointed front section of the aircraft"
+            "description": "The front section of the flying fortress"
           },
           {
-            "name": "wings",
+            "name": "Tail",
+            "position": [
+              -40.0,
+              0.0,
+              -20.0
+            ],
+            "description": "The rear section of the flying fortress"
+          },
+          {
+            "name": "Wing",
             "position": [
               38.0,
               10.0,
               18.0
             ],
-            "description": "The large, flat surfaces that provide lift"
+            "description": "The main lifting surface of the flying fortress"
           },
           {
-            "name": "tail",
+            "name": "Engine",
             "position": [
-              -40.0,
-              0.0,
-              20.0
+              35.0,
+              25.0,
+              10.0
             ],
-            "description": "The rear section of the aircraft"
+            "description": "The power source of the flying fortress"
           }
         ],
-        "style_archetype": "futuristic",
+        "style_archetype": "classic",
         "complexity_score": 0.8
       },
-      "elapsed_s": 5.0,
-      "timestamp": 1779185162.678375,
+      "elapsed_s": 4.7,
+      "timestamp": 1779188196.028364,
       "wave": 1
     }
   ]

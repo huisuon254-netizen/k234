@@ -13,42 +13,51 @@
       "primary_axis": "x"
     },
     "design_language": [
-      "futuristic",
-      "industrial"
+      "Aviation",
+      "Industrial"
     ],
     "key_features": [
       {
-        "name": "nose",
+        "name": "Nose",
         "position": [
           40.0,
           0.0,
           20.0
         ],
-        "description": "The pointed front section of the aircraft"
+        "description": "The front section of the flying fortress"
       },
       {
-        "name": "wings",
+        "name": "Tail",
+        "position": [
+          -40.0,
+          0.0,
+          -20.0
+        ],
+        "description": "The rear section of the flying fortress"
+      },
+      {
+        "name": "Wing",
         "position": [
           38.0,
           10.0,
           18.0
         ],
-        "description": "The large, flat surfaces that provide lift"
+        "description": "The main lifting surface of the flying fortress"
       },
       {
-        "name": "tail",
+        "name": "Engine",
         "position": [
-          -40.0,
-          0.0,
-          20.0
+          35.0,
+          25.0,
+          10.0
         ],
-        "description": "The rear section of the aircraft"
+        "description": "The power source of the flying fortress"
       }
     ],
-    "style_archetype": "futuristic",
+    "style_archetype": "classic",
     "complexity_score": 0.8
   },
-  "elapsed_s": 5.0,
-  "timestamp": 1779185162.678375,
+  "elapsed_s": 4.7,
+  "timestamp": 1779188196.028364,
   "wave": 1
 }

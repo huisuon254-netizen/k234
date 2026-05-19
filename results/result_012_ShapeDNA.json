@@ -10,11 +10,11 @@
     },
     "silhouette": {
       "is_symmetric": true,
-      "primary_axis": "y"
+      "primary_axis": "z"
     },
     "design_language": [
       "industrial",
-      "military"
+      "mechanical"
     ],
     "key_features": [
       {
@@ -24,7 +24,7 @@
           0,
           1.25
         ],
-        "description": "Supports the weight of the battle mech"
+        "description": "Sturdy legs for stability"
       },
       {
         "name": "legs",
@@ -33,7 +33,7 @@
           0,
           1.25
         ],
-        "description": "Supports the weight of the battle mech"
+        "description": "Sturdy legs for stability"
       },
       {
         "name": "legs",
@@ -42,7 +42,7 @@
           0,
           -1.25
         ],
-        "description": "Supports the weight of the battle mech"
+        "description": "Sturdy legs for stability"
       },
       {
         "name": "legs",
@@ -51,43 +51,43 @@
           0,
           -1.25
         ],
-        "description": "Supports the weight of the battle mech"
+        "description": "Sturdy legs for stability"
       },
       {
-        "name": "shoulders",
+        "name": "body",
         "position": [
           1.2,
           1.0,
           1.0
         ],
-        "description": "Supports the weight of the battle mech's arms"
+        "description": "Main body of the battle mech"
       },
       {
-        "name": "shoulders",
+        "name": "body",
         "position": [
           -1.2,
           1.0,
           1.0
         ],
-        "description": "Supports the weight of the battle mech's arms"
+        "description": "Main body of the battle mech"
       },
       {
-        "name": "shoulders",
+        "name": "body",
         "position": [
           1.2,
           1.0,
           -1.0
         ],
-        "description": "Supports the weight of the battle mech's arms"
+        "description": "Main body of the battle mech"
       },
       {
-        "name": "shoulders",
+        "name": "body",
         "position": [
           -1.2,
           1.0,
           -1.0
         ],
-        "description": "Supports the weight of the battle mech's arms"
+        "description": "Main body of the battle mech"
       },
       {
         "name": "head",
@@ -96,7 +96,7 @@
           5.5,
           0.8
         ],
-        "description": "Houses the battle mech's sensors and control systems"
+        "description": "Command center of the battle mech"
       },
       {
         "name": "head",
@@ -105,13 +105,13 @@
           5.5,
           0.8
         ],
-        "description": "Houses the battle mech's sensors and control systems"
+        "description": "Command center of the battle mech"
       }
     ],
     "style_archetype": "aggressive",
     "complexity_score": 0.8
   },
-  "elapsed_s": 4.5,
-  "timestamp": 1779185117.2980053,
+  "elapsed_s": 10.4,
+  "timestamp": 1779188128.2108643,
   "wave": 1
 }

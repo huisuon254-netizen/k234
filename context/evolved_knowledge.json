@@ -1,18 +1,27 @@
 {
-  "timestamp": 1779185690.0459054,
-  "generation_run": 11,
-  "total_tasks_completed": 105,
+  "timestamp": 1779188213.4511719,
+  "generation_run": 12,
+  "total_tasks_completed": 15,
   "latest_insights": [
-    "Quality score: 0.85 from ",
-    "Quality score: 0.92 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from ",
-    "Quality score: 0.85 from "
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.85 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.8 from ",
+    "Complexity: 0.7 from ",
+    "Complexity: 0.8 from "
   ],
-  "shape_dna": 1779176836.9771469
+  "shape_dna": {
+    "avg_L_W": 1779176836.9771469,
+    "principle_count": 17,
+    "generation": 12
+  }
 }

@@ -8,7 +8,7 @@
     "proportion_score": 0.9,
     "topology_score": 0.7,
     "symmetry_score": 0.6,
-    "complexity_score": 0.8,
+    "complexity_score": 0.5,
     "issues": [
       {
         "severity": "minor",
@@ -16,16 +16,16 @@
       },
       {
         "severity": "minor",
-        "description": "The mast count is relatively low, which may limit the ship's maneuverability in strong winds."
+        "description": "The mast count is moderate, which may impact maneuverability in tight spaces."
       }
     ],
     "improvements": [
       "Consider increasing the draft for improved stability.",
-      "Add more masts to enhance maneuverability in strong winds.",
-      "Review the base shape to ensure it is optimized for the ship's intended use."
+      "Consider reducing the mast count for enhanced maneuverability.",
+      "Add more details to the hull shape for a more realistic representation."
     ]
   },
-  "elapsed_s": 4.4,
-  "timestamp": 1779185187.1582584,
+  "elapsed_s": 5.1,
+  "timestamp": 1779188306.996571,
   "wave": 2
 }

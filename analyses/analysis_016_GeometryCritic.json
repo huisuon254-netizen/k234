@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "evolved_hypercar geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185167.9459026,
+  "timestamp": 1779188236.0888207,
   "wave": 2
 }

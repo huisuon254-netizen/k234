@@ -13,42 +13,42 @@
       "primary_axis": "y"
     },
     "design_language": [
-      "modern",
-      "aerodynamic"
+      "aerodynamic",
+      "streamlined"
     ],
     "key_features": [
       {
-        "name": "Solar Sail",
+        "name": "sail",
         "position": [
-          20,
-          0,
-          30
+          15,
+          40,
+          25
         ],
-        "description": "A large, flat surface that captures solar energy to propel the ship"
+        "description": "large, flat surface"
       },
       {
-        "name": "Main Boom",
-        "position": [
-          -20,
-          0,
-          30
-        ],
-        "description": "A long, thin structure that supports the solar sail"
-      },
-      {
-        "name": "Keel",
+        "name": "mast",
         "position": [
           0,
           0,
           0
         ],
-        "description": "A central axis that provides stability to the ship"
+        "description": "vertical structure supporting the sail"
+      },
+      {
+        "name": "keel",
+        "position": [
+          0,
+          0,
+          -40
+        ],
+        "description": "horizontal structure at the base"
       }
     ],
-    "style_archetype": "modern",
-    "complexity_score": 0.7
+    "style_archetype": "elegant",
+    "complexity_score": 0.8
   },
-  "elapsed_s": 34.4,
-  "timestamp": 1779185152.3039143,
+  "elapsed_s": 5.0,
+  "timestamp": 1779188150.4734333,
   "wave": 1
 }

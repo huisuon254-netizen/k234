@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "luxury_airship geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185172.740354,
+  "timestamp": 1779188257.3655434,
   "wave": 2
 }

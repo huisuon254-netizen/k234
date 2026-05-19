@@ -14,41 +14,68 @@
     },
     "design_language": [
       "futuristic",
-      "high-tech"
+      "streamlined"
     ],
     "key_features": [
       {
-        "name": "front windows",
-        "position": [
-          29.5,
-          1.25,
-          0
-        ],
-        "description": "Two large windows on the front of the train"
-      },
-      {
-        "name": "side windows",
-        "position": [
-          28.5,
-          0.75,
-          0
-        ],
-        "description": "Smaller windows on the sides of the train"
-      },
-      {
-        "name": "engine",
+        "name": "nose",
         "position": [
           30,
           0,
           1.75
         ],
-        "description": "The engine of the train, located at the front"
+        "description": "The pointed front of the train, giving it a sleek appearance."
+      },
+      {
+        "name": "tail",
+        "position": [
+          -30,
+          0,
+          1.75
+        ],
+        "description": "The rear section of the train, providing stability and balance."
+      },
+      {
+        "name": "side_winglets",
+        "position": [
+          29,
+          1.5,
+          1.5
+        ],
+        "description": "Small wing-like protrusions on the sides of the train, reducing drag and improving aerodynamics."
+      },
+      {
+        "name": "side_winglets",
+        "position": [
+          -29,
+          1.5,
+          1.5
+        ],
+        "description": "Small wing-like protrusions on the sides of the train, reducing drag and improving aerodynamics."
+      },
+      {
+        "name": "side_supports",
+        "position": [
+          28,
+          0.5,
+          1
+        ],
+        "description": "Thin supports on the sides of the train, providing structural integrity and stability."
+      },
+      {
+        "name": "side_supports",
+        "position": [
+          -28,
+          0.5,
+          1
+        ],
+        "description": "Thin supports on the sides of the train, providing structural integrity and stability."
       }
     ],
     "style_archetype": "futuristic",
-    "complexity_score": 0.8
+    "complexity_score": 0.85
   },
-  "elapsed_s": 2.2,
-  "timestamp": 1779185112.1910715,
+  "elapsed_s": 1.2,
+  "timestamp": 1779188099.2491288,
   "wave": 1
 }
