@@ -9,13 +9,13 @@
       {
         "id": 1,
         "agent": "Planet Generator",
-        "prompt": "Generate a planet with 5 biomes",
+        "prompt": "Generate the planet's terrain and basic features",
         "depends_on": []
       },
       {
         "id": 2,
         "agent": "Biome Generator",
-        "prompt": "Generate 5 biomes for the planet",
+        "prompt": "Create 5 unique biomes for the planet",
         "depends_on": [
           1
         ]
@@ -23,7 +23,7 @@
       {
         "id": 3,
         "agent": "Flora Generator",
-        "prompt": "Generate 20 flora species for the planet",
+        "prompt": "Procedurally generate 20 unique flora species for the planet",
         "depends_on": [
           2
         ]
@@ -31,50 +31,49 @@
       {
         "id": 4,
         "agent": "Fauna Generator",
-        "prompt": "Generate 15 fauna species for the planet",
+        "prompt": "Procedurally generate 15 unique fauna species for the planet",
         "depends_on": [
           2
         ]
       },
       {
         "id": 5,
-        "agent": "Terrain Generator",
-        "prompt": "Generate caves and ancient ruins on the planet",
+        "agent": "Cave Generator",
+        "prompt": "Create a network of caves for the planet",
         "depends_on": [
-          2
+          1
         ]
       },
       {
         "id": 6,
-        "agent": "Planet Simulator",
-        "prompt": "Simulate the planet's ecosystem and ensure balance between flora and fauna",
+        "agent": "Ruins Generator",
+        "prompt": "Create ancient ruins for the planet",
         "depends_on": [
-          3,
-          4,
-          5
+          1
         ]
       },
       {
         "id": 7,
-        "agent": "Planet Visualizer",
-        "prompt": "Visualize the procedurally generated alien planet",
+        "agent": "Integration Agent",
+        "prompt": "Integrate all generated features into a cohesive planet",
         "depends_on": [
+          2,
+          3,
+          4,
+          5,
           6
         ]
       }
     ],
     "estimated_complexity": "high",
     "required_context": [
-      "procedural generation",
-      "alien planet",
-      "biomes",
-      "flora",
-      "fauna",
-      "caves",
-      "ancient ruins"
+      "Procedural generation algorithms",
+      "Planet generation software",
+      "Biome, flora, and fauna generation tools",
+      "Cave and ruin generation libraries"
     ]
   },
-  "elapsed_s": 4.3,
-  "timestamp": 1779185673.9383476,
+  "elapsed_s": 4.9,
+  "timestamp": 1779190645.7022443,
   "wave": 9
 }

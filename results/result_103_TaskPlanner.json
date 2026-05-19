@@ -4,26 +4,26 @@
   "description": "Meta-plan: Design a fully playable MMORPG with 12 classes, 10...",
   "input_prompt": "Plan tasks for: Design a fully playable MMORPG with 12 classes, 100 levels, 50 dungeons, PvP arenas, crafting, and player housing",
   "output": {
-    "goal": "Design a fully playable MMORPG",
+    "goal": "Design a fully playable MMORPG with 12 classes, 100 levels, 50 dungeons, PvP arenas, crafting, and player housing",
     "sub_tasks": [
       {
         "id": 1,
         "agent": "Game Designer",
-        "prompt": "Define game mechanics, rules, and systems for the MMORPG",
+        "prompt": "Define game mechanics, rules, and core features for the MMORPG",
         "depends_on": []
       },
       {
         "id": 2,
-        "agent": "Art Director",
-        "prompt": "Create concept art, character models, and environment designs for the game",
+        "agent": "Game Designer",
+        "prompt": "Design 12 playable classes with unique abilities and playstyles",
         "depends_on": [
           1
         ]
       },
       {
         "id": 3,
-        "agent": "Programmer",
-        "prompt": "Develop the game engine and core mechanics",
+        "agent": "Game Designer",
+        "prompt": "Create a leveling system with 100 levels and corresponding rewards",
         "depends_on": [
           1
         ]
@@ -31,92 +31,158 @@
       {
         "id": 4,
         "agent": "Game Designer",
-        "prompt": "Design and implement 12 playable classes with unique abilities and playstyles",
+        "prompt": "Design 50 dungeons with varying difficulty levels and rewards",
         "depends_on": [
-          1,
-          3
+          1
         ]
       },
       {
         "id": 5,
         "agent": "Game Designer",
-        "prompt": "Design and implement a 100-level progression system with increasing difficulty and rewards",
+        "prompt": "Create PvP arenas with different game modes and rewards",
         "depends_on": [
-          1,
-          3
+          1
         ]
       },
       {
         "id": 6,
-        "agent": "Game Designer",
-        "prompt": "Design and implement 50 dungeons with unique layouts, enemies, and rewards",
+        "agent": "Game Developer",
+        "prompt": "Implement game mechanics, rules, and core features in the game engine",
         "depends_on": [
-          1,
-          3
+          1
         ]
       },
       {
         "id": 7,
-        "agent": "Game Designer",
-        "prompt": "Design and implement PvP arenas with different game modes and rewards",
+        "agent": "Game Developer",
+        "prompt": "Develop 12 playable classes with unique abilities and playstyles",
         "depends_on": [
-          1,
-          3
+          6
         ]
       },
       {
         "id": 8,
-        "agent": "Game Designer",
-        "prompt": "Design and implement crafting system with various recipes and materials",
+        "agent": "Game Developer",
+        "prompt": "Implement leveling system with 100 levels and corresponding rewards",
         "depends_on": [
-          1,
-          3
+          6
         ]
       },
       {
         "id": 9,
-        "agent": "Game Designer",
-        "prompt": "Design and implement player housing system with customization options",
+        "agent": "Game Developer",
+        "prompt": "Develop 50 dungeons with varying difficulty levels and rewards",
         "depends_on": [
-          1,
-          3
+          6
         ]
       },
       {
         "id": 10,
-        "agent": "Programmer",
-        "prompt": "Implement game server and client architecture",
+        "agent": "Game Developer",
+        "prompt": "Implement PvP arenas with different game modes and rewards",
         "depends_on": [
-          3
+          6
         ]
       },
       {
         "id": 11,
-        "agent": "Programmer",
-        "prompt": "Implement game networking and online features",
+        "agent": "Artist",
+        "prompt": "Create concept art and 3D models for characters, environments, and UI",
         "depends_on": [
-          10
+          1
         ]
       },
       {
         "id": 12,
-        "agent": "QA Tester",
-        "prompt": "Test game for bugs, balance, and overall quality",
+        "agent": "Artist",
+        "prompt": "Design and implement UI, HUD, and other visual elements",
         "depends_on": [
-          3,
           11
+        ]
+      },
+      {
+        "id": 13,
+        "agent": "Artist",
+        "prompt": "Create music, sound effects, and voice acting for the game",
+        "depends_on": [
+          11
+        ]
+      },
+      {
+        "id": 14,
+        "agent": "Artist",
+        "prompt": "Design and implement player housing with customization options",
+        "depends_on": [
+          11
+        ]
+      },
+      {
+        "id": 15,
+        "agent": "Artist",
+        "prompt": "Develop crafting system with recipes and materials",
+        "depends_on": [
+          11
+        ]
+      },
+      {
+        "id": 16,
+        "agent": "Project Manager",
+        "prompt": "Create project schedule and timeline",
+        "depends_on": []
+      },
+      {
+        "id": 17,
+        "agent": "Project Manager",
+        "prompt": "Assign tasks and resources to team members",
+        "depends_on": [
+          16
+        ]
+      },
+      {
+        "id": 18,
+        "agent": "Project Manager",
+        "prompt": "Monitor progress and report to stakeholders",
+        "depends_on": [
+          17
+        ]
+      },
+      {
+        "id": 19,
+        "agent": "QA Tester",
+        "prompt": "Test game mechanics, rules, and core features",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 20,
+        "agent": "QA Tester",
+        "prompt": "Test leveling system, dungeons, and PvP arenas",
+        "depends_on": [
+          19
+        ]
+      },
+      {
+        "id": 21,
+        "agent": "QA Tester",
+        "prompt": "Test crafting system, player housing, and UI",
+        "depends_on": [
+          19
         ]
       }
     ],
     "estimated_complexity": "high",
     "required_context": [
-      "MMORPG game development experience",
-      "Knowledge of game design principles and mechanics",
-      "Familiarity with game engines and programming languages",
-      "Understanding of online game development and networking"
+      "MMORPG game development",
+      "game design",
+      "game development",
+      "art and animation",
+      "music and sound design",
+      "project management",
+      "quality assurance"
     ]
   },
-  "elapsed_s": 5.7,
-  "timestamp": 1779185680.2120898,
+  "elapsed_s": 5.6,
+  "timestamp": 1779190667.876072,
   "wave": 9
 }

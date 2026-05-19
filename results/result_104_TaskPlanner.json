@@ -15,56 +15,57 @@
       {
         "id": 2,
         "agent": "Game Designer",
-        "prompt": "Create game world and factions",
+        "prompt": "Define game world, factions, and units",
         "depends_on": [
           1
         ]
       },
       {
         "id": 3,
-        "agent": "Artist",
-        "prompt": "Create game assets (units, buildings, UI)",
+        "agent": "Game Designer",
+        "prompt": "Create tech trees and resource chains",
         "depends_on": [
           2
         ]
       },
       {
         "id": 4,
-        "agent": "Programmer",
-        "prompt": "Implement game engine and core mechanics",
+        "agent": "Game Developer",
+        "prompt": "Implement game mechanics and core features",
         "depends_on": [
           1
         ]
       },
       {
         "id": 5,
-        "agent": "Programmer",
-        "prompt": "Implement unit AI and pathfinding",
+        "agent": "Game Developer",
+        "prompt": "Implement game world, factions, and units",
         "depends_on": [
-          4
+          2
         ]
       },
       {
         "id": 6,
-        "agent": "Programmer",
-        "prompt": "Implement resource chains and economy",
+        "agent": "Game Developer",
+        "prompt": "Implement tech trees and resource chains",
         "depends_on": [
-          4
+          3
         ]
       },
       {
         "id": 7,
-        "agent": "Programmer",
-        "prompt": "Implement tech trees and research system",
+        "agent": "Game Developer",
+        "prompt": "Implement AI opponent with 3 difficulty levels",
         "depends_on": [
-          4
+          5
         ]
       },
       {
         "id": 8,
-        "agent": "Programmer",
-        "prompt": "Implement AI opponent with 3 difficulty levels",
+        "agent": "Game Developer",
+        "prompt": "Implement UI and UX for game",
         "depends_on": [
+          4,
           5,
           6,
           7
@@ -72,87 +73,58 @@
       },
       {
         "id": 9,
-        "agent": "Programmer",
-        "prompt": "Implement multiplayer and online features",
+        "agent": "Game Developer",
+        "prompt": "Implement multiplayer functionality",
         "depends_on": [
-          4
-        ]
-      },
-      {
-        "id": 10,
-        "agent": "Programmer",
-        "prompt": "Implement UI and user interface",
-        "depends_on": [
-          4
-        ]
-      },
-      {
-        "id": 11,
-        "agent": "QA Tester",
-        "prompt": "Test game mechanics and core features",
-        "depends_on": [
-          1
-        ]
-      },
-      {
-        "id": 12,
-        "agent": "QA Tester",
-        "prompt": "Test unit AI and pathfinding",
-        "depends_on": [
-          5
-        ]
-      },
-      {
-        "id": 13,
-        "agent": "QA Tester",
-        "prompt": "Test resource chains and economy",
-        "depends_on": [
-          6
-        ]
-      },
-      {
-        "id": 14,
-        "agent": "QA Tester",
-        "prompt": "Test tech trees and research system",
-        "depends_on": [
+          4,
+          5,
+          6,
           7
         ]
       },
       {
-        "id": 15,
-        "agent": "QA Tester",
-        "prompt": "Test AI opponent with 3 difficulty levels",
+        "id": 10,
+        "agent": "Game Developer",
+        "prompt": "Implement game balancing and tuning",
         "depends_on": [
-          8
+          4,
+          5,
+          6,
+          7
         ]
       },
       {
-        "id": 16,
-        "agent": "QA Tester",
-        "prompt": "Test multiplayer and online features",
+        "id": 11,
+        "agent": "Game Developer",
+        "prompt": "Implement game testing and debugging",
         "depends_on": [
-          9
+          4,
+          5,
+          6,
+          7
         ]
       },
       {
-        "id": 17,
-        "agent": "QA Tester",
-        "prompt": "Test UI and user interface",
+        "id": 12,
+        "agent": "Game Developer",
+        "prompt": "Deploy game on target platforms",
         "depends_on": [
-          10
+          8,
+          9,
+          10,
+          11
         ]
       }
     ],
     "estimated_complexity": "high",
     "required_context": [
       "Game development experience",
-      "Programming languages (e.g. C++, Java)",
-      "Game engines (e.g. Unity, Unreal Engine)",
-      "Art and design software (e.g. Adobe Creative Cloud)",
-      "Testing and debugging tools"
+      "Familiarity with game engines (e.g. Unity, Unreal Engine)",
+      "Knowledge of game design principles and best practices",
+      "Understanding of AI and machine learning concepts"
     ]
   },
-  "elapsed_s": 3.7,
-  "timestamp": 1779185684.8256075,
+  "elapsed_s": 5.4,
+  "timestamp": 1779190690.6190903,
   "wave": 9
 }

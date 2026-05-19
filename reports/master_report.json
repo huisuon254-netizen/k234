@@ -1,9 +1,9 @@
 {
-  "timestamp": 1779185690.0460956,
+  "timestamp": 1779190730.0918128,
   "total_tasks": 105,
-  "completed": 80,
-  "failed": 25,
-  "groq_calls": 80,
+  "completed": 70,
+  "failed": 35,
+  "groq_calls": 134,
   "waves": [
     1,
     2,
@@ -15,5 +15,5 @@
     8,
     9
   ],
-  "summary": "80/105 tasks OK across 9 waves"
+  "summary": "70/105 tasks OK across 9 waves"
 }
