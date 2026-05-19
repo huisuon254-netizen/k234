@@ -1,0 +1,31 @@
+{
+  "task_id": 24,
+  "agent": "GeometryCritic",
+  "description": "hover_tank geometry score",
+  "input_prompt": "Score this hover_tank blueprint: {\"base_shape\": \"hovercraft\", \"length\": 9, \"width\": 5, \"height\": 2.8, \"hover_height\": 0.5, \"armor_thickness\": 0.12}",
+  "output": {
+    "overall_score": 0.7,
+    "proportion_score": 0.8,
+    "topology_score": 0.9,
+    "symmetry_score": 0.6,
+    "complexity_score": 0.5,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "The hover height is relatively low, which might make it vulnerable to obstacles."
+      },
+      {
+        "severity": "minor",
+        "description": "The armor thickness is relatively thin, which might not provide sufficient protection against attacks."
+      }
+    ],
+    "improvements": [
+      "Consider increasing the hover height to improve stability and obstacle clearance.",
+      "Consider increasing the armor thickness to improve protection against attacks.",
+      "Consider adding more details to the design to increase complexity and realism."
+    ]
+  },
+  "elapsed_s": 3.8,
+  "timestamp": 1779185207.4097295,
+  "wave": 2
+}

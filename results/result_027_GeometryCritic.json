@@ -1,0 +1,30 @@
+{
+  "task_id": 27,
+  "agent": "GeometryCritic",
+  "description": "cargo_drone geometry score",
+  "input_prompt": "Score this cargo_drone blueprint: {\"base_shape\": \"heavy_lifter\", \"length\": 5.0, \"width\": 6.0, \"height\": 2.0, \"payload_kg\": 2000, \"range_km\": 800}",
+  "output": {
+    "overall_score": 0.7,
+    "proportion_score": 0.8,
+    "topology_score": 0.6,
+    "symmetry_score": 0.9,
+    "complexity_score": 0.5,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "The base shape 'heavy_lifter' is not a standard shape in the cargo drone design guidelines."
+      },
+      {
+        "severity": "major",
+        "description": "The height of the cargo drone is relatively low compared to its length and width, which may affect its stability."
+      }
+    ],
+    "improvements": [
+      "Consider using a more standard base shape, such as 'cube' or 'cylinder', for better stability and aerodynamics.",
+      "Increase the height of the cargo drone to improve its stability and reduce the risk of tipping over."
+    ]
+  },
+  "elapsed_s": 4.1,
+  "timestamp": 1779185222.177954,
+  "wave": 2
+}

@@ -1,0 +1,30 @@
+{
+  "task_id": 23,
+  "agent": "GeometryCritic",
+  "description": "stealth_corvette geometry score",
+  "input_prompt": "Score this stealth_corvette blueprint: {\"base_shape\": \"warship\", \"length\": 85, \"beam\": 12, \"draft\": 4.5, \"speed_knots\": 35, \"radar_cross_section\": 0.5}",
+  "output": {
+    "overall_score": 0.8,
+    "proportion_score": 0.7,
+    "topology_score": 0.9,
+    "symmetry_score": 0.8,
+    "complexity_score": 0.6,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "The draft is relatively high for a stealth ship, which may compromise its stealth capabilities."
+      },
+      {
+        "severity": "minor",
+        "description": "The radar cross-section is relatively high, which may make the ship more detectable."
+      }
+    ],
+    "improvements": [
+      "Consider reducing the draft to improve stealth capabilities.",
+      "Consider redesigning the ship's shape to reduce its radar cross-section."
+    ]
+  },
+  "elapsed_s": 4.1,
+  "timestamp": 1779185202.1979587,
+  "wave": 2
+}

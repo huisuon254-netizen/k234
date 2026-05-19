@@ -1,0 +1,30 @@
+{
+  "task_id": 25,
+  "agent": "GeometryCritic",
+  "description": "arcology_dome geometry score",
+  "input_prompt": "Score this arcology_dome blueprint: {\"base_shape\": \"geodesic\", \"diameter\": 200, \"height\": 100, \"layer_count\": 3, \"population\": 50000}",
+  "output": {
+    "overall_score": 0.8,
+    "proportion_score": 0.7,
+    "topology_score": 0.9,
+    "symmetry_score": 0.8,
+    "complexity_score": 0.6,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "Layer count is relatively low, may not be sufficient for large population."
+      },
+      {
+        "severity": "minor",
+        "description": "Geodesic base shape may not be optimal for structural integrity."
+      }
+    ],
+    "improvements": [
+      "Consider increasing layer count to 5 or more for better structural support.",
+      "Explore alternative base shapes, such as a double-layer geodesic or a dome with a reinforced core."
+    ]
+  },
+  "elapsed_s": 4.5,
+  "timestamp": 1779185212.4456868,
+  "wave": 2
+}
