@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "hover_tank geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185207.9717944,
+  "timestamp": 1779188414.766566,
   "wave": 2
 }

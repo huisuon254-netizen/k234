@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "quantum_sub geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185228.7134817,
+  "timestamp": 1779188509.0277004,
   "wave": 2
 }

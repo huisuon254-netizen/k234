@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "arcology_dome geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185212.7906623,
+  "timestamp": 1779188437.4182909,
   "wave": 2
 }

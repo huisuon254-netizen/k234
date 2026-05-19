@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "space_elevator geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185233.161256,
+  "timestamp": 1779188531.5206683,
   "wave": 2
 }

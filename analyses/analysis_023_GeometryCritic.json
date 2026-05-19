@@ -3,8 +3,8 @@
   "agent": "GeometryCritic",
   "description": "stealth_corvette geometry score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185203.5885806,
+  "timestamp": 1779188392.3370767,
   "wave": 2
 }

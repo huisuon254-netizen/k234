@@ -12,19 +12,19 @@
     "issues": [
       {
         "severity": "minor",
-        "description": "The length of the battle cruiser is slightly above average for its class."
+        "description": "The length to beam ratio is 6.67, which is slightly higher than the average for capital ships."
       },
       {
         "severity": "minor",
-        "description": "The shield rating is slightly above average, but not excessively high."
+        "description": "The height to beam ratio is 1.33, which is slightly lower than the average for capital ships."
       }
     ],
     "improvements": [
-      "Consider reducing the length to improve maneuverability.",
-      "Consider reducing the shield rating to improve balance and make the ship more vulnerable to attack."
+      "Consider increasing the beam to improve stability and reduce the length to beam ratio.",
+      "Consider adding more height to improve visibility and reduce the height to beam ratio."
     ]
   },
-  "elapsed_s": 4.1,
-  "timestamp": 1779185237.2619946,
+  "elapsed_s": 4.8,
+  "timestamp": 1779188536.3346999,
   "wave": 2
 }

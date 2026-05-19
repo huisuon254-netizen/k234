@@ -6,25 +6,30 @@
   "output": {
     "overall_score": 0.7,
     "proportion_score": 0.8,
-    "topology_score": 0.6,
-    "symmetry_score": 0.9,
-    "complexity_score": 0.5,
+    "topology_score": 0.9,
+    "symmetry_score": 0.6,
+    "complexity_score": 0.4,
     "issues": [
       {
         "severity": "minor",
-        "description": "The base shape 'heavy_lifter' is not a standard shape in the cargo drone design guidelines."
+        "description": "The base shape 'heavy_lifter' is not a standard geometry, may cause issues with certain tools or simulations."
       },
       {
         "severity": "major",
-        "description": "The height of the cargo drone is relatively low compared to its length and width, which may affect its stability."
+        "description": "The cargo drone has a relatively low payload capacity of 2000 kg compared to its size."
+      },
+      {
+        "severity": "minor",
+        "description": "The cargo drone has a moderate range of 800 km, which may not be sufficient for certain missions."
       }
     ],
     "improvements": [
-      "Consider using a more standard base shape, such as 'cube' or 'cylinder', for better stability and aerodynamics.",
-      "Increase the height of the cargo drone to improve its stability and reduce the risk of tipping over."
+      "Consider using a more standard base shape, such as 'cube' or 'cylinder', for better compatibility.",
+      "Increase the payload capacity by optimizing the cargo drone's design, such as by adding more cargo compartments or using lighter materials.",
+      "Consider adding fuel tanks or increasing the drone's engine power to improve its range."
     ]
   },
-  "elapsed_s": 4.1,
-  "timestamp": 1779185222.177954,
+  "elapsed_s": 4.9,
+  "timestamp": 1779188464.558215,
   "wave": 2
 }
