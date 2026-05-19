@@ -159,13 +159,14 @@ def groq_call(system_prompt, user_prompt, model="llama-3.1-8b-instant", temp=0.3
         return None
 
 
-def gemini_call(prompt):
+def gemini_call(prompt, retry=1):
     global _last_gemini_time
     if not GEMINI_KEY: return {"error":"no_key"}
+    # Try Gemini first, fall back to Groq analysis
     with _gemini_pace_lock:
         elapsed = time.time() - _last_gemini_time
-        if elapsed < 3.0:
-            time.sleep(3.0 - elapsed)
+        if elapsed < 4.0:
+            time.sleep(4.0 - elapsed)
         _last_gemini_time = time.time()
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     req = urllib.request.Request(GEMINI_URL, data=json.dumps(body).encode(), headers={"Content-Type":"application/json"}, method="POST")
@@ -183,11 +184,18 @@ def gemini_call(prompt):
                     return json.loads(text[:i+1])
         return json.loads(text)
     except Exception as e:
-        if "429" in str(e):
-            time.sleep(10)
-            return gemini_call(prompt)
-        print(f"  [Gemini] Error: {e}", flush=True)
-        return {"error": str(e)}
+        if "429" in str(e) and retry > 0:
+            time.sleep(15)
+            return gemini_call(prompt, retry-1)
+        # Fallback: use Groq for analysis when Gemini is rate-limited
+        if "429" in str(e) and GROQ_KEY:
+            return groq_call(
+                "You are an Agent Performance Reviewer. Output JSON with: completeness(int 0-10), quality_score(int 0-10), innovation_score(int 0-10), overall_rating(str), strengths(list), weaknesses(list), improvement_tips(list).",
+                prompt, model="llama-3.1-8b-instant", temp=0.2, max_tokens=1024
+            ) or {"error": "analysis_failed"}
+        if "429" not in str(e):
+            print(f"  [Gemini] Error: {e}", flush=True)
+        return {"error": str(e)[:100]}
 
 
 def git_save(message):
@@ -203,8 +211,11 @@ def generate_100_tasks(shape_dna, evolved_knowledge):
     sd = shape_dna.get("assets", [])
     ferrari_bp = evolved_knowledge.get("ferrari_blueprints", {})
     chess_sd = [a for a in sd if a.get("type") == "chess_piece"]
-    avg_L_W = evolved_knowledge.get("shape_dna", {}).get("avg_L_W", 1.0)
-    avg_W_H = evolved_knowledge.get("shape_dna", {}).get("avg_W_H", 1.0)
+    sd_knowledge = evolved_knowledge.get("shape_dna", {})
+    if not isinstance(sd_knowledge, dict):
+        sd_knowledge = {}
+    avg_L_W = sd_knowledge.get("avg_L_W", 1.0)
+    avg_W_H = sd_knowledge.get("avg_W_H", 1.0)
 
     tasks = []
 
@@ -404,12 +415,17 @@ def update_context(task_results):
             if "complexity_score" in out:
                 insights.append(f"Complexity: {out['complexity_score']} from {r.get('desc','')}")
 
+    sd_data = ctx.get("shape_dna", {})
     new_ek = {
         "timestamp": time.time(),
         "generation_run": gen,
         "total_tasks_completed": len(task_results),
         "latest_insights": insights[-20:],
-        "shape_dna": ctx.get("shape_dna", {}).get("extracted_at", 0) if ctx.get("shape_dna") else 0,
+        "shape_dna": {
+            "avg_L_W": sd_data.get("extracted_at", 0) if isinstance(sd_data, dict) else 0,
+            "principle_count": len(sd_data.get("assets", [])) if isinstance(sd_data, dict) else 0,
+            "generation": gen,
+        },
     }
     ek_file.write_text(json.dumps(new_ek, indent=2))
     return new_ek

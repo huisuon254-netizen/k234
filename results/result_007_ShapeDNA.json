@@ -13,33 +13,42 @@
       "primary_axis": "y"
     },
     "design_language": [
-      "futuristic",
-      "industrial"
+      "cyberpunk",
+      "modern"
     ],
     "key_features": [
       {
-        "name": "entry_point",
+        "name": "angled facade",
+        "position": [
+          0,
+          0,
+          -10
+        ],
+        "description": "A distinctive feature of the building's design, the angled facade adds a touch of futurism to the structure."
+      },
+      {
+        "name": "tapered top",
+        "position": [
+          0,
+          200,
+          10
+        ],
+        "description": "The tapered top of the skyscraper gives it a sense of dynamism and movement, characteristic of cyberpunk architecture."
+      },
+      {
+        "name": "cantilevered roof",
         "position": [
           -10,
           50,
           -8
         ],
-        "description": "Main entrance of the skyscraper"
-      },
-      {
-        "name": "peak",
-        "position": [
-          -12.5,
-          200,
-          10
-        ],
-        "description": "Highest point of the skyscraper"
+        "description": "The cantilevered roof adds a sense of drama and tension to the building's design, creating a sense of weightlessness."
       }
     ],
-    "style_archetype": "futuristic",
+    "style_archetype": "cyberpunk",
     "complexity_score": 0.8
   },
-  "elapsed_s": 4.3,
-  "timestamp": 1779185092.2476366,
+  "elapsed_s": 0.7,
+  "timestamp": 1779187387.7671587,
   "wave": 1
 }

@@ -24,10 +24,10 @@
           0.8,
           1.8
         ],
-        "description": "rotating platform for gun"
+        "description": "rotating gun platform"
       },
       {
-        "name": "main_gun",
+        "name": "main_cannon",
         "position": [
           0,
           0,
@@ -42,13 +42,13 @@
           0,
           2
         ],
-        "description": "mechanism for movement"
+        "description": "mechanical leg for movement"
       }
     ],
     "style_archetype": "aggressive",
-    "complexity_score": 0.8
+    "complexity_score": 0.5
   },
-  "elapsed_s": 4.5,
-  "timestamp": 1779185097.3344915,
+  "elapsed_s": 0.8,
+  "timestamp": 1779187434.0500312,
   "wave": 1
 }

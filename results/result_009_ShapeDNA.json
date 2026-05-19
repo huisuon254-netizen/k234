@@ -18,37 +18,37 @@
     ],
     "key_features": [
       {
-        "name": "Head",
+        "name": "Antennae",
         "position": [
-          0.0,
+          -1.25,
+          0,
+          0.75
+        ],
+        "description": "Possible sensory organs"
+      },
+      {
+        "name": "Eye-like structures",
+        "position": [
+          1,
+          0.8,
+          0.5
+        ],
+        "description": "Possible visual organs"
+      },
+      {
+        "name": "Body segments",
+        "position": [
+          0,
           2.8,
           0.3
         ],
-        "description": "The rounded feature at the top of the creature's body."
-      },
-      {
-        "name": "Shoulders",
-        "position": [
-          1.25,
-          0.0,
-          0.75
-        ],
-        "description": "The rounded features at the top of the creature's body, near the head."
-      },
-      {
-        "name": "Legs",
-        "position": [
-          1.25,
-          0.0,
-          -0.75
-        ],
-        "description": "The long, thin features at the bottom of the creature's body."
+        "description": "Possible muscle or bone structures"
       }
     ],
-    "style_archetype": "organic",
+    "style_archetype": "biomechanical",
     "complexity_score": 0.8
   },
-  "elapsed_s": 4.6,
-  "timestamp": 1779185102.4719117,
+  "elapsed_s": 0.7,
+  "timestamp": 1779187478.8967152,
   "wave": 1
 }

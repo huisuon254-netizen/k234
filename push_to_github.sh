@@ -2,6 +2,7 @@
 # Push repo to GitHub server - run with: GITHUB_TOKEN=xxx ./push_to_github.sh
 # Or set GH_TOKEN/GITHUB_TOKEN env var first
 
+# Usage: GITHUB_TOKEN=ghp_xxx ./push_to_github.sh
 TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
 if [ -z "$TOKEN" ]; then
     echo "ERROR: Set GH_TOKEN or GITHUB_TOKEN environment variable"

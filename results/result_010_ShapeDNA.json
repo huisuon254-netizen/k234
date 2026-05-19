@@ -13,8 +13,8 @@
       "primary_axis": "x"
     },
     "design_language": [
-      "Industrial",
-      "Mechanical"
+      "geometric",
+      "utilitarian"
     ],
     "key_features": [
       {
@@ -22,33 +22,33 @@
         "position": [
           12.5,
           0,
-          2
+          0
         ],
-        "description": "Main body of the submarine"
+        "description": "The main body of the submarine, providing buoyancy and structural support."
       },
       {
         "name": "Sail",
         "position": [
           12,
           1.5,
-          1.8
+          0
         ],
-        "description": "Conical structure on top of the submarine"
+        "description": "A vertical structure on top of the submarine, used for communication and navigation."
       },
       {
-        "name": "Propeller",
+        "name": "Conning Tower",
         "position": [
           10,
           0.5,
           0
         ],
-        "description": "Rotating blade at the rear of the submarine"
+        "description": "A structure on top of the submarine, housing the control room and command center."
       }
     ],
-    "style_archetype": "Industrial",
+    "style_archetype": "utilitarian",
     "complexity_score": 0.8
   },
-  "elapsed_s": 4.0,
-  "timestamp": 1779185107.3958535,
+  "elapsed_s": 1.0,
+  "timestamp": 1779187529.4593186,
   "wave": 1
 }
