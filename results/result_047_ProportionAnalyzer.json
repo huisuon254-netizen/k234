@@ -17,14 +17,15 @@
     "adjustments": {
       "length": 0.0,
       "width": -0.2,
-      "height": 0.14285714285714285
+      "height": -0.14285714285714285
     },
     "notes": [
-      "The length to width ratio matches the expected proportion for an armored vehicle.",
-      "The width to height ratio is slightly higher than expected, indicating a more compact design."
+      "Actual proportions match expected proportions for length to width ratio",
+      "Actual proportions do not match expected proportions for width to height ratio",
+      "Adjustments are minimal, indicating a good match between expected and actual proportions"
     ]
   },
-  "elapsed_s": 4.4,
-  "timestamp": 1779185356.0410907,
+  "elapsed_s": 9.5,
+  "timestamp": 1779189168.4898837,
   "wave": 4
 }
