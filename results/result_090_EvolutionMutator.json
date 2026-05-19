@@ -1,0 +1,10 @@
+{
+  "task_id": 90,
+  "agent": "EvolutionMutator",
+  "description": "warp_ship evolution mutation",
+  "input_prompt": "Mutate this warp_ship: {\"base_shape\": \"faster_than_light\", \"length\": 250, \"width\": 80, \"height\": 60, \"warp_factor\": 5, \"range_ly\": 1000, \"crew\": 500}",
+  "output": null,
+  "elapsed_s": 4.5,
+  "timestamp": 1779185611.3130717,
+  "wave": 7
+}
