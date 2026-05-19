@@ -4,7 +4,7 @@
   "description": "hover_tank_v2 evolution mutation",
   "input_prompt": "Mutate this hover_tank_v2: {\"base_shape\": \"hover_vehicle\", \"length\": 9, \"width\": 5, \"height\": 2.5, \"max_speed\": 150, \"armor\": 120, \"weapons\": [\"railgun\", \"point_defense\"]}",
   "output": null,
-  "elapsed_s": 1.0,
-  "timestamp": 1779185600.8033447,
+  "elapsed_s": 5.3,
+  "timestamp": 1779190327.5698426,
   "wave": 7
 }
