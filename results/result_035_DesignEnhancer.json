@@ -4,7 +4,7 @@
   "description": "stealth_fighter_v2 design enhancement",
   "input_prompt": "Enhance this fighter: base_shape=stealth_jet length=19.5 wingspan=14.0 height=4.8 radar_cross_section=0.01 thrust_vectoring=true",
   "output": null,
-  "elapsed_s": 5.6,
-  "timestamp": 1779185263.8271334,
+  "elapsed_s": 20.0,
+  "timestamp": 1779188701.752549,
   "wave": 3
 }

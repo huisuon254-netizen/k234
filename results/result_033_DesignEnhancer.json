@@ -4,7 +4,7 @@
   "description": "combat_mech design enhancement",
   "input_prompt": "Enhance this mech: base_shape=humanoid_mech height=5.5 width=3.0 arm_span=4.5 weapons=2 armor=composite color=battle_gray",
   "output": null,
-  "elapsed_s": 3.0,
-  "timestamp": 1779185253.1096318,
+  "elapsed_s": 7.0,
+  "timestamp": 1779188612.0240989,
   "wave": 3
 }
