@@ -1,0 +1,10 @@
+{
+  "task_id": 95,
+  "agent": "QualityScorer",
+  "description": "dragon_family quality score",
+  "analysis": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "timestamp": 1779185643.3158724,
+  "wave": 8
+}
