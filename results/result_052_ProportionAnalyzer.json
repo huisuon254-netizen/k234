@@ -1,0 +1,30 @@
+{
+  "task_id": 52,
+  "agent": "ProportionAnalyzer",
+  "description": "mobile_ fortress proportion check",
+  "input_prompt": "Analyze proportions: L=50 W=30 H=20, type=land_vehicle",
+  "output": {
+    "type_detected": "land_vehicle",
+    "expected_proportions": {
+      "L_W": 1.6666666666666667,
+      "W_H": 1.5
+    },
+    "actual_proportions": {
+      "L_W": 1.6666666666666667,
+      "W_H": 1.25
+    },
+    "match_score": 0.75,
+    "adjustments": {
+      "length": 0,
+      "width": -5,
+      "height": 0
+    },
+    "notes": [
+      "The actual proportions of the vehicle match the expected proportions of a land vehicle, but the width is slightly smaller than expected.",
+      "The height of the vehicle is as expected."
+    ]
+  },
+  "elapsed_s": 4.1,
+  "timestamp": 1779185381.19971,
+  "wave": 4
+}

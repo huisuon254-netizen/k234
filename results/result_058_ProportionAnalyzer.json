@@ -1,0 +1,27 @@
+{
+  "task_id": 58,
+  "agent": "ProportionAnalyzer",
+  "description": "colony_ship proportion check",
+  "input_prompt": "Analyze proportions: L=500 W=100 H=150, type=generation_ship",
+  "output": {
+    "type_detected": "generation_ship",
+    "expected_proportions": {
+      "L_W": 5.0,
+      "W_H": 0.667
+    },
+    "actual_proportions": {
+      "L_W": 5.0,
+      "W_H": 0.667
+    },
+    "match_score": 1.0,
+    "adjustments": {
+      "length": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "notes": []
+  },
+  "elapsed_s": 4.4,
+  "timestamp": 1779185413.0386868,
+  "wave": 4
+}
