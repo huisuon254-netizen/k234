@@ -5,8 +5,8 @@
   "input_prompt": "Analyze a stealth_bomber: L=21 W=18.5 H=3.5 verts=18000 first10: [[10.5,0,0],[-10.5,0,0],[9,0.6,4.5],[-9,0.6,4.5],[9,0.6,-4.5],[-9,0.6,-4.5],[6,1.2,0.8],[-6,1.2,0.8],[6,1.2,-0.8],[-6,1.2,-0.8]]",
   "output": {
     "proportions": {
-      "length_width_ratio": 1.143,
-      "width_height_ratio": 5.286
+      "length_width_ratio": 1.14,
+      "width_height_ratio": 5.29
     },
     "silhouette": {
       "is_symmetric": true,
@@ -18,37 +18,37 @@
     ],
     "key_features": [
       {
-        "name": "Fuselage",
+        "name": "fuselage",
         "position": [
           0,
           0,
           0
         ],
-        "description": "Main body of the aircraft"
+        "description": "The main body of the aircraft, providing structural support and housing the crew and payload."
       },
       {
-        "name": "Wings",
+        "name": "wings",
         "position": [
           9,
           0.6,
           4.5
         ],
-        "description": "Structural components for lift and control"
+        "description": "The wings provide lift and control during flight."
       },
       {
-        "name": "Tail",
+        "name": "tail section",
         "position": [
           -6,
           1.2,
-          0.8
+          -0.8
         ],
-        "description": "Rudder and stabilizers for directional control"
+        "description": "The tail section provides stability and control during flight."
       }
     ],
     "style_archetype": "utilitarian",
-    "complexity_score": 0.7
+    "complexity_score": 0.8
   },
-  "elapsed_s": 0.9,
-  "timestamp": 1779187205.3648872,
+  "elapsed_s": 4.9,
+  "timestamp": 1779187918.989811,
   "wave": 1
 }

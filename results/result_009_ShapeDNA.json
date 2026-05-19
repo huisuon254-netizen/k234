@@ -18,37 +18,64 @@
     ],
     "key_features": [
       {
-        "name": "Antennae",
+        "name": "Head",
         "position": [
-          -1.25,
+          1.25,
           0,
           0.75
         ],
-        "description": "Possible sensory organs"
+        "description": "The head of the alien creature is positioned at the top center of the body."
       },
       {
-        "name": "Eye-like structures",
+        "name": "Tail",
+        "position": [
+          -1.25,
+          0,
+          -0.75
+        ],
+        "description": "The tail of the alien creature is positioned at the bottom center of the body."
+      },
+      {
+        "name": "Shoulder",
         "position": [
           1,
           0.8,
           0.5
         ],
-        "description": "Possible visual organs"
+        "description": "The shoulder of the alien creature is positioned at the top left of the body."
       },
       {
-        "name": "Body segments",
+        "name": "Shoulder",
         "position": [
-          0,
+          -1,
+          0.8,
+          0.5
+        ],
+        "description": "The shoulder of the alien creature is positioned at the top right of the body."
+      },
+      {
+        "name": "Hip",
+        "position": [
+          0.5,
           2.8,
           0.3
         ],
-        "description": "Possible muscle or bone structures"
+        "description": "The hip of the alien creature is positioned at the bottom left of the body."
+      },
+      {
+        "name": "Hip",
+        "position": [
+          -0.5,
+          2.8,
+          0.3
+        ],
+        "description": "The hip of the alien creature is positioned at the bottom right of the body."
       }
     ],
     "style_archetype": "biomechanical",
     "complexity_score": 0.8
   },
-  "elapsed_s": 0.7,
-  "timestamp": 1779187478.8967152,
+  "elapsed_s": 5.1,
+  "timestamp": 1779188055.1719155,
   "wave": 1
 }

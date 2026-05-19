@@ -6,7 +6,7 @@
   "output": {
     "proportions": {
       "length_width_ratio": 2.381,
-      "width_height_ratio": 1.83913
+      "width_height_ratio": 1.8391
     },
     "silhouette": {
       "is_symmetric": true,
@@ -14,7 +14,7 @@
     },
     "design_language": [
       "aggressive",
-      "sporty"
+      "high-performance"
     ],
     "key_features": [
       {
@@ -36,37 +36,37 @@
         "description": "Angular and aggressive design"
       },
       {
-        "name": "Front Bumper",
+        "name": "Front Grill",
         "position": [
           2.3,
           0.25,
           0.95
         ],
-        "description": "Angular and aggressive design"
+        "description": "Aerodynamic design"
       },
       {
-        "name": "Rear Bumper",
+        "name": "Rear Diffuser",
         "position": [
           -2.3,
           0.25,
           0.95
         ],
-        "description": "Angular and aggressive design"
+        "description": "Aerodynamic design"
       },
       {
-        "name": "Front Hood",
+        "name": "Front Bumper",
         "position": [
           2.5,
           0.4,
           1.0
         ],
-        "description": "Slightly curved and aggressive design"
+        "description": "Aggressive design"
       }
     ],
     "style_archetype": "aggressive",
     "complexity_score": 0.8
   },
-  "elapsed_s": 1.4,
-  "timestamp": 1779187117.4739766,
+  "elapsed_s": 1.2,
+  "timestamp": 1779187872.833367,
   "wave": 1
 }

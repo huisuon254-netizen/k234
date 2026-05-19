@@ -20,35 +20,35 @@
       {
         "name": "turret",
         "position": [
+          0.0,
+          0.0,
+          2.0
+        ],
+        "description": "rotating platform for gun"
+      },
+      {
+        "name": "gun",
+        "position": [
           3.5,
           0.8,
           1.8
         ],
-        "description": "rotating gun platform"
-      },
-      {
-        "name": "main_cannon",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "description": "primary armament"
+        "description": "main armament"
       },
       {
         "name": "track",
         "position": [
-          4,
-          0,
-          2
+          4.0,
+          0.0,
+          2.0
         ],
-        "description": "mechanical leg for movement"
+        "description": "mechanism for movement"
       }
     ],
     "style_archetype": "aggressive",
-    "complexity_score": 0.5
+    "complexity_score": 0.8
   },
-  "elapsed_s": 0.8,
-  "timestamp": 1779187434.0500312,
+  "elapsed_s": 4.7,
+  "timestamp": 1779188032.3579326,
   "wave": 1
 }

@@ -9,8 +9,8 @@
       "width_height_ratio": 0.32
     },
     "silhouette": {
-      "is_symmetric": false,
-      "primary_axis": "z"
+      "is_symmetric": true,
+      "primary_axis": "y"
     },
     "design_language": [
       "industrial",
@@ -18,37 +18,100 @@
     ],
     "key_features": [
       {
-        "name": "Shoulder Pads",
+        "name": "Shoulder Joint",
         "position": [
           0.6,
           0,
           0.4
         ],
-        "description": "Protective pads on the shoulders of the mecha suit"
+        "description": "A joint connecting the arm to the body."
       },
       {
-        "name": "Knee Pads",
+        "name": "Shoulder Joint",
+        "position": [
+          -0.6,
+          0,
+          0.4
+        ],
+        "description": "A joint connecting the arm to the body."
+      },
+      {
+        "name": "Hip Joint",
+        "position": [
+          0.6,
+          0,
+          -0.4
+        ],
+        "description": "A joint connecting the leg to the body."
+      },
+      {
+        "name": "Hip Joint",
+        "position": [
+          -0.6,
+          0,
+          -0.4
+        ],
+        "description": "A joint connecting the leg to the body."
+      },
+      {
+        "name": "Arm",
         "position": [
           0.4,
           0.5,
           0.3
         ],
-        "description": "Protective pads on the knees of the mecha suit"
+        "description": "A long, thin structure extending from the body."
       },
       {
-        "name": "Chest Plate",
+        "name": "Arm",
+        "position": [
+          -0.4,
+          0.5,
+          0.3
+        ],
+        "description": "A long, thin structure extending from the body."
+      },
+      {
+        "name": "Leg",
+        "position": [
+          0.4,
+          0.5,
+          -0.3
+        ],
+        "description": "A long, thin structure extending from the body."
+      },
+      {
+        "name": "Leg",
+        "position": [
+          -0.4,
+          0.5,
+          -0.3
+        ],
+        "description": "A long, thin structure extending from the body."
+      },
+      {
+        "name": "Head",
         "position": [
           0.5,
           2.3,
           0.2
         ],
-        "description": "A protective plate on the chest of the mecha suit"
+        "description": "The upper part of the body, housing the brain and sensory organs."
+      },
+      {
+        "name": "Head",
+        "position": [
+          -0.5,
+          2.3,
+          0.2
+        ],
+        "description": "The upper part of the body, housing the brain and sensory organs."
       }
     ],
     "style_archetype": "aggressive",
     "complexity_score": 0.8
   },
-  "elapsed_s": 1.1,
-  "timestamp": 1779187252.3438737,
+  "elapsed_s": 5.3,
+  "timestamp": 1779187942.0214884,
   "wave": 1
 }

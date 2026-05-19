@@ -10,36 +10,45 @@
     },
     "silhouette": {
       "is_symmetric": true,
-      "primary_axis": "y"
+      "primary_axis": "x"
     },
     "design_language": [
-      "Functional",
-      "Geometric"
+      "geometric",
+      "minimalist"
     ],
     "key_features": [
       {
-        "name": "Central Hub",
+        "name": "docking_bays",
         "position": [
-          0,
-          15,
-          0
+          25.0,
+          0.0,
+          25.0
         ],
-        "description": "Central hub connecting different modules"
+        "description": "Large docking bays for spacecraft"
       },
       {
-        "name": "Solar Panel Array",
+        "name": "life_support",
         "position": [
-          10,
-          5,
-          10
+          0.0,
+          15.0,
+          0.0
         ],
-        "description": "Solar panel array for energy generation"
+        "description": "Central life support module"
+      },
+      {
+        "name": "solar_panels",
+        "position": [
+          10.0,
+          5.0,
+          10.0
+        ],
+        "description": "Solar panels for energy generation"
       }
     ],
-    "style_archetype": "Functional",
+    "style_archetype": "modern",
     "complexity_score": 0.8
   },
-  "elapsed_s": 1.0,
-  "timestamp": 1779187296.7832208,
+  "elapsed_s": 5.0,
+  "timestamp": 1779187964.7541804,
   "wave": 1
 }

@@ -14,41 +14,41 @@
     },
     "design_language": [
       "cyberpunk",
-      "modern"
+      "futuristic"
     ],
     "key_features": [
       {
-        "name": "angled facade",
+        "name": "angled corners",
         "position": [
-          0,
+          -12.5,
           0,
           -10
         ],
-        "description": "A distinctive feature of the building's design, the angled facade adds a touch of futurism to the structure."
+        "description": "Sharp, angular corners give the skyscraper a futuristic feel."
       },
       {
-        "name": "tapered top",
+        "name": "tiered structure",
         "position": [
-          0,
+          12.5,
           200,
           10
         ],
-        "description": "The tapered top of the skyscraper gives it a sense of dynamism and movement, characteristic of cyberpunk architecture."
+        "description": "The skyscraper's tiered structure creates a sense of depth and visual interest."
       },
       {
-        "name": "cantilevered roof",
+        "name": "angled roof",
         "position": [
-          -10,
+          10,
           50,
           -8
         ],
-        "description": "The cantilevered roof adds a sense of drama and tension to the building's design, creating a sense of weightlessness."
+        "description": "The angled roof adds a touch of dynamism to the skyscraper's design."
       }
     ],
-    "style_archetype": "cyberpunk",
+    "style_archetype": "futuristic",
     "complexity_score": 0.8
   },
-  "elapsed_s": 0.7,
-  "timestamp": 1779187387.7671587,
+  "elapsed_s": 4.9,
+  "timestamp": 1779188009.2921412,
   "wave": 1
 }

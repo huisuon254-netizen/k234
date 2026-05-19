@@ -14,7 +14,7 @@
     },
     "design_language": [
       "organic",
-      "geometric"
+      "curvaceous"
     ],
     "key_features": [
       {
@@ -24,7 +24,7 @@
           0,
           0
         ],
-        "description": "Long, curved wings that provide lift and stability."
+        "description": "Large, symmetrical wings provide lift and stability."
       },
       {
         "name": "Body",
@@ -33,7 +33,7 @@
           0,
           0
         ],
-        "description": "A long, slender body that houses the dragon's internal organs."
+        "description": "Long, slender body with a rounded cross-section."
       },
       {
         "name": "Tail",
@@ -42,31 +42,13 @@
           0,
           0
         ],
-        "description": "A long, whip-like tail that provides balance and counterweight."
-      },
-      {
-        "name": "Head",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "description": "A large, triangular head with a long snout and sharp teeth."
-      },
-      {
-        "name": "Claws",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "description": "Sharp, curved claws that provide traction and grasping ability."
+        "description": "Long, thin tail provides balance and steering."
       }
     ],
-    "style_archetype": "aggressive",
+    "style_archetype": "organic",
     "complexity_score": 0.8
   },
-  "elapsed_s": 0.9,
-  "timestamp": 1779187342.4355206,
+  "elapsed_s": 5.0,
+  "timestamp": 1779187986.815068,
   "wave": 1
 }

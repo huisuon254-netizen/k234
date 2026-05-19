@@ -13,8 +13,8 @@
       "primary_axis": "x"
     },
     "design_language": [
-      "Luxury",
-      "Marine"
+      "luxury",
+      "marine"
     ],
     "key_features": [
       {
@@ -24,7 +24,7 @@
           0,
           3.5
         ],
-        "description": "The front section of the yacht, typically the most prominent feature."
+        "description": "The forward section of the yacht"
       },
       {
         "name": "Stern",
@@ -33,67 +33,40 @@
           0,
           3.5
         ],
-        "description": "The rear section of the yacht, often featuring a distinctive design element."
+        "description": "The rear section of the yacht"
       },
       {
-        "name": "Side Windows",
+        "name": "Portside",
         "position": [
           14,
           2,
           3
         ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
+        "description": "The left side of the yacht"
       },
       {
-        "name": "Side Windows",
+        "name": "Starboard",
         "position": [
           -14,
           2,
           3
         ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
+        "description": "The right side of the yacht"
       },
       {
-        "name": "Side Windows",
+        "name": "Midship",
         "position": [
-          14,
-          2,
-          -3
-        ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
-      },
-      {
-        "name": "Side Windows",
-        "position": [
-          -14,
-          2,
-          -3
-        ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
-      },
-      {
-        "name": "Side Windows",
-        "position": [
-          15,
+          0,
           8,
           2.5
         ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
-      },
-      {
-        "name": "Side Windows",
-        "position": [
-          -15,
-          8,
-          2.5
-        ],
-        "description": "Windows on the sides of the yacht, providing natural light and a sense of openness."
+        "description": "The middle section of the yacht"
       }
     ],
     "style_archetype": "elegant",
     "complexity_score": 0.8
   },
-  "elapsed_s": 0.9,
-  "timestamp": 1779187160.2017434,
+  "elapsed_s": 4.9,
+  "timestamp": 1779187895.805523,
   "wave": 1
 }
