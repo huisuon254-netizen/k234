@@ -1,0 +1,176 @@
+{
+  "task_id": 66,
+  "agent": "GameDesigner",
+  "description": "starship_crew game design",
+  "input_prompt": "Design a crew management game with: 6 departments, crisis events, skill trees, ship upgrades, alien diplomacy, boarding actions, mutiny system",
+  "output": {
+    "game_type": "Crew Management Game",
+    "required_assets": [
+      {
+        "name": "Crew Members",
+        "type": "Characters",
+        "count": 10
+      },
+      {
+        "name": "Ship Upgrades",
+        "type": "Items",
+        "count": 5
+      },
+      {
+        "name": "Alien Species",
+        "type": "NPCs",
+        "count": 3
+      },
+      {
+        "name": "Department Buildings",
+        "type": "Structures",
+        "count": 6
+      },
+      {
+        "name": "Skill Trees",
+        "type": "Documents",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "name": "Crew Management",
+        "description": "Manage your crew's skills, morale, and relationships to optimize their performance."
+      },
+      {
+        "name": "Resource Management",
+        "description": "Manage your ship's resources, including food, water, and medical supplies."
+      },
+      {
+        "name": "Crisis Events",
+        "description": "Respond to crisis events, such as alien attacks or system failures, to protect your crew and ship."
+      },
+      {
+        "name": "Alien Diplomacy",
+        "description": "Negotiate with alien species to trade resources, form alliances, or resolve conflicts."
+      },
+      {
+        "name": "Boarding Actions",
+        "description": "Engage in boarding actions against enemy ships to capture resources or disable their operations."
+      },
+      {
+        "name": "Mutiny System",
+        "description": "Manage your crew's morale and relationships to prevent mutinies and maintain order."
+      }
+    ],
+    "systems": [
+      {
+        "name": "Department System",
+        "components": [
+          "Department Buildings",
+          "Crew Members",
+          "Resources"
+        ]
+      },
+      {
+        "name": "Skill Tree System",
+        "components": [
+          "Skill Trees",
+          "Crew Members"
+        ]
+      },
+      {
+        "name": "Ship Upgrade System",
+        "components": [
+          "Ship Upgrades",
+          "Resources"
+        ]
+      },
+      {
+        "name": "Alien Diplomacy System",
+        "components": [
+          "Alien Species",
+          "Resources"
+        ]
+      },
+      {
+        "name": "Boarding Action System",
+        "components": [
+          "Crew Members",
+          "Ship Upgrades"
+        ]
+      },
+      {
+        "name": "Mutiny System",
+        "components": [
+          "Crew Members",
+          "Morale"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "action": "Assign Crew Member to Department",
+        "result": "Increase department's productivity"
+      },
+      {
+        "action": "Upgrade Ship",
+        "result": "Increase ship's speed or defense"
+      },
+      {
+        "action": "Negotiate with Alien Species",
+        "result": "Trade resources or form alliance"
+      },
+      {
+        "action": "Engage in Boarding Action",
+        "result": "Capture resources or disable enemy ship"
+      },
+      {
+        "action": "Manage Crew Morale",
+        "result": "Prevent mutiny or increase crew's loyalty"
+      }
+    ],
+    "state_machine": {
+      "states": [
+        "Idle",
+        "Exploring",
+        "Engaging in Boarding Action",
+        "Defending Against Alien Attack",
+        "Managing Crew Morale"
+      ],
+      "transitions": [
+        {
+          "from": "Idle",
+          "to": "Exploring",
+          "trigger": "Player chooses to explore"
+        },
+        {
+          "from": "Exploring",
+          "to": "Engaging in Boarding Action",
+          "trigger": "Player chooses to engage in boarding action"
+        },
+        {
+          "from": "Exploring",
+          "to": "Defending Against Alien Attack",
+          "trigger": "Alien attack detected"
+        },
+        {
+          "from": "Defending Against Alien Attack",
+          "to": "Idle",
+          "trigger": "Alien attack repelled"
+        },
+        {
+          "from": "Idle",
+          "to": "Managing Crew Morale",
+          "trigger": "Crew morale drops below threshold"
+        }
+      ]
+    },
+    "implementation_steps": [
+      "Create department buildings and assign crew members",
+      "Develop skill trees and assign crew members to skills",
+      "Create ship upgrades and assign resources",
+      "Develop alien species and negotiate with them",
+      "Implement boarding action system and engage in boarding actions",
+      "Implement mutiny system and manage crew morale"
+    ]
+  },
+  "elapsed_s": 4.7,
+  "timestamp": 1779185456.3549662,
+  "wave": 5
+}

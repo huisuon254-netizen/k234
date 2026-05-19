@@ -1,0 +1,428 @@
+{
+  "wave": 4,
+  "tasks": 15,
+  "completed": 15,
+  "failed": 0,
+  "timestamp": 1779185429.314657,
+  "results": [
+    {
+      "task_id": 46,
+      "agent": "ProportionAnalyzer",
+      "description": "concept_car proportion check",
+      "input_prompt": "Analyze proportions: L=5.2 W=2.2 H=1.1, type=sports_car",
+      "output": {
+        "type_detected": "sports_car",
+        "expected_proportions": {
+          "L_W": 2.36,
+          "W_H": 2.0
+        },
+        "actual_proportions": {
+          "L_W": 2.3646,
+          "W_H": 2.0
+        },
+        "match_score": 0.999,
+        "adjustments": {
+          "length": -0.0006,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 3.2,
+      "timestamp": 1779185351.2703202,
+      "wave": 4
+    },
+    {
+      "task_id": 47,
+      "agent": "ProportionAnalyzer",
+      "description": "sci-fi_tank proportion check",
+      "input_prompt": "Analyze proportions: L=10 W=5 H=3.5, type=armored_vehicle",
+      "output": {
+        "type_detected": "armored_vehicle",
+        "expected_proportions": {
+          "L_W": 2.0,
+          "W_H": 1.4285714285714286
+        },
+        "actual_proportions": {
+          "L_W": 2.0,
+          "W_H": 1.5714285714285714
+        },
+        "match_score": 0.8333333333333334,
+        "adjustments": {
+          "length": 0.0,
+          "width": -0.2,
+          "height": 0.14285714285714285
+        },
+        "notes": [
+          "The length to width ratio matches the expected proportion for an armored vehicle.",
+          "The width to height ratio is slightly higher than expected, indicating a more compact design."
+        ]
+      },
+      "elapsed_s": 4.4,
+      "timestamp": 1779185356.0410907,
+      "wave": 4
+    },
+    {
+      "task_id": 48,
+      "agent": "ProportionAnalyzer",
+      "description": "passenger_drone proportion check",
+      "input_prompt": "Analyze proportions: L=2.5 W=2.5 H=1.0, type=vtol_aircraft",
+      "output": {
+        "type_detected": "vtol_aircraft",
+        "expected_proportions": {
+          "L_W": 1.0,
+          "W_H": 2.5
+        },
+        "actual_proportions": {
+          "L_W": 1.0,
+          "W_H": 2.5
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.5,
+      "timestamp": 1779185361.0652914,
+      "wave": 4
+    },
+    {
+      "task_id": 49,
+      "agent": "ProportionAnalyzer",
+      "description": "cargo_sub proportion check",
+      "input_prompt": "Analyze proportions: L=40 W=6 H=8, type=submarine",
+      "output": {
+        "type_detected": "submarine",
+        "expected_proportions": {
+          "L_W": 6.67,
+          "W_H": 0.75
+        },
+        "actual_proportions": {
+          "L_W": 6.67,
+          "W_H": 0.75
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.1,
+      "timestamp": 1779185366.0738237,
+      "wave": 4
+    },
+    {
+      "task_id": 50,
+      "agent": "ProportionAnalyzer",
+      "description": "alien_spaceship proportion check",
+      "input_prompt": "Analyze proportions: L=30 W=20 H=8, type=spacecraft",
+      "output": {
+        "type_detected": "spacecraft",
+        "expected_proportions": {
+          "L_W": 1.5,
+          "W_H": 2.5
+        },
+        "actual_proportions": {
+          "L_W": 1.5,
+          "W_H": 2.5
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.9,
+      "timestamp": 1779185371.890423,
+      "wave": 4
+    },
+    {
+      "task_id": 51,
+      "agent": "ProportionAnalyzer",
+      "description": "giant_mech proportion check",
+      "input_prompt": "Analyze proportions: L=15 W=8 H=25, type=mecha",
+      "output": {
+        "type_detected": "mecha",
+        "expected_proportions": {
+          "L_W": 1.875,
+          "W_H": 0.32
+        },
+        "actual_proportions": {
+          "L_W": 1.875,
+          "W_H": 0.32
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 3.0,
+      "timestamp": 1779185376.1142735,
+      "wave": 4
+    },
+    {
+      "task_id": 52,
+      "agent": "ProportionAnalyzer",
+      "description": "mobile_ fortress proportion check",
+      "input_prompt": "Analyze proportions: L=50 W=30 H=20, type=land_vehicle",
+      "output": {
+        "type_detected": "land_vehicle",
+        "expected_proportions": {
+          "L_W": 1.6666666666666667,
+          "W_H": 1.5
+        },
+        "actual_proportions": {
+          "L_W": 1.6666666666666667,
+          "W_H": 1.25
+        },
+        "match_score": 0.75,
+        "adjustments": {
+          "length": 0,
+          "width": -5,
+          "height": 0
+        },
+        "notes": [
+          "The actual proportions of the vehicle match the expected proportions of a land vehicle, but the width is slightly smaller than expected.",
+          "The height of the vehicle is as expected."
+        ]
+      },
+      "elapsed_s": 4.1,
+      "timestamp": 1779185381.19971,
+      "wave": 4
+    },
+    {
+      "task_id": 53,
+      "agent": "ProportionAnalyzer",
+      "description": "orbital_habitat proportion check",
+      "input_prompt": "Analyze proportions: L=200 W=200 H=50, type=space_station",
+      "output": {
+        "type_detected": "space_station",
+        "expected_proportions": {
+          "L_W": 1.0,
+          "W_H": 4.0
+        },
+        "actual_proportions": {
+          "L_W": 1.0,
+          "W_H": 4.0
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 0.6,
+      "timestamp": 1779185388.2057042,
+      "wave": 4
+    },
+    {
+      "task_id": 54,
+      "agent": "ProportionAnalyzer",
+      "description": "stealth_cruiser proportion check",
+      "input_prompt": "Analyze proportions: L=150 W=18 H=12, type=warship",
+      "output": {
+        "type_detected": "warship",
+        "expected_proportions": {
+          "L_W": 8.333333333333334,
+          "W_H": 1.5
+        },
+        "actual_proportions": {
+          "L_W": 8.333333333333334,
+          "W_H": 1.5
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.0,
+      "timestamp": 1779185393.187206,
+      "wave": 4
+    },
+    {
+      "task_id": 55,
+      "agent": "ProportionAnalyzer",
+      "description": "hover_bike proportion check",
+      "input_prompt": "Analyze proportions: L=2.8 W=0.8 H=1.0, type=personal_vehicle",
+      "output": {
+        "type_detected": "personal_vehicle",
+        "expected_proportions": {
+          "L_W": 3.5,
+          "W_H": 0.8
+        },
+        "actual_proportions": {
+          "L_W": 3.5,
+          "W_H": 0.8
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.6,
+      "timestamp": 1779185398.402853,
+      "wave": 4
+    },
+    {
+      "task_id": 56,
+      "agent": "ProportionAnalyzer",
+      "description": "cargo_zeppelin proportion check",
+      "input_prompt": "Analyze proportions: L=150 W=25 H=30, type=airship",
+      "output": {
+        "type_detected": "airship",
+        "expected_proportions": {
+          "L_W": 6.0,
+          "W_H": 0.8333333333333334
+        },
+        "actual_proportions": {
+          "L_W": 6.0,
+          "W_H": 1.0
+        },
+        "match_score": 0.5,
+        "adjustments": {
+          "length": 0.0,
+          "width": -0.75,
+          "height": -0.6666666666666666
+        },
+        "notes": [
+          "Expected proportions for an airship: Length/Width = 6, Width/Height = 0.8333333333333334",
+          "Actual Length/Width = 6, Actual Width/Height = 1",
+          "Adjustments: Length = 0%, Width = -30%, Height = -22%",
+          "Match score: 0.5 (50%)"
+        ]
+      },
+      "elapsed_s": 4.0,
+      "timestamp": 1779185403.3396113,
+      "wave": 4
+    },
+    {
+      "task_id": 57,
+      "agent": "ProportionAnalyzer",
+      "description": "deep_sea_drill proportion check",
+      "input_prompt": "Analyze proportions: L=15 W=10 H=25, type=industrial_vehicle",
+      "output": {
+        "type_detected": "industrial_vehicle",
+        "expected_proportions": {
+          "L_W": 1.5,
+          "W_H": 0.4
+        },
+        "actual_proportions": {
+          "L_W": 1.5,
+          "W_H": 1
+        },
+        "match_score": 0.75,
+        "adjustments": {
+          "length": 0,
+          "width": -0.25,
+          "height": 0
+        },
+        "notes": [
+          "Actual proportions match expected proportions for length to width ratio, but not for width to height ratio.",
+          "Adjustments suggest a slight reduction in width to better match expected proportions."
+        ]
+      },
+      "elapsed_s": 3.8,
+      "timestamp": 1779185408.0835016,
+      "wave": 4
+    },
+    {
+      "task_id": 58,
+      "agent": "ProportionAnalyzer",
+      "description": "colony_ship proportion check",
+      "input_prompt": "Analyze proportions: L=500 W=100 H=150, type=generation_ship",
+      "output": {
+        "type_detected": "generation_ship",
+        "expected_proportions": {
+          "L_W": 5.0,
+          "W_H": 0.667
+        },
+        "actual_proportions": {
+          "L_W": 5.0,
+          "W_H": 0.667
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.4,
+      "timestamp": 1779185413.0386868,
+      "wave": 4
+    },
+    {
+      "task_id": 59,
+      "agent": "ProportionAnalyzer",
+      "description": "fighter_drone proportion check",
+      "input_prompt": "Analyze proportions: L=1.5 W=1.5 H=0.6, type=uav",
+      "output": {
+        "type_detected": "uav",
+        "expected_proportions": {
+          "L_W": 1.0,
+          "W_H": 2.5
+        },
+        "actual_proportions": {
+          "L_W": 1.0,
+          "W_H": 2.5
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 3.6,
+      "timestamp": 1779185418.0885243,
+      "wave": 4
+    },
+    {
+      "task_id": 60,
+      "agent": "ProportionAnalyzer",
+      "description": "planetary_rover proportion check",
+      "input_prompt": "Analyze proportions: L=4 W=3 H=2.5, type=exploration_vehicle",
+      "output": {
+        "type_detected": "exploration_vehicle",
+        "expected_proportions": {
+          "L_W": 1.3333333333333333,
+          "W_H": 1.2
+        },
+        "actual_proportions": {
+          "L_W": 1.3333333333333333,
+          "W_H": 1.2
+        },
+        "match_score": 1.0,
+        "adjustments": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0
+        },
+        "notes": []
+      },
+      "elapsed_s": 4.4,
+      "timestamp": 1779185423.1225069,
+      "wave": 4
+    }
+  ]
+}

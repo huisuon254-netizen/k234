@@ -1,0 +1,176 @@
+{
+  "task_id": 61,
+  "agent": "GameDesigner",
+  "description": "galactic_civilization game design",
+  "input_prompt": "Design a 4X space game with: 8 factions, procedural galaxy, tech tree (200+ techs), diplomacy, trade routes, fleet combat, planetary management, espionage",
+  "output": {
+    "game_type": "4X Space Game",
+    "required_assets": [
+      {
+        "name": "Procedural Galaxy Generator",
+        "type": "Algorithm",
+        "count": 1
+      },
+      {
+        "name": "Tech Tree Database",
+        "type": "Database",
+        "count": 1
+      },
+      {
+        "name": "Faction Assets",
+        "type": "3D Models",
+        "count": 8
+      },
+      {
+        "name": "Spacecraft Blueprints",
+        "type": "Blueprints",
+        "count": 50
+      },
+      {
+        "name": "Planetary Environments",
+        "type": "Textures",
+        "count": 100
+      }
+    ],
+    "rules": [
+      {
+        "name": "Resource Management",
+        "description": "Players must manage resources (minerals, energy, etc.) to build and maintain their empire."
+      },
+      {
+        "name": "Tech Tree Progression",
+        "description": "Players can research new technologies to improve their empire's capabilities."
+      },
+      {
+        "name": "Diplomacy and Trade",
+        "description": "Players can interact with other factions through diplomacy and trade, forming alliances or rivalries."
+      },
+      {
+        "name": "Fleet Combat",
+        "description": "Players can engage in space battles with other factions to defend their territory or expand their empire."
+      },
+      {
+        "name": "Planetary Management",
+        "description": "Players can manage their planets, building infrastructure and harvesting resources."
+      },
+      {
+        "name": "Espionage",
+        "description": "Players can gather intelligence on other factions to gain an advantage in diplomacy, trade, or combat."
+      }
+    ],
+    "systems": [
+      {
+        "name": "Resource System",
+        "components": [
+          "Resource Generation",
+          "Resource Distribution"
+        ]
+      },
+      {
+        "name": "Tech Tree System",
+        "components": [
+          "Tech Research",
+          "Tech Unlocking"
+        ]
+      },
+      {
+        "name": "Diplomacy System",
+        "components": [
+          "Diplomatic Relations",
+          "Trade Agreements"
+        ]
+      },
+      {
+        "name": "Fleet System",
+        "components": [
+          "Ship Design",
+          "Combat Resolution"
+        ]
+      },
+      {
+        "name": "Planetary System",
+        "components": [
+          "Planet Generation",
+          "Infrastructure Building"
+        ]
+      },
+      {
+        "name": "Espionage System",
+        "components": [
+          "Spy Network",
+          "Intelligence Gathering"
+        ]
+      }
+    ],
+    "interactions": [
+      {
+        "action": "Research Tech",
+        "result": "Unlock new technologies and improve empire capabilities"
+      },
+      {
+        "action": "Form Alliance",
+        "result": "Gain access to shared resources and trade agreements"
+      },
+      {
+        "action": "Declare War",
+        "result": "Engage in fleet combat and potentially gain territory"
+      },
+      {
+        "action": "Build Infrastructure",
+        "result": "Improve planetary resources and capacity"
+      },
+      {
+        "action": "Gather Intelligence",
+        "result": "Gain insight into enemy faction's plans and capabilities"
+      }
+    ],
+    "state_machine": {
+      "states": [
+        "Idle",
+        "Exploring",
+        "Building",
+        "Trading",
+        "Warring",
+        "Diplomating"
+      ],
+      "transitions": [
+        {
+          "from": "Idle",
+          "to": "Exploring",
+          "trigger": "Player selects a planet to explore"
+        },
+        {
+          "from": "Exploring",
+          "to": "Building",
+          "trigger": "Player discovers a habitable planet"
+        },
+        {
+          "from": "Building",
+          "to": "Trading",
+          "trigger": "Player completes a building project"
+        },
+        {
+          "from": "Trading",
+          "to": "Warring",
+          "trigger": "Player is attacked by another faction"
+        },
+        {
+          "from": "Warring",
+          "to": "Diplomating",
+          "trigger": "Player surrenders or forms an alliance"
+        }
+      ]
+    },
+    "implementation_steps": [
+      "Implement procedural galaxy generation using a combination of algorithms and data structures.",
+      "Design and implement the tech tree system, including research and unlocking mechanics.",
+      "Develop the diplomacy system, including diplomatic relations and trade agreements.",
+      "Create the fleet system, including ship design and combat resolution.",
+      "Implement the planetary system, including planet generation and infrastructure building.",
+      "Develop the espionage system, including spy networks and intelligence gathering."
+    ]
+  },
+  "elapsed_s": 1.4,
+  "timestamp": 1779185430.716731,
+  "wave": 5
+}
