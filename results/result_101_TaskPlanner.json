@@ -1,0 +1,83 @@
+{
+  "task_id": 101,
+  "agent": "TaskPlanner",
+  "description": "Meta-plan: Build a complete metaverse city with 10 districts,...",
+  "input_prompt": "Plan tasks for: Build a complete metaverse city with 10 districts, 100 buildings, 500 NPCs, day/night cycle, weather, and public transport",
+  "output": {
+    "goal": "Build a complete metaverse city",
+    "sub_tasks": [
+      {
+        "id": 1,
+        "agent": "Urban Planner",
+        "prompt": "Design the city layout with 10 districts",
+        "depends_on": []
+      },
+      {
+        "id": 2,
+        "agent": "Architect",
+        "prompt": "Create 100 building designs with unique architecture and functionality",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "agent": "Game Developer",
+        "prompt": "Implement day/night cycle and weather system",
+        "depends_on": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "agent": "AI Engineer",
+        "prompt": "Create 500 NPCs with unique behaviors and interactions",
+        "depends_on": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "agent": "Transportation Engineer",
+        "prompt": "Design and implement public transport system",
+        "depends_on": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 6,
+        "agent": "Quality Assurance",
+        "prompt": "Test and ensure seamless integration of all systems",
+        "depends_on": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": 7,
+        "agent": "Deployment Specialist",
+        "prompt": "Deploy the metaverse city to the target platform",
+        "depends_on": [
+          6
+        ]
+      }
+    ],
+    "estimated_complexity": "high",
+    "required_context": [
+      "City planning software",
+      "Building information modeling (BIM) software",
+      "Game engine (e.g. Unity, Unreal Engine)",
+      "AI development frameworks (e.g. TensorFlow, PyTorch)",
+      "Transportation simulation software",
+      "Quality assurance tools (e.g. JIRA, TestRail)",
+      "Cloud infrastructure (e.g. AWS, Google Cloud)"
+    ]
+  },
+  "elapsed_s": 4.4,
+  "timestamp": 1779185669.2696903,
+  "wave": 9
+}

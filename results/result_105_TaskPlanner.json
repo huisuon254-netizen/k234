@@ -1,0 +1,62 @@
+{
+  "task_id": 105,
+  "agent": "TaskPlanner",
+  "description": "Meta-plan: Create a virtual AI training environment with 10 s...",
+  "input_prompt": "Plan tasks for: Create a virtual AI training environment with 10 scenarios, reward systems, agent observation, and performance metrics",
+  "output": {
+    "goal": "Create a virtual AI training environment",
+    "sub_tasks": [
+      {
+        "id": 1,
+        "agent": "Environment Designer",
+        "prompt": "Design a virtual environment with 10 scenarios",
+        "depends_on": []
+      },
+      {
+        "id": 2,
+        "agent": "Reward System Specialist",
+        "prompt": "Implement a reward system for the AI agents",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "agent": "Agent Observation Expert",
+        "prompt": "Implement agent observation in the virtual environment",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "agent": "Performance Metrics Developer",
+        "prompt": "Develop performance metrics for the AI agents",
+        "depends_on": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 5,
+        "agent": "Integration Specialist",
+        "prompt": "Integrate the reward system, agent observation, and performance metrics",
+        "depends_on": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "estimated_complexity": "high",
+    "required_context": [
+      "AI training environment",
+      "reward systems",
+      "agent observation",
+      "performance metrics"
+    ]
+  },
+  "elapsed_s": 3.2,
+  "timestamp": 1779185688.9127567,
+  "wave": 9
+}

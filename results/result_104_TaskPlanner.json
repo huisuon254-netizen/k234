@@ -1,0 +1,158 @@
+{
+  "task_id": 104,
+  "agent": "TaskPlanner",
+  "description": "Meta-plan: Build a real-time strategy game with 4 factions, 2...",
+  "input_prompt": "Plan tasks for: Build a real-time strategy game with 4 factions, 200 units, tech trees, resource chains, and AI opponent with 3 difficulty levels",
+  "output": {
+    "goal": "Build a real-time strategy game with 4 factions, 200 units, tech trees, resource chains, and AI opponent with 3 difficulty levels",
+    "sub_tasks": [
+      {
+        "id": 1,
+        "agent": "Game Designer",
+        "prompt": "Design game mechanics and core features",
+        "depends_on": []
+      },
+      {
+        "id": 2,
+        "agent": "Game Designer",
+        "prompt": "Create game world and factions",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "agent": "Artist",
+        "prompt": "Create game assets (units, buildings, UI)",
+        "depends_on": [
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "agent": "Programmer",
+        "prompt": "Implement game engine and core mechanics",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 5,
+        "agent": "Programmer",
+        "prompt": "Implement unit AI and pathfinding",
+        "depends_on": [
+          4
+        ]
+      },
+      {
+        "id": 6,
+        "agent": "Programmer",
+        "prompt": "Implement resource chains and economy",
+        "depends_on": [
+          4
+        ]
+      },
+      {
+        "id": 7,
+        "agent": "Programmer",
+        "prompt": "Implement tech trees and research system",
+        "depends_on": [
+          4
+        ]
+      },
+      {
+        "id": 8,
+        "agent": "Programmer",
+        "prompt": "Implement AI opponent with 3 difficulty levels",
+        "depends_on": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 9,
+        "agent": "Programmer",
+        "prompt": "Implement multiplayer and online features",
+        "depends_on": [
+          4
+        ]
+      },
+      {
+        "id": 10,
+        "agent": "Programmer",
+        "prompt": "Implement UI and user interface",
+        "depends_on": [
+          4
+        ]
+      },
+      {
+        "id": 11,
+        "agent": "QA Tester",
+        "prompt": "Test game mechanics and core features",
+        "depends_on": [
+          1
+        ]
+      },
+      {
+        "id": 12,
+        "agent": "QA Tester",
+        "prompt": "Test unit AI and pathfinding",
+        "depends_on": [
+          5
+        ]
+      },
+      {
+        "id": 13,
+        "agent": "QA Tester",
+        "prompt": "Test resource chains and economy",
+        "depends_on": [
+          6
+        ]
+      },
+      {
+        "id": 14,
+        "agent": "QA Tester",
+        "prompt": "Test tech trees and research system",
+        "depends_on": [
+          7
+        ]
+      },
+      {
+        "id": 15,
+        "agent": "QA Tester",
+        "prompt": "Test AI opponent with 3 difficulty levels",
+        "depends_on": [
+          8
+        ]
+      },
+      {
+        "id": 16,
+        "agent": "QA Tester",
+        "prompt": "Test multiplayer and online features",
+        "depends_on": [
+          9
+        ]
+      },
+      {
+        "id": 17,
+        "agent": "QA Tester",
+        "prompt": "Test UI and user interface",
+        "depends_on": [
+          10
+        ]
+      }
+    ],
+    "estimated_complexity": "high",
+    "required_context": [
+      "Game development experience",
+      "Programming languages (e.g. C++, Java)",
+      "Game engines (e.g. Unity, Unreal Engine)",
+      "Art and design software (e.g. Adobe Creative Cloud)",
+      "Testing and debugging tools"
+    ]
+  },
+  "elapsed_s": 3.7,
+  "timestamp": 1779185684.8256075,
+  "wave": 9
+}
