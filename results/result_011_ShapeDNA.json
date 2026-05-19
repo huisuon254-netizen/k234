@@ -1,0 +1,54 @@
+{
+  "task_id": 11,
+  "agent": "ShapeDNA",
+  "description": "futuristic_train DNA extraction",
+  "input_prompt": "Analyze a futuristic_train: L=60 W=3.5 H=4.5 verts=32000 first10: [[30,0,1.75],[30,0,-1.75],[-30,0,1.75],[-30,0,-1.75],[29,1.5,1.5],[29,1.5,-1.5],[-29,1.5,1.5],[-29,1.5,-1.5],[28,0.5,1],[-28,0.5,1]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 17.142857142857142,
+      "width_height_ratio": 0.7777777777777778
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "futuristic",
+      "high-tech"
+    ],
+    "key_features": [
+      {
+        "name": "front windows",
+        "position": [
+          29.5,
+          1.25,
+          0
+        ],
+        "description": "Two large windows on the front of the train"
+      },
+      {
+        "name": "side windows",
+        "position": [
+          28.5,
+          0.75,
+          0
+        ],
+        "description": "Smaller windows on the sides of the train"
+      },
+      {
+        "name": "engine",
+        "position": [
+          30,
+          0,
+          1.75
+        ],
+        "description": "The engine of the train, located at the front"
+      }
+    ],
+    "style_archetype": "futuristic",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 2.2,
+  "timestamp": 1779185112.1910715,
+  "wave": 1
+}

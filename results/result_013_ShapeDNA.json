@@ -1,0 +1,54 @@
+{
+  "task_id": 13,
+  "agent": "ShapeDNA",
+  "description": "solar_sail_ship DNA extraction",
+  "input_prompt": "Analyze a solar_sail_ship: L=40 W=60 H=80 verts=25000 first10: [[20,0,30],[20,0,-30],[-20,0,30],[-20,0,-30],[15,40,25],[-15,40,25],[15,40,-25],[-15,40,-25],[10,60,0],[-10,60,0]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 0.6666666666666666,
+      "width_height_ratio": 0.75
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "y"
+    },
+    "design_language": [
+      "modern",
+      "aerodynamic"
+    ],
+    "key_features": [
+      {
+        "name": "Solar Sail",
+        "position": [
+          20,
+          0,
+          30
+        ],
+        "description": "A large, flat surface that captures solar energy to propel the ship"
+      },
+      {
+        "name": "Main Boom",
+        "position": [
+          -20,
+          0,
+          30
+        ],
+        "description": "A long, thin structure that supports the solar sail"
+      },
+      {
+        "name": "Keel",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "A central axis that provides stability to the ship"
+      }
+    ],
+    "style_archetype": "modern",
+    "complexity_score": 0.7
+  },
+  "elapsed_s": 34.4,
+  "timestamp": 1779185152.3039143,
+  "wave": 1
+}

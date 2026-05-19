@@ -1,0 +1,945 @@
+{
+  "wave": 1,
+  "tasks": 15,
+  "completed": 15,
+  "failed": 0,
+  "timestamp": 1779185163.2924283,
+  "results": [
+    {
+      "task_id": 1,
+      "agent": "ShapeDNA",
+      "description": "hypercar DNA extraction",
+      "input_prompt": "Analyze a hypercar: L=5.0 W=2.1 H=1.15 verts=12000 first10: [[2.5,0,1.05],[2.5,0,-1.05],[-2.5,0,1.05],[-2.5,0,-1.05],[2.3,0.25,0.95],[2.3,0.25,-0.95],[-2.3,0.25,0.95],[-2.3,0.25,-0.95],[2.5,0.4,1.0],[2.5,0.4,-1.0]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 2.381,
+          "width_height_ratio": 1.8365
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "aggressive",
+          "sporty"
+        ],
+        "key_features": [
+          {
+            "name": "Front Splitter",
+            "position": [
+              2.5,
+              0,
+              1.05
+            ],
+            "description": "Aerodynamic feature at the front of the vehicle"
+          },
+          {
+            "name": "Rear Diffuser",
+            "position": [
+              -2.5,
+              0,
+              -1.05
+            ],
+            "description": "Aerodynamic feature at the rear of the vehicle"
+          },
+          {
+            "name": "Side Sill",
+            "position": [
+              2.3,
+              0.25,
+              0.95
+            ],
+            "description": "Structural feature along the side of the vehicle"
+          },
+          {
+            "name": "Side Sill",
+            "position": [
+              -2.3,
+              0.25,
+              0.95
+            ],
+            "description": "Structural feature along the side of the vehicle"
+          },
+          {
+            "name": "Front Bumper",
+            "position": [
+              2.5,
+              0.4,
+              1.0
+            ],
+            "description": "Protective feature at the front of the vehicle"
+          },
+          {
+            "name": "Front Bumper",
+            "position": [
+              2.5,
+              0.4,
+              -1.0
+            ],
+            "description": "Protective feature at the front of the vehicle"
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.95
+      },
+      "elapsed_s": 1.3,
+      "timestamp": 1779185032.4917617,
+      "wave": 1
+    },
+    {
+      "task_id": 2,
+      "agent": "ShapeDNA",
+      "description": "luxury_yacht DNA extraction",
+      "input_prompt": "Analyze a luxury_yacht: L=30 W=7 H=12 verts=45000 first10: [[15,0,3.5],[15,0,-3.5],[-15,0,3.5],[-15,0,-3.5],[14,2,3],[-14,2,3],[14,2,-3],[-14,2,-3],[15,8,2.5],[-15,8,2.5]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 4.286,
+          "width_height_ratio": 0.583
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "luxurious",
+          "sleek"
+        ],
+        "key_features": [
+          {
+            "name": "Bow",
+            "position": [
+              15,
+              0,
+              3.5
+            ],
+            "description": "The front of the yacht, typically the most prominent feature."
+          },
+          {
+            "name": "Stern",
+            "position": [
+              -15,
+              0,
+              3.5
+            ],
+            "description": "The back of the yacht, often featuring a distinctive design element."
+          },
+          {
+            "name": "Side Windows",
+            "position": [
+              14,
+              2,
+              3
+            ],
+            "description": "Large windows that provide natural light and offer a view of the surroundings."
+          },
+          {
+            "name": "Side Windows",
+            "position": [
+              -14,
+              2,
+              3
+            ],
+            "description": "Large windows that provide natural light and offer a view of the surroundings."
+          },
+          {
+            "name": "Side Windows",
+            "position": [
+              14,
+              2,
+              -3
+            ],
+            "description": "Large windows that provide natural light and offer a view of the surroundings."
+          },
+          {
+            "name": "Side Windows",
+            "position": [
+              -14,
+              2,
+              -3
+            ],
+            "description": "Large windows that provide natural light and offer a view of the surroundings."
+          },
+          {
+            "name": "Upper Deck",
+            "position": [
+              15,
+              8,
+              2.5
+            ],
+            "description": "A raised platform that provides additional space for passengers and crew."
+          },
+          {
+            "name": "Upper Deck",
+            "position": [
+              -15,
+              8,
+              2.5
+            ],
+            "description": "A raised platform that provides additional space for passengers and crew."
+          }
+        ],
+        "style_archetype": "elegant",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 3.9,
+      "timestamp": 1779185037.5669367,
+      "wave": 1
+    },
+    {
+      "task_id": 3,
+      "agent": "ShapeDNA",
+      "description": "stealth_bomber DNA extraction",
+      "input_prompt": "Analyze a stealth_bomber: L=21 W=18.5 H=3.5 verts=18000 first10: [[10.5,0,0],[-10.5,0,0],[9,0.6,4.5],[-9,0.6,4.5],[9,0.6,-4.5],[-9,0.6,-4.5],[6,1.2,0.8],[-6,1.2,0.8],[6,1.2,-0.8],[-6,1.2,-0.8]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.14,
+          "width_height_ratio": 5.29
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "aerodynamic",
+          "military"
+        ],
+        "key_features": [
+          {
+            "name": "fuselage",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "The main body of the aircraft, providing structural support and housing the crew and payload."
+          },
+          {
+            "name": "wings",
+            "position": [
+              -10.5,
+              0,
+              0
+            ],
+            "description": "The primary lifting surfaces of the aircraft, providing lift and stability during flight."
+          },
+          {
+            "name": "cockpit",
+            "position": [
+              0,
+              0,
+              3.5
+            ],
+            "description": "The control center of the aircraft, housing the crew and providing access to essential systems."
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.85
+      },
+      "elapsed_s": 3.3,
+      "timestamp": 1779185041.8211403,
+      "wave": 1
+    },
+    {
+      "task_id": 4,
+      "agent": "ShapeDNA",
+      "description": "mecha_suit DNA extraction",
+      "input_prompt": "Analyze a mecha_suit: L=1.2 W=0.8 H=2.5 verts=20000 first10: [[0.6,0,0.4],[-0.6,0,0.4],[0.6,0,-0.4],[-0.6,0,-0.4],[0.4,0.5,0.3],[-0.4,0.5,0.3],[0.4,0.5,-0.3],[-0.4,0.5,-0.3],[0.5,2.3,0.2],[-0.5,2.3,0.2]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.5,
+          "width_height_ratio": 0.32
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "z"
+        },
+        "design_language": [
+          "industrial",
+          "mechanical"
+        ],
+        "key_features": [
+          {
+            "name": "Shoulder",
+            "position": [
+              0.6,
+              0,
+              0.4
+            ],
+            "description": "The shoulder joint of the mecha suit"
+          },
+          {
+            "name": "Hip",
+            "position": [
+              0.5,
+              2.3,
+              0.2
+            ],
+            "description": "The hip joint of the mecha suit"
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.6
+      },
+      "elapsed_s": 35.2,
+      "timestamp": 1779185077.5876386,
+      "wave": 1
+    },
+    {
+      "task_id": 5,
+      "agent": "ShapeDNA",
+      "description": "space_station DNA extraction",
+      "input_prompt": "Analyze a space_station: L=50 W=50 H=30 verts=60000 first10: [[25,0,25],[25,0,-25],[-25,0,25],[-25,0,-25],[25,20,25],[25,20,-25],[-25,20,25],[-25,20,-25],[0,15,0],[10,5,10]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.0,
+          "width_height_ratio": 1.6666666666666667
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "geometric",
+          "minimalist"
+        ],
+        "key_features": [
+          {
+            "name": "docking_bay",
+            "position": [
+              25.0,
+              0.0,
+              25.0
+            ],
+            "description": "A large opening on the top surface of the space station for docking and undocking spacecraft."
+          },
+          {
+            "name": "service_module",
+            "position": [
+              0.0,
+              15.0,
+              0.0
+            ],
+            "description": "A module on the top surface of the space station that provides access to the interior for maintenance and repairs."
+          },
+          {
+            "name": "life_support_module",
+            "position": [
+              10.0,
+              5.0,
+              10.0
+            ],
+            "description": "A module on the space station that provides life support systems, including air, water, and food."
+          }
+        ],
+        "style_archetype": "classic",
+        "complexity_score": 0.5
+      },
+      "elapsed_s": 4.3,
+      "timestamp": 1779185082.490082,
+      "wave": 1
+    },
+    {
+      "task_id": 6,
+      "agent": "ShapeDNA",
+      "description": "dragon DNA extraction",
+      "input_prompt": "Analyze a dragon: L=12 W=16 H=5 verts=35000 first10: [[6,0,0],[-6,0,0],[5,0.5,4],[-5,0.5,4],[5,0.5,-4],[-5,0.5,-4],[3,2,2],[-3,2,2],[3,2,-2],[-3,2,-2]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 0.75,
+          "width_height_ratio": 3.2
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "organic",
+          "curvaceous"
+        ],
+        "key_features": [
+          {
+            "name": "Wings",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "Large, curved wings that provide lift and stability"
+          },
+          {
+            "name": "Body",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "Long, slender body that houses the dragon's vital organs"
+          },
+          {
+            "name": "Tail",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "Long, whip-like tail that provides balance and agility"
+          },
+          {
+            "name": "Head",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "Large, menacing head with sharp teeth and claws"
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.2,
+      "timestamp": 1779185087.0365272,
+      "wave": 1
+    },
+    {
+      "task_id": 7,
+      "agent": "ShapeDNA",
+      "description": "cyberpunk_skyscraper DNA extraction",
+      "input_prompt": "Analyze a cyberpunk_skyscraper: L=25 W=20 H=200 verts=55000 first10: [[-12.5,0,-10],[12.5,0,-10],[12.5,0,10],[-12.5,0,10],[-12.5,200,-10],[12.5,200,-10],[12.5,200,10],[-12.5,200,10],[-10,50,-8],[10,50,-8]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.25,
+          "width_height_ratio": 0.1
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "y"
+        },
+        "design_language": [
+          "futuristic",
+          "industrial"
+        ],
+        "key_features": [
+          {
+            "name": "entry_point",
+            "position": [
+              -10,
+              50,
+              -8
+            ],
+            "description": "Main entrance of the skyscraper"
+          },
+          {
+            "name": "peak",
+            "position": [
+              -12.5,
+              200,
+              10
+            ],
+            "description": "Highest point of the skyscraper"
+          }
+        ],
+        "style_archetype": "futuristic",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.3,
+      "timestamp": 1779185092.2476366,
+      "wave": 1
+    },
+    {
+      "task_id": 8,
+      "agent": "ShapeDNA",
+      "description": "battle_tank DNA extraction",
+      "input_prompt": "Analyze a battle_tank: L=8 W=4 H=3 verts=14000 first10: [[4,0,2],[4,0,-2],[-4,0,2],[-4,0,-2],[3.5,0.8,1.8],[3.5,0.8,-1.8],[-3.5,0.8,1.8],[-3.5,0.8,-1.8],[3,1.5,1],[-3,1.5,1]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 2.0,
+          "width_height_ratio": 1.3333333333333333
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "industrial",
+          "military"
+        ],
+        "key_features": [
+          {
+            "name": "turret",
+            "position": [
+              3.5,
+              0.8,
+              1.8
+            ],
+            "description": "rotating platform for gun"
+          },
+          {
+            "name": "main_gun",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "primary armament"
+          },
+          {
+            "name": "track",
+            "position": [
+              4,
+              0,
+              2
+            ],
+            "description": "mechanism for movement"
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.5,
+      "timestamp": 1779185097.3344915,
+      "wave": 1
+    },
+    {
+      "task_id": 9,
+      "agent": "ShapeDNA",
+      "description": "alien_creature DNA extraction",
+      "input_prompt": "Analyze a alien_creature: L=2.5 W=1.5 H=3 verts=12000 first10: [[1.25,0,0.75],[-1.25,0,0.75],[1.25,0,-0.75],[-1.25,0,-0.75],[1,0.8,0.5],[-1,0.8,0.5],[1,0.8,-0.5],[-1,0.8,-0.5],[0.5,2.8,0.3],[-0.5,2.8,0.3]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.6666666666666667,
+          "width_height_ratio": 0.5
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "organic",
+          "biomechanical"
+        ],
+        "key_features": [
+          {
+            "name": "Head",
+            "position": [
+              0.0,
+              2.8,
+              0.3
+            ],
+            "description": "The rounded feature at the top of the creature's body."
+          },
+          {
+            "name": "Shoulders",
+            "position": [
+              1.25,
+              0.0,
+              0.75
+            ],
+            "description": "The rounded features at the top of the creature's body, near the head."
+          },
+          {
+            "name": "Legs",
+            "position": [
+              1.25,
+              0.0,
+              -0.75
+            ],
+            "description": "The long, thin features at the bottom of the creature's body."
+          }
+        ],
+        "style_archetype": "organic",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.6,
+      "timestamp": 1779185102.4719117,
+      "wave": 1
+    },
+    {
+      "task_id": 10,
+      "agent": "ShapeDNA",
+      "description": "submarine DNA extraction",
+      "input_prompt": "Analyze a submarine: L=25 W=4 H=6 verts=22000 first10: [[12.5,0,2],[12.5,0,-2],[-12.5,0,2],[-12.5,0,-2],[12,1.5,1.8],[12,1.5,-1.8],[-12,1.5,1.8],[-12,1.5,-1.8],[10,0.5,0],[-10,0.5,0]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 6.25,
+          "width_height_ratio": 0.6666666666666666
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "Industrial",
+          "Mechanical"
+        ],
+        "key_features": [
+          {
+            "name": "Hull",
+            "position": [
+              12.5,
+              0,
+              2
+            ],
+            "description": "Main body of the submarine"
+          },
+          {
+            "name": "Sail",
+            "position": [
+              12,
+              1.5,
+              1.8
+            ],
+            "description": "Conical structure on top of the submarine"
+          },
+          {
+            "name": "Propeller",
+            "position": [
+              10,
+              0.5,
+              0
+            ],
+            "description": "Rotating blade at the rear of the submarine"
+          }
+        ],
+        "style_archetype": "Industrial",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.0,
+      "timestamp": 1779185107.3958535,
+      "wave": 1
+    },
+    {
+      "task_id": 11,
+      "agent": "ShapeDNA",
+      "description": "futuristic_train DNA extraction",
+      "input_prompt": "Analyze a futuristic_train: L=60 W=3.5 H=4.5 verts=32000 first10: [[30,0,1.75],[30,0,-1.75],[-30,0,1.75],[-30,0,-1.75],[29,1.5,1.5],[29,1.5,-1.5],[-29,1.5,1.5],[-29,1.5,-1.5],[28,0.5,1],[-28,0.5,1]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 17.142857142857142,
+          "width_height_ratio": 0.7777777777777778
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "futuristic",
+          "high-tech"
+        ],
+        "key_features": [
+          {
+            "name": "front windows",
+            "position": [
+              29.5,
+              1.25,
+              0
+            ],
+            "description": "Two large windows on the front of the train"
+          },
+          {
+            "name": "side windows",
+            "position": [
+              28.5,
+              0.75,
+              0
+            ],
+            "description": "Smaller windows on the sides of the train"
+          },
+          {
+            "name": "engine",
+            "position": [
+              30,
+              0,
+              1.75
+            ],
+            "description": "The engine of the train, located at the front"
+          }
+        ],
+        "style_archetype": "futuristic",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 2.2,
+      "timestamp": 1779185112.1910715,
+      "wave": 1
+    },
+    {
+      "task_id": 12,
+      "agent": "ShapeDNA",
+      "description": "battle_mech DNA extraction",
+      "input_prompt": "Analyze a battle_mech: L=3 W=2.5 H=6 verts=28000 first10: [[1.5,0,1.25],[-1.5,0,1.25],[1.5,0,-1.25],[-1.5,0,-1.25],[1.2,1.0,1.0],[-1.2,1.0,1.0],[1.2,1.0,-1.0],[-1.2,1.0,-1.0],[1.5,5.5,0.8],[-1.5,5.5,0.8]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.2,
+          "width_height_ratio": 0.4166666666666667
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "y"
+        },
+        "design_language": [
+          "industrial",
+          "military"
+        ],
+        "key_features": [
+          {
+            "name": "legs",
+            "position": [
+              1.5,
+              0,
+              1.25
+            ],
+            "description": "Supports the weight of the battle mech"
+          },
+          {
+            "name": "legs",
+            "position": [
+              -1.5,
+              0,
+              1.25
+            ],
+            "description": "Supports the weight of the battle mech"
+          },
+          {
+            "name": "legs",
+            "position": [
+              1.5,
+              0,
+              -1.25
+            ],
+            "description": "Supports the weight of the battle mech"
+          },
+          {
+            "name": "legs",
+            "position": [
+              -1.5,
+              0,
+              -1.25
+            ],
+            "description": "Supports the weight of the battle mech"
+          },
+          {
+            "name": "shoulders",
+            "position": [
+              1.2,
+              1.0,
+              1.0
+            ],
+            "description": "Supports the weight of the battle mech's arms"
+          },
+          {
+            "name": "shoulders",
+            "position": [
+              -1.2,
+              1.0,
+              1.0
+            ],
+            "description": "Supports the weight of the battle mech's arms"
+          },
+          {
+            "name": "shoulders",
+            "position": [
+              1.2,
+              1.0,
+              -1.0
+            ],
+            "description": "Supports the weight of the battle mech's arms"
+          },
+          {
+            "name": "shoulders",
+            "position": [
+              -1.2,
+              1.0,
+              -1.0
+            ],
+            "description": "Supports the weight of the battle mech's arms"
+          },
+          {
+            "name": "head",
+            "position": [
+              1.5,
+              5.5,
+              0.8
+            ],
+            "description": "Houses the battle mech's sensors and control systems"
+          },
+          {
+            "name": "head",
+            "position": [
+              -1.5,
+              5.5,
+              0.8
+            ],
+            "description": "Houses the battle mech's sensors and control systems"
+          }
+        ],
+        "style_archetype": "aggressive",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 4.5,
+      "timestamp": 1779185117.2980053,
+      "wave": 1
+    },
+    {
+      "task_id": 13,
+      "agent": "ShapeDNA",
+      "description": "solar_sail_ship DNA extraction",
+      "input_prompt": "Analyze a solar_sail_ship: L=40 W=60 H=80 verts=25000 first10: [[20,0,30],[20,0,-30],[-20,0,30],[-20,0,-30],[15,40,25],[-15,40,25],[15,40,-25],[-15,40,-25],[10,60,0],[-10,60,0]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 0.6666666666666666,
+          "width_height_ratio": 0.75
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "y"
+        },
+        "design_language": [
+          "modern",
+          "aerodynamic"
+        ],
+        "key_features": [
+          {
+            "name": "Solar Sail",
+            "position": [
+              20,
+              0,
+              30
+            ],
+            "description": "A large, flat surface that captures solar energy to propel the ship"
+          },
+          {
+            "name": "Main Boom",
+            "position": [
+              -20,
+              0,
+              30
+            ],
+            "description": "A long, thin structure that supports the solar sail"
+          },
+          {
+            "name": "Keel",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "description": "A central axis that provides stability to the ship"
+          }
+        ],
+        "style_archetype": "modern",
+        "complexity_score": 0.7
+      },
+      "elapsed_s": 34.4,
+      "timestamp": 1779185152.3039143,
+      "wave": 1
+    },
+    {
+      "task_id": 14,
+      "agent": "ShapeDNA",
+      "description": "underwater_city DNA extraction",
+      "input_prompt": "Analyze a underwater_city: L=100 W=100 H=50 verts=80000 first10: [[50,0,50],[50,0,-50],[-50,0,50],[-50,0,-50],[50,30,50],[50,30,-50],[-50,30,50],[-50,30,-50],[40,50,40],[-40,50,40]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 1.0,
+          "width_height_ratio": 2.0
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "y"
+        },
+        "design_language": [
+          "organic",
+          "curvaceous"
+        ],
+        "key_features": [
+          {
+            "name": "Central Dome",
+            "position": [
+              0.0,
+              0.0,
+              25.0
+            ],
+            "description": "The main structure of the underwater city, providing a central hub for inhabitants."
+          },
+          {
+            "name": "Entrance Tunnels",
+            "position": [
+              -50.0,
+              0.0,
+              -25.0
+            ],
+            "description": "The primary entry points for inhabitants and visitors, connecting the city to the surrounding ocean."
+          },
+          {
+            "name": "Supporting Pillars",
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "description": "Structural elements providing support and stability to the city's architecture."
+          }
+        ],
+        "style_archetype": "elegant",
+        "complexity_score": 0.7
+      },
+      "elapsed_s": 4.1,
+      "timestamp": 1779185157.34265,
+      "wave": 1
+    },
+    {
+      "task_id": 15,
+      "agent": "ShapeDNA",
+      "description": "flying_fortress DNA extraction",
+      "input_prompt": "Analyze a flying_fortress: L=80 W=40 H=30 verts=70000 first10: [[40,0,20],[40,0,-20],[-40,0,20],[-40,0,-20],[38,10,18],[38,10,-18],[-38,10,18],[-38,10,-18],[35,25,10],[-35,25,10]]",
+      "output": {
+        "proportions": {
+          "length_width_ratio": 2.0,
+          "width_height_ratio": 1.3333333333333333
+        },
+        "silhouette": {
+          "is_symmetric": true,
+          "primary_axis": "x"
+        },
+        "design_language": [
+          "futuristic",
+          "industrial"
+        ],
+        "key_features": [
+          {
+            "name": "nose",
+            "position": [
+              40.0,
+              0.0,
+              20.0
+            ],
+            "description": "The pointed front section of the aircraft"
+          },
+          {
+            "name": "wings",
+            "position": [
+              38.0,
+              10.0,
+              18.0
+            ],
+            "description": "The large, flat surfaces that provide lift"
+          },
+          {
+            "name": "tail",
+            "position": [
+              -40.0,
+              0.0,
+              20.0
+            ],
+            "description": "The rear section of the aircraft"
+          }
+        ],
+        "style_archetype": "futuristic",
+        "complexity_score": 0.8
+      },
+      "elapsed_s": 5.0,
+      "timestamp": 1779185162.678375,
+      "wave": 1
+    }
+  ]
+}

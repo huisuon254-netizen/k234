@@ -1,0 +1,31 @@
+{
+  "task_id": 20,
+  "agent": "GeometryCritic",
+  "description": "medieval_galleon geometry score",
+  "input_prompt": "Score this medieval_galleon blueprint: {\"base_shape\": \"sailing_ship\", \"length\": 45, \"beam\": 12, \"draft\": 5, \"mast_count\": 3, \"deck_count\": 2}",
+  "output": {
+    "overall_score": 0.8,
+    "proportion_score": 0.9,
+    "topology_score": 0.7,
+    "symmetry_score": 0.6,
+    "complexity_score": 0.8,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "The draft is relatively shallow, which may affect stability in rough seas."
+      },
+      {
+        "severity": "minor",
+        "description": "The mast count is relatively low, which may limit the ship's maneuverability in strong winds."
+      }
+    ],
+    "improvements": [
+      "Consider increasing the draft for improved stability.",
+      "Add more masts to enhance maneuverability in strong winds.",
+      "Review the base shape to ensure it is optimized for the ship's intended use."
+    ]
+  },
+  "elapsed_s": 4.4,
+  "timestamp": 1779185187.1582584,
+  "wave": 2
+}

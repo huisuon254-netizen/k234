@@ -1,0 +1,30 @@
+{
+  "task_id": 17,
+  "agent": "GeometryCritic",
+  "description": "luxury_airship geometry score",
+  "input_prompt": "Score this luxury_airship blueprint: {\"base_shape\": \"zeppelin\", \"length\": 120, \"diameter\": 18, \"fin_count\": 4, \"cabin_length\": 40, \"cabin_width\": 8}",
+  "output": {
+    "overall_score": 0.8,
+    "proportion_score": 0.7,
+    "topology_score": 0.9,
+    "symmetry_score": 0.8,
+    "complexity_score": 0.6,
+    "issues": [
+      {
+        "severity": "minor",
+        "description": "The cabin dimensions are not proportional to the base shape's diameter."
+      },
+      {
+        "severity": "minor",
+        "description": "The fin count is not optimized for stability and maneuverability."
+      }
+    ],
+    "improvements": [
+      "Consider increasing the cabin width to match the base shape's diameter for better interior space utilization.",
+      "Consider adjusting the fin count to 6 for improved stability and maneuverability."
+    ]
+  },
+  "elapsed_s": 4.4,
+  "timestamp": 1779185172.3673625,
+  "wave": 2
+}

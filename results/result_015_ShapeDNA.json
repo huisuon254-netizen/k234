@@ -1,0 +1,54 @@
+{
+  "task_id": 15,
+  "agent": "ShapeDNA",
+  "description": "flying_fortress DNA extraction",
+  "input_prompt": "Analyze a flying_fortress: L=80 W=40 H=30 verts=70000 first10: [[40,0,20],[40,0,-20],[-40,0,20],[-40,0,-20],[38,10,18],[38,10,-18],[-38,10,18],[-38,10,-18],[35,25,10],[-35,25,10]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 2.0,
+      "width_height_ratio": 1.3333333333333333
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "futuristic",
+      "industrial"
+    ],
+    "key_features": [
+      {
+        "name": "nose",
+        "position": [
+          40.0,
+          0.0,
+          20.0
+        ],
+        "description": "The pointed front section of the aircraft"
+      },
+      {
+        "name": "wings",
+        "position": [
+          38.0,
+          10.0,
+          18.0
+        ],
+        "description": "The large, flat surfaces that provide lift"
+      },
+      {
+        "name": "tail",
+        "position": [
+          -40.0,
+          0.0,
+          20.0
+        ],
+        "description": "The rear section of the aircraft"
+      }
+    ],
+    "style_archetype": "futuristic",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 5.0,
+  "timestamp": 1779185162.678375,
+  "wave": 1
+}

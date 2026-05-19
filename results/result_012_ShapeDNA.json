@@ -1,0 +1,117 @@
+{
+  "task_id": 12,
+  "agent": "ShapeDNA",
+  "description": "battle_mech DNA extraction",
+  "input_prompt": "Analyze a battle_mech: L=3 W=2.5 H=6 verts=28000 first10: [[1.5,0,1.25],[-1.5,0,1.25],[1.5,0,-1.25],[-1.5,0,-1.25],[1.2,1.0,1.0],[-1.2,1.0,1.0],[1.2,1.0,-1.0],[-1.2,1.0,-1.0],[1.5,5.5,0.8],[-1.5,5.5,0.8]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 1.2,
+      "width_height_ratio": 0.4166666666666667
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "y"
+    },
+    "design_language": [
+      "industrial",
+      "military"
+    ],
+    "key_features": [
+      {
+        "name": "legs",
+        "position": [
+          1.5,
+          0,
+          1.25
+        ],
+        "description": "Supports the weight of the battle mech"
+      },
+      {
+        "name": "legs",
+        "position": [
+          -1.5,
+          0,
+          1.25
+        ],
+        "description": "Supports the weight of the battle mech"
+      },
+      {
+        "name": "legs",
+        "position": [
+          1.5,
+          0,
+          -1.25
+        ],
+        "description": "Supports the weight of the battle mech"
+      },
+      {
+        "name": "legs",
+        "position": [
+          -1.5,
+          0,
+          -1.25
+        ],
+        "description": "Supports the weight of the battle mech"
+      },
+      {
+        "name": "shoulders",
+        "position": [
+          1.2,
+          1.0,
+          1.0
+        ],
+        "description": "Supports the weight of the battle mech's arms"
+      },
+      {
+        "name": "shoulders",
+        "position": [
+          -1.2,
+          1.0,
+          1.0
+        ],
+        "description": "Supports the weight of the battle mech's arms"
+      },
+      {
+        "name": "shoulders",
+        "position": [
+          1.2,
+          1.0,
+          -1.0
+        ],
+        "description": "Supports the weight of the battle mech's arms"
+      },
+      {
+        "name": "shoulders",
+        "position": [
+          -1.2,
+          1.0,
+          -1.0
+        ],
+        "description": "Supports the weight of the battle mech's arms"
+      },
+      {
+        "name": "head",
+        "position": [
+          1.5,
+          5.5,
+          0.8
+        ],
+        "description": "Houses the battle mech's sensors and control systems"
+      },
+      {
+        "name": "head",
+        "position": [
+          -1.5,
+          5.5,
+          0.8
+        ],
+        "description": "Houses the battle mech's sensors and control systems"
+      }
+    ],
+    "style_archetype": "aggressive",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 4.5,
+  "timestamp": 1779185117.2980053,
+  "wave": 1
+}
