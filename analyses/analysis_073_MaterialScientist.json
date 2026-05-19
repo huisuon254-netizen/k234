@@ -3,8 +3,8 @@
   "agent": "MaterialScientist",
   "description": "carbon_fiber material enhancement",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185520.7101612,
+  "timestamp": 1779190006.772772,
   "wave": 6
 }

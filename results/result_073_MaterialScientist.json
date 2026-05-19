@@ -12,9 +12,9 @@
     "roughness": 0.4,
     "metallic": 0.0,
     "clearcoat": 0.5,
-    "anisotropy": 0.2
+    "anisotropy": 0.5
   },
-  "elapsed_s": 4.1,
-  "timestamp": 1779185520.1558843,
+  "elapsed_s": 4.6,
+  "timestamp": 1779189989.2275763,
   "wave": 6
 }

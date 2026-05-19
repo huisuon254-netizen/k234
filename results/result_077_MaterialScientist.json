@@ -4,19 +4,19 @@
   "description": "ice_crystal material enhancement",
   "input_prompt": "Enhance ice_crystal: {\"base_color\": [0.8, 0.9, 1.0], \"roughness\": 0.05, \"metallic\": 0.0, \"transmission\": 0.9, \"ior\": 1.31}",
   "output": {
-    "base_color": [
-      0.8,
-      0.9,
-      1.0
-    ],
-    "roughness": 0.05,
-    "metallic": 0.0,
-    "clearcoat": 0.0,
-    "anisotropy": 0.0,
-    "transmission": 0.9,
-    "ior": 1.31
+    "ice_crystal": {
+      "base_color": [
+        0.8,
+        0.9,
+        1.0
+      ],
+      "roughness": 0.05,
+      "metallic": 0.0,
+      "clearcoat": 0.0,
+      "anisotropy": 0.0
+    }
   },
-  "elapsed_s": 3.6,
-  "timestamp": 1779185542.1265225,
+  "elapsed_s": 4.2,
+  "timestamp": 1779190076.7595227,
   "wave": 6
 }

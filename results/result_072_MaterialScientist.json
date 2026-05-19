@@ -4,17 +4,19 @@
   "description": "liquid_chrome material enhancement",
   "input_prompt": "Enhance liquid_chrome: {\"base_color\": [0.85, 0.85, 0.95], \"roughness\": 0.02, \"metallic\": 1.0, \"anisotropy\": 0.8}",
   "output": {
-    "base_color": [
-      0.85,
-      0.85,
-      0.95
-    ],
-    "roughness": 0.02,
-    "metallic": 1.0,
-    "clearcoat": 0.5,
-    "anisotropy": 0.8
+    "liquid_chrome_enhanced": {
+      "base_color": [
+        0.85,
+        0.85,
+        0.95
+      ],
+      "roughness": 0.02,
+      "metallic": 1.0,
+      "clearcoat": 0.5,
+      "anisotropy": 0.8
+    }
   },
-  "elapsed_s": 4.2,
-  "timestamp": 1779185515.4530323,
+  "elapsed_s": 15.5,
+  "timestamp": 1779189956.3146243,
   "wave": 6
 }

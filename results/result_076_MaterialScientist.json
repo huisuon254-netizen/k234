@@ -11,8 +11,8 @@
     ],
     "roughness": 0.9,
     "metallic": 0.1,
-    "clearcoat": 0.8,
-    "anisotropy": 0.5,
+    "clearcoat": 0.0,
+    "anisotropy": 0.0,
     "emissive": [
       0.6,
       0.1,
@@ -20,7 +20,7 @@
     ],
     "emissive_intensity": 2.0
   },
-  "elapsed_s": 4.0,
-  "timestamp": 1779185537.2237794,
+  "elapsed_s": 4.3,
+  "timestamp": 1779190054.7158504,
   "wave": 6
 }

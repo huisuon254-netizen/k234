@@ -3,8 +3,8 @@
   "agent": "MaterialScientist",
   "description": "lava_rock material enhancement",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185538.4812143,
+  "timestamp": 1779190072.5692778,
   "wave": 6
 }

@@ -11,7 +11,7 @@
     ],
     "roughness": 0.0,
     "metallic": 0.0,
-    "clearcoat": 0.8,
+    "clearcoat": 0.5,
     "anisotropy": 0.0,
     "transmission": 0.7,
     "ior": 1.52,
@@ -21,7 +21,7 @@
       0.4
     ]
   },
-  "elapsed_s": 4.7,
-  "timestamp": 1779185547.614008,
+  "elapsed_s": 4.5,
+  "timestamp": 1779190098.978225,
   "wave": 6
 }

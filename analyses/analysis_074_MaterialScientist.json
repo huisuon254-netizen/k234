@@ -3,8 +3,8 @@
   "agent": "MaterialScientist",
   "description": "alien_chitin material enhancement",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185531.7805607,
+  "timestamp": 1779190028.121071,
   "wave": 6
 }

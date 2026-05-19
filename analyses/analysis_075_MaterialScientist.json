@@ -3,8 +3,8 @@
   "agent": "MaterialScientist",
   "description": "force_field material enhancement",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185533.1846604,
+  "timestamp": 1779190050.3878078,
   "wave": 6
 }
