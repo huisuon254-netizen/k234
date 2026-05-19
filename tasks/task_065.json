@@ -1,0 +1,7 @@
+{
+  "id": 65,
+  "agent": "GameDesigner",
+  "prompt": "Design a mech combat game with: 10 chassis, 30 weapon types, customization, team tactics, environmental destruction, ranking system, esports mode",
+  "desc": "mech_arena game design",
+  "wave": 5
+}

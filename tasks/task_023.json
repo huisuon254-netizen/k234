@@ -1,0 +1,7 @@
+{
+  "id": 23,
+  "agent": "GeometryCritic",
+  "prompt": "Score this stealth_corvette blueprint: {\"base_shape\": \"warship\", \"length\": 85, \"beam\": 12, \"draft\": 4.5, \"speed_knots\": 35, \"radar_cross_section\": 0.5}",
+  "desc": "stealth_corvette geometry score",
+  "wave": 2
+}

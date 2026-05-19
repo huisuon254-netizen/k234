@@ -1,0 +1,7 @@
+{
+  "id": 47,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=10 W=5 H=3.5, type=armored_vehicle",
+  "desc": "sci-fi_tank proportion check",
+  "wave": 4
+}

@@ -1,0 +1,7 @@
+{
+  "id": 30,
+  "agent": "GeometryCritic",
+  "prompt": "Score this battle_cruiser blueprint: {\"base_shape\": \"capital_ship\", \"length\": 400, \"beam\": 60, \"height\": 80, \"fighter_bay\": 24, \"shield_rating\": 0.95}",
+  "desc": "battle_cruiser geometry score",
+  "wave": 2
+}

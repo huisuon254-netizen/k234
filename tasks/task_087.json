@@ -1,0 +1,7 @@
+{
+  "id": 87,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this cyberdeck: {\"base_shape\": \"neural_interface\", \"bandwidth\": 5000, \"channels\": 2048, \"processing\": 100, \"storage\": 5000, \"form\": \"portable\"}",
+  "desc": "cyberdeck evolution mutation",
+  "wave": 7
+}

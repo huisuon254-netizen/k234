@@ -1,0 +1,7 @@
+{
+  "id": 62,
+  "agent": "GameDesigner",
+  "prompt": "Design a strategy RPG with: 6 hero classes, base building, 50 dungeon levels, trap system, loot rarity tiers, skill combos, boss rush mode",
+  "desc": "dungeon_siege game design",
+  "wave": 5
+}

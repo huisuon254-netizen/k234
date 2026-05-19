@@ -1,0 +1,7 @@
+{
+  "id": 7,
+  "agent": "ShapeDNA",
+  "prompt": "Analyze a cyberpunk_skyscraper: L=25 W=20 H=200 verts=55000 first10: [[-12.5,0,-10],[12.5,0,-10],[12.5,0,10],[-12.5,0,10],[-12.5,200,-10],[12.5,200,-10],[12.5,200,10],[-12.5,200,10],[-10,50,-8],[10,50,-8]]",
+  "desc": "cyberpunk_skyscraper DNA extraction",
+  "wave": 1
+}

@@ -1,0 +1,7 @@
+{
+  "id": 97,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 8 ship classes: fighter, corvette, frigate, cruiser, battleship, carrier, dreadnought, titan.",
+  "desc": "fleet_assets quality score",
+  "wave": 8
+}

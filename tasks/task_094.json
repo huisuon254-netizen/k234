@@ -1,0 +1,7 @@
+{
+  "id": 94,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 4 mech variants: scout, assault, sniper, support. Avg 20000 verts each. Weapon systems integrated.",
+  "desc": "mech_squad quality score",
+  "wave": 8
+}

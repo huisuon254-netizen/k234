@@ -1,0 +1,54 @@
+{
+  "task_id": 8,
+  "agent": "ShapeDNA",
+  "description": "battle_tank DNA extraction",
+  "input_prompt": "Analyze a battle_tank: L=8 W=4 H=3 verts=14000 first10: [[4,0,2],[4,0,-2],[-4,0,2],[-4,0,-2],[3.5,0.8,1.8],[3.5,0.8,-1.8],[-3.5,0.8,1.8],[-3.5,0.8,-1.8],[3,1.5,1],[-3,1.5,1]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 2.0,
+      "width_height_ratio": 1.3333333333333333
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "industrial",
+      "military"
+    ],
+    "key_features": [
+      {
+        "name": "turret",
+        "position": [
+          3.5,
+          0.8,
+          1.8
+        ],
+        "description": "rotating platform for gun"
+      },
+      {
+        "name": "main_gun",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "primary armament"
+      },
+      {
+        "name": "track",
+        "position": [
+          4,
+          0,
+          2
+        ],
+        "description": "mechanism for movement"
+      }
+    ],
+    "style_archetype": "aggressive",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 4.5,
+  "timestamp": 1779185097.3344915,
+  "wave": 1
+}

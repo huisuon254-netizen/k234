@@ -1,0 +1,7 @@
+{
+  "id": 89,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this arcology: {\"base_shape\": \"self_sufficient_dome\", \"diameter\": 300, \"height\": 150, \"population\": 100000, \"energy_source\": \"fusion\", \"agriculture\": \"hydroponic\"}",
+  "desc": "arcology evolution mutation",
+  "wave": 7
+}

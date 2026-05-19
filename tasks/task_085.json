@@ -1,0 +1,7 @@
+{
+  "id": 85,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this dragon_v2: {\"base_shape\": \"western_dragon\", \"length\": 12, \"wingspan\": 16, \"breath_type\": \"plasma\", \"scale_color\": \"crimson\", \"age_years\": 5000}",
+  "desc": "dragon_v2 evolution mutation",
+  "wave": 7
+}

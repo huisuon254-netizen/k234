@@ -1,0 +1,7 @@
+{
+  "id": 45,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this base: location=south_pole modules=8 crew=24 power=nuclear_fission radiation_shielding=regolith",
+  "desc": "lunar_base design enhancement",
+  "wave": 3
+}

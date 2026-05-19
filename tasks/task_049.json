@@ -1,0 +1,7 @@
+{
+  "id": 49,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=40 W=6 H=8, type=submarine",
+  "desc": "cargo_sub proportion check",
+  "wave": 4
+}

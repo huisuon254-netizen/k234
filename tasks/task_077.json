@@ -1,0 +1,7 @@
+{
+  "id": 77,
+  "agent": "MaterialScientist",
+  "prompt": "Enhance ice_crystal: {\"base_color\": [0.8, 0.9, 1.0], \"roughness\": 0.05, \"metallic\": 0.0, \"transmission\": 0.9, \"ior\": 1.31}",
+  "desc": "ice_crystal material enhancement",
+  "wave": 6
+}

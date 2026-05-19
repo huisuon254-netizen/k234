@@ -1,0 +1,7 @@
+{
+  "id": 41,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this habitat: base_shape=subsea_dome depth=500m diameter=50m compartments=8 material=titanium_alloy",
+  "desc": "underwater_habitat design enhancement",
+  "wave": 3
+}

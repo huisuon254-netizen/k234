@@ -1,0 +1,7 @@
+{
+  "id": 16,
+  "agent": "GeometryCritic",
+  "prompt": "Score this evolved_hypercar blueprint: {\"base_shape\": \"hypercar_spline\", \"length\": 5.0, \"width\": 2.1, \"height\": 1.15, \"wheelbase\": 2.8, \"ground_clearance\": 0.1, \"downforce_ratio\": 0.45}",
+  "desc": "evolved_hypercar geometry score",
+  "wave": 2
+}

@@ -1,0 +1,7 @@
+{
+  "id": 39,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this drive: type=alcubierre warp_factor=3 energy_requirement=1e20J stability=0.92",
+  "desc": "warp_drive design enhancement",
+  "wave": 3
+}

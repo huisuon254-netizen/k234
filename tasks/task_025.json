@@ -1,0 +1,7 @@
+{
+  "id": 25,
+  "agent": "GeometryCritic",
+  "prompt": "Score this arcology_dome blueprint: {\"base_shape\": \"geodesic\", \"diameter\": 200, \"height\": 100, \"layer_count\": 3, \"population\": 50000}",
+  "desc": "arcology_dome geometry score",
+  "wave": 2
+}

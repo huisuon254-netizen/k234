@@ -1,0 +1,7 @@
+{
+  "id": 51,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=15 W=8 H=25, type=mecha",
+  "desc": "giant_mech proportion check",
+  "wave": 4
+}

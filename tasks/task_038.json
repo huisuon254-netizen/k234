@@ -1,0 +1,7 @@
+{
+  "id": 38,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this reactor: type=tokamak plasma_temp=150M power=500MW confinement=2.1T efficiency=0.85",
+  "desc": "fusion_reactor design enhancement",
+  "wave": 3
+}

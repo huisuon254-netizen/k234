@@ -1,0 +1,45 @@
+{
+  "task_id": 7,
+  "agent": "ShapeDNA",
+  "description": "cyberpunk_skyscraper DNA extraction",
+  "input_prompt": "Analyze a cyberpunk_skyscraper: L=25 W=20 H=200 verts=55000 first10: [[-12.5,0,-10],[12.5,0,-10],[12.5,0,10],[-12.5,0,10],[-12.5,200,-10],[12.5,200,-10],[12.5,200,10],[-12.5,200,10],[-10,50,-8],[10,50,-8]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 1.25,
+      "width_height_ratio": 0.1
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "y"
+    },
+    "design_language": [
+      "futuristic",
+      "industrial"
+    ],
+    "key_features": [
+      {
+        "name": "entry_point",
+        "position": [
+          -10,
+          50,
+          -8
+        ],
+        "description": "Main entrance of the skyscraper"
+      },
+      {
+        "name": "peak",
+        "position": [
+          -12.5,
+          200,
+          10
+        ],
+        "description": "Highest point of the skyscraper"
+      }
+    ],
+    "style_archetype": "futuristic",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 4.3,
+  "timestamp": 1779185092.2476366,
+  "wave": 1
+}

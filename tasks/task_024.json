@@ -1,0 +1,7 @@
+{
+  "id": 24,
+  "agent": "GeometryCritic",
+  "prompt": "Score this hover_tank blueprint: {\"base_shape\": \"hovercraft\", \"length\": 9, \"width\": 5, \"height\": 2.8, \"hover_height\": 0.5, \"armor_thickness\": 0.12}",
+  "desc": "hover_tank geometry score",
+  "wave": 2
+}

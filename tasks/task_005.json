@@ -1,0 +1,7 @@
+{
+  "id": 5,
+  "agent": "ShapeDNA",
+  "prompt": "Analyze a space_station: L=50 W=50 H=30 verts=60000 first10: [[25,0,25],[25,0,-25],[-25,0,25],[-25,0,-25],[25,20,25],[25,20,-25],[-25,20,25],[-25,20,-25],[0,15,0],[10,5,10]]",
+  "desc": "space_station DNA extraction",
+  "wave": 1
+}

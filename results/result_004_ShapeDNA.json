@@ -1,0 +1,45 @@
+{
+  "task_id": 4,
+  "agent": "ShapeDNA",
+  "description": "mecha_suit DNA extraction",
+  "input_prompt": "Analyze a mecha_suit: L=1.2 W=0.8 H=2.5 verts=20000 first10: [[0.6,0,0.4],[-0.6,0,0.4],[0.6,0,-0.4],[-0.6,0,-0.4],[0.4,0.5,0.3],[-0.4,0.5,0.3],[0.4,0.5,-0.3],[-0.4,0.5,-0.3],[0.5,2.3,0.2],[-0.5,2.3,0.2]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 1.5,
+      "width_height_ratio": 0.32
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "z"
+    },
+    "design_language": [
+      "industrial",
+      "mechanical"
+    ],
+    "key_features": [
+      {
+        "name": "Shoulder",
+        "position": [
+          0.6,
+          0,
+          0.4
+        ],
+        "description": "The shoulder joint of the mecha suit"
+      },
+      {
+        "name": "Hip",
+        "position": [
+          0.5,
+          2.3,
+          0.2
+        ],
+        "description": "The hip joint of the mecha suit"
+      }
+    ],
+    "style_archetype": "aggressive",
+    "complexity_score": 0.6
+  },
+  "elapsed_s": 35.2,
+  "timestamp": 1779185077.5876386,
+  "wave": 1
+}

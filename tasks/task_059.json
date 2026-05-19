@@ -1,0 +1,7 @@
+{
+  "id": 59,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=1.5 W=1.5 H=0.6, type=uav",
+  "desc": "fighter_drone proportion check",
+  "wave": 4
+}

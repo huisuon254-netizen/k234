@@ -1,0 +1,7 @@
+{
+  "id": 66,
+  "agent": "GameDesigner",
+  "prompt": "Design a crew management game with: 6 departments, crisis events, skill trees, ship upgrades, alien diplomacy, boarding actions, mutiny system",
+  "desc": "starship_crew game design",
+  "wave": 5
+}

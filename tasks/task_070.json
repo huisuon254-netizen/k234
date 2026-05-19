@@ -1,0 +1,7 @@
+{
+  "id": 70,
+  "agent": "GameDesigner",
+  "prompt": "Design a procedural D&D-style game with: AI narration, dynamic quests, loot generation, character evolution, party management, moral choices",
+  "desc": "ai_dungeon_master game design",
+  "wave": 5
+}

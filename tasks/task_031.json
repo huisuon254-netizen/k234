@@ -1,0 +1,7 @@
+{
+  "id": 31,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this Ferrari: {\"base_shape\": \"sports_car_spline\", \"prompt\": \"Red Ferrari 2025 supercar\", \"length\": 4.7, \"width\": 2.05, \"height\": 1.22, \"wheel_arch_flare\": 0.22, \"roof_height_curve\": \"low_swoop\", \"grille_style\": \"horizontal_slats\", \"headlight_shape\": \"teardrop\", \"spline_control_points\": [[0, 0, 0], [1.5, 0.3, 0], [3, 0.2, 0], [4.7, 0, 0]], \"material_breakdown\": {\"body\": {\"type\": \"car_paint\", \"color\": [0.88, 0.04, 0.04], \"roughness\": 0.12, \"metallic\": 0.88, \"flake_size\": 0.03}, \"grille\": {\"type\": \"metal_brushed\", \"color\": [0.15, 0.15, 0.15], \"roughness\": 0.35, \"metallic\": 0.92}, \"windows\": {\"type\": \"glass\", \"color\": [0.08, 0.1, 0.12], \"roughness\": 0.03, \"metallic\": 0.0, \"ior\": 1.5}, \"wheels\": {\"type\": \"tire\", \"color\": [0.06, 0.06, 0.06], \"roughness\": 0.9, \"metallic\": 0.0}, \"rims\": {\"type\": \"chrome\", \"color\": [0.88, 0.88, 0.9], \"roughness\": 0.06, \"metallic\": 1.0}}, \"detail_masks\": {\"panel_lines\": {\"strength\": 0.35, \"scale\": 0.85}, \"edge_wear\": {\"intensity\": 0.1, \"radius\": 0.02}, \"hood_bulge\": {\"strength\": 0.5, \"scale\": 0.7}}, \"lods\": 2, \"mass\": 1450, \"friction\": 0.9, \"restitution\": 0.12}",
+  "desc": "evolved_ferrari_red design enhancement",
+  "wave": 3
+}

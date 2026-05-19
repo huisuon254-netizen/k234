@@ -1,0 +1,7 @@
+{
+  "id": 91,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated hypercar with 12000 verts, 18000 tris. L=5.0 W=2.1 H=1.15. Active aero, hybrid engine, carbon body.",
+  "desc": "hypercar_pipeline quality score",
+  "wave": 8
+}

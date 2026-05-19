@@ -1,0 +1,7 @@
+{
+  "id": 35,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this fighter: base_shape=stealth_jet length=19.5 wingspan=14.0 height=4.8 radar_cross_section=0.01 thrust_vectoring=true",
+  "desc": "stealth_fighter_v2 design enhancement",
+  "wave": 3
+}

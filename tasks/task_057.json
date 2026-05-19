@@ -1,0 +1,7 @@
+{
+  "id": 57,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=15 W=10 H=25, type=industrial_vehicle",
+  "desc": "deep_sea_drill proportion check",
+  "wave": 4
+}

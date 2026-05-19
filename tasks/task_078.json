@@ -1,0 +1,7 @@
+{
+  "id": 78,
+  "agent": "MaterialScientist",
+  "prompt": "Enhance neon_glass: {\"base_color\": [0.0, 1.0, 0.5], \"roughness\": 0.0, \"metallic\": 0.0, \"transmission\": 0.7, \"ior\": 1.52, \"emissive\": [0.0, 0.8, 0.4]}",
+  "desc": "neon_glass material enhancement",
+  "wave": 6
+}

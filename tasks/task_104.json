@@ -1,0 +1,7 @@
+{
+  "id": 104,
+  "agent": "TaskPlanner",
+  "prompt": "Plan tasks for: Build a real-time strategy game with 4 factions, 200 units, tech trees, resource chains, and AI opponent with 3 difficulty levels",
+  "desc": "Meta-plan: Build a real-time strategy game with 4 factions, 2...",
+  "wave": 9
+}

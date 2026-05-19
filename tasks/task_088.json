@@ -1,0 +1,7 @@
+{
+  "id": 88,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this hover_tank_v2: {\"base_shape\": \"hover_vehicle\", \"length\": 9, \"width\": 5, \"height\": 2.5, \"max_speed\": 150, \"armor\": 120, \"weapons\": [\"railgun\", \"point_defense\"]}",
+  "desc": "hover_tank_v2 evolution mutation",
+  "wave": 7
+}

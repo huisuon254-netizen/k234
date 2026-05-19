@@ -1,0 +1,7 @@
+{
+  "id": 26,
+  "agent": "GeometryCritic",
+  "prompt": "Score this fighter_mech blueprint: {\"base_shape\": \"humanoid_mech\", \"height\": 7.0, \"width\": 3.5, \"arm_span\": 5.0, \"weapon_slots\": 4, \"speed_kmh\": 120}",
+  "desc": "fighter_mech geometry score",
+  "wave": 2
+}

@@ -1,0 +1,7 @@
+{
+  "id": 86,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this space_station: {\"base_shape\": \"ring_station\", \"ring_diameter\": 100, \"hub_diameter\": 20, \"spoke_count\": 8, \"module_count\": 24, \"crew\": 200}",
+  "desc": "space_station evolution mutation",
+  "wave": 7
+}

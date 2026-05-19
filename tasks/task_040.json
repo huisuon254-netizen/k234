@@ -1,0 +1,7 @@
+{
+  "id": 40,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this habitat: type=closed_ecosystem volume=1e6m3 species_count=5000 self_sufficiency=0.95",
+  "desc": "bio_dome_habitat design enhancement",
+  "wave": 3
+}

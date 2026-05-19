@@ -1,0 +1,7 @@
+{
+  "id": 50,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=30 W=20 H=8, type=spacecraft",
+  "desc": "alien_spaceship proportion check",
+  "wave": 4
+}

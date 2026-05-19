@@ -1,0 +1,7 @@
+{
+  "id": 33,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this mech: base_shape=humanoid_mech height=5.5 width=3.0 arm_span=4.5 weapons=2 armor=composite color=battle_gray",
+  "desc": "combat_mech design enhancement",
+  "wave": 3
+}

@@ -1,0 +1,7 @@
+{
+  "id": 48,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=2.5 W=2.5 H=1.0, type=vtol_aircraft",
+  "desc": "passenger_drone proportion check",
+  "wave": 4
+}

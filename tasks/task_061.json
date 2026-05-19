@@ -1,0 +1,7 @@
+{
+  "id": 61,
+  "agent": "GameDesigner",
+  "prompt": "Design a 4X space game with: 8 factions, procedural galaxy, tech tree (200+ techs), diplomacy, trade routes, fleet combat, planetary management, espionage",
+  "desc": "galactic_civilization game design",
+  "wave": 5
+}

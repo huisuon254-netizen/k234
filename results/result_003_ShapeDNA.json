@@ -1,0 +1,54 @@
+{
+  "task_id": 3,
+  "agent": "ShapeDNA",
+  "description": "stealth_bomber DNA extraction",
+  "input_prompt": "Analyze a stealth_bomber: L=21 W=18.5 H=3.5 verts=18000 first10: [[10.5,0,0],[-10.5,0,0],[9,0.6,4.5],[-9,0.6,4.5],[9,0.6,-4.5],[-9,0.6,-4.5],[6,1.2,0.8],[-6,1.2,0.8],[6,1.2,-0.8],[-6,1.2,-0.8]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 1.14,
+      "width_height_ratio": 5.29
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "aerodynamic",
+      "military"
+    ],
+    "key_features": [
+      {
+        "name": "fuselage",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "The main body of the aircraft, providing structural support and housing the crew and payload."
+      },
+      {
+        "name": "wings",
+        "position": [
+          -10.5,
+          0,
+          0
+        ],
+        "description": "The primary lifting surfaces of the aircraft, providing lift and stability during flight."
+      },
+      {
+        "name": "cockpit",
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "description": "The control center of the aircraft, housing the crew and providing access to essential systems."
+      }
+    ],
+    "style_archetype": "aggressive",
+    "complexity_score": 0.85
+  },
+  "elapsed_s": 3.3,
+  "timestamp": 1779185041.8211403,
+  "wave": 1
+}

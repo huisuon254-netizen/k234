@@ -1,0 +1,7 @@
+{
+  "id": 15,
+  "agent": "ShapeDNA",
+  "prompt": "Analyze a flying_fortress: L=80 W=40 H=30 verts=70000 first10: [[40,0,20],[40,0,-20],[-40,0,20],[-40,0,-20],[38,10,18],[38,10,-18],[-38,10,18],[-38,10,-18],[35,25,10],[-35,25,10]]",
+  "desc": "flying_fortress DNA extraction",
+  "wave": 1
+}

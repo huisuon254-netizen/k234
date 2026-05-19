@@ -1,0 +1,7 @@
+{
+  "id": 102,
+  "agent": "TaskPlanner",
+  "prompt": "Plan tasks for: Create a procedurally generated alien planet with 5 biomes, 20 flora species, 15 fauna species, caves, and ancient ruins",
+  "desc": "Meta-plan: Create a procedurally generated alien planet with ...",
+  "wave": 9
+}

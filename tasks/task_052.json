@@ -1,0 +1,7 @@
+{
+  "id": 52,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=50 W=30 H=20, type=land_vehicle",
+  "desc": "mobile_ fortress proportion check",
+  "wave": 4
+}

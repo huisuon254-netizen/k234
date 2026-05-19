@@ -1,0 +1,7 @@
+{
+  "id": 58,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=500 W=100 H=150, type=generation_ship",
+  "desc": "colony_ship proportion check",
+  "wave": 4
+}

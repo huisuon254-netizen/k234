@@ -1,0 +1,7 @@
+{
+  "id": 54,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=150 W=18 H=12, type=warship",
+  "desc": "stealth_cruiser proportion check",
+  "wave": 4
+}

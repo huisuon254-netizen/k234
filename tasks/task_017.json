@@ -1,0 +1,7 @@
+{
+  "id": 17,
+  "agent": "GeometryCritic",
+  "prompt": "Score this luxury_airship blueprint: {\"base_shape\": \"zeppelin\", \"length\": 120, \"diameter\": 18, \"fin_count\": 4, \"cabin_length\": 40, \"cabin_width\": 8}",
+  "desc": "luxury_airship geometry score",
+  "wave": 2
+}

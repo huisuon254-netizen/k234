@@ -1,0 +1,7 @@
+{
+  "id": 96,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 10 city blocks: residential, commercial, industrial, park. Avg 40000 verts/block. Procedural buildings.",
+  "desc": "city_blocks quality score",
+  "wave": 8
+}

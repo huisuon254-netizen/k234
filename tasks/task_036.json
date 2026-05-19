@@ -1,0 +1,7 @@
+{
+  "id": 36,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this neural interface: type=brain_computer bandwidth=10tbps latency=0.1ms channels=4096 form_factor=implant",
+  "desc": "cyberpunk_neural_link design enhancement",
+  "wave": 3
+}

@@ -1,0 +1,54 @@
+{
+  "task_id": 5,
+  "agent": "ShapeDNA",
+  "description": "space_station DNA extraction",
+  "input_prompt": "Analyze a space_station: L=50 W=50 H=30 verts=60000 first10: [[25,0,25],[25,0,-25],[-25,0,25],[-25,0,-25],[25,20,25],[25,20,-25],[-25,20,25],[-25,20,-25],[0,15,0],[10,5,10]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 1.0,
+      "width_height_ratio": 1.6666666666666667
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "geometric",
+      "minimalist"
+    ],
+    "key_features": [
+      {
+        "name": "docking_bay",
+        "position": [
+          25.0,
+          0.0,
+          25.0
+        ],
+        "description": "A large opening on the top surface of the space station for docking and undocking spacecraft."
+      },
+      {
+        "name": "service_module",
+        "position": [
+          0.0,
+          15.0,
+          0.0
+        ],
+        "description": "A module on the top surface of the space station that provides access to the interior for maintenance and repairs."
+      },
+      {
+        "name": "life_support_module",
+        "position": [
+          10.0,
+          5.0,
+          10.0
+        ],
+        "description": "A module on the space station that provides life support systems, including air, water, and food."
+      }
+    ],
+    "style_archetype": "classic",
+    "complexity_score": 0.5
+  },
+  "elapsed_s": 4.3,
+  "timestamp": 1779185082.490082,
+  "wave": 1
+}

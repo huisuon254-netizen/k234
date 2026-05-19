@@ -1,0 +1,7 @@
+{
+  "id": 99,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 30 weapon models: ballistic, energy, explosive, melee. Avg 3000 verts. PBR materials applied.",
+  "desc": "weapon_arsenal quality score",
+  "wave": 8
+}

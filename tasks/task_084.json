@@ -1,0 +1,7 @@
+{
+  "id": 84,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this battle_cruiser: {\"base_shape\": \"capital_ship\", \"length\": 400, \"beam\": 60, \"height\": 80, \"shield_capacity\": 5000, \"weapon_batteries\": 12}",
+  "desc": "battle_cruiser evolution mutation",
+  "wave": 7
+}

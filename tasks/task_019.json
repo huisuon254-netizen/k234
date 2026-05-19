@@ -1,0 +1,7 @@
+{
+  "id": 19,
+  "agent": "GeometryCritic",
+  "prompt": "Score this combat_drone blueprint: {\"base_shape\": \"quadcopter\", \"arm_span\": 2.4, \"body_length\": 0.8, \"rotor_diameter\": 0.6, \"payload_kg\": 15}",
+  "desc": "combat_drone geometry score",
+  "wave": 2
+}

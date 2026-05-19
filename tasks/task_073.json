@@ -1,0 +1,7 @@
+{
+  "id": 73,
+  "agent": "MaterialScientist",
+  "prompt": "Enhance carbon_fiber: {\"base_color\": [0.15, 0.15, 0.15], \"roughness\": 0.4, \"metallic\": 0.0, \"normal_strength\": 0.5}",
+  "desc": "carbon_fiber material enhancement",
+  "wave": 6
+}

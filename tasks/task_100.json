@@ -1,0 +1,7 @@
+{
+  "id": 100,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 6 terrain biomes: desert, tundra, jungle, ocean, volcanic, urban. Avg 100000 verts each.",
+  "desc": "terraform_modules quality score",
+  "wave": 8
+}

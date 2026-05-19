@@ -1,0 +1,63 @@
+{
+  "task_id": 6,
+  "agent": "ShapeDNA",
+  "description": "dragon DNA extraction",
+  "input_prompt": "Analyze a dragon: L=12 W=16 H=5 verts=35000 first10: [[6,0,0],[-6,0,0],[5,0.5,4],[-5,0.5,4],[5,0.5,-4],[-5,0.5,-4],[3,2,2],[-3,2,2],[3,2,-2],[-3,2,-2]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 0.75,
+      "width_height_ratio": 3.2
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "organic",
+      "curvaceous"
+    ],
+    "key_features": [
+      {
+        "name": "Wings",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "Large, curved wings that provide lift and stability"
+      },
+      {
+        "name": "Body",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "Long, slender body that houses the dragon's vital organs"
+      },
+      {
+        "name": "Tail",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "Long, whip-like tail that provides balance and agility"
+      },
+      {
+        "name": "Head",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "description": "Large, menacing head with sharp teeth and claws"
+      }
+    ],
+    "style_archetype": "aggressive",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 4.2,
+  "timestamp": 1779185087.0365272,
+  "wave": 1
+}

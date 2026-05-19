@@ -1,0 +1,7 @@
+{
+  "id": 95,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 3 dragon variants: fire, ice, void. Avg 35000 verts. Breath effects, wing membranes, scale textures.",
+  "desc": "dragon_family quality score",
+  "wave": 8
+}

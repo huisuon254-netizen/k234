@@ -1,0 +1,7 @@
+{
+  "id": 53,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=200 W=200 H=50, type=space_station",
+  "desc": "orbital_habitat proportion check",
+  "wave": 4
+}

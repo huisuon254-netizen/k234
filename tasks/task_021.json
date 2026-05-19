@@ -1,0 +1,7 @@
+{
+  "id": 21,
+  "agent": "GeometryCritic",
+  "prompt": "Score this cyberpunk_bike blueprint: {\"base_shape\": \"motorcycle\", \"length\": 2.4, \"height\": 1.0, \"wheel_size\": 0.55, \"engine\": \"fusion\", \"armor_rating\": 3}",
+  "desc": "cyberpunk_bike geometry score",
+  "wave": 2
+}

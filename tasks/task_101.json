@@ -1,0 +1,7 @@
+{
+  "id": 101,
+  "agent": "TaskPlanner",
+  "prompt": "Plan tasks for: Build a complete metaverse city with 10 districts, 100 buildings, 500 NPCs, day/night cycle, weather, and public transport",
+  "desc": "Meta-plan: Build a complete metaverse city with 10 districts,...",
+  "wave": 9
+}

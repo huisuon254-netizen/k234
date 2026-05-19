@@ -1,0 +1,7 @@
+{
+  "id": 98,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 12 alien creature types: herbivore, predator, flying, aquatic. Avg 15000 verts. Procedural rigging.",
+  "desc": "alien_ecosystem quality score",
+  "wave": 8
+}

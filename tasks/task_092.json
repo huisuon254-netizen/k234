@@ -1,0 +1,7 @@
+{
+  "id": 92,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated 12 chess pieces + board. Avg 650 verts/piece. Board 8x2x0.15m. White and black variants.",
+  "desc": "chess_set_complete quality score",
+  "wave": 8
+}

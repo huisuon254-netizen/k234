@@ -1,0 +1,54 @@
+{
+  "task_id": 10,
+  "agent": "ShapeDNA",
+  "description": "submarine DNA extraction",
+  "input_prompt": "Analyze a submarine: L=25 W=4 H=6 verts=22000 first10: [[12.5,0,2],[12.5,0,-2],[-12.5,0,2],[-12.5,0,-2],[12,1.5,1.8],[12,1.5,-1.8],[-12,1.5,1.8],[-12,1.5,-1.8],[10,0.5,0],[-10,0.5,0]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 6.25,
+      "width_height_ratio": 0.6666666666666666
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "Industrial",
+      "Mechanical"
+    ],
+    "key_features": [
+      {
+        "name": "Hull",
+        "position": [
+          12.5,
+          0,
+          2
+        ],
+        "description": "Main body of the submarine"
+      },
+      {
+        "name": "Sail",
+        "position": [
+          12,
+          1.5,
+          1.8
+        ],
+        "description": "Conical structure on top of the submarine"
+      },
+      {
+        "name": "Propeller",
+        "position": [
+          10,
+          0.5,
+          0
+        ],
+        "description": "Rotating blade at the rear of the submarine"
+      }
+    ],
+    "style_archetype": "Industrial",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 4.0,
+  "timestamp": 1779185107.3958535,
+  "wave": 1
+}

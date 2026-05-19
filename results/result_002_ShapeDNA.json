@@ -1,0 +1,99 @@
+{
+  "task_id": 2,
+  "agent": "ShapeDNA",
+  "description": "luxury_yacht DNA extraction",
+  "input_prompt": "Analyze a luxury_yacht: L=30 W=7 H=12 verts=45000 first10: [[15,0,3.5],[15,0,-3.5],[-15,0,3.5],[-15,0,-3.5],[14,2,3],[-14,2,3],[14,2,-3],[-14,2,-3],[15,8,2.5],[-15,8,2.5]]",
+  "output": {
+    "proportions": {
+      "length_width_ratio": 4.286,
+      "width_height_ratio": 0.583
+    },
+    "silhouette": {
+      "is_symmetric": true,
+      "primary_axis": "x"
+    },
+    "design_language": [
+      "luxurious",
+      "sleek"
+    ],
+    "key_features": [
+      {
+        "name": "Bow",
+        "position": [
+          15,
+          0,
+          3.5
+        ],
+        "description": "The front of the yacht, typically the most prominent feature."
+      },
+      {
+        "name": "Stern",
+        "position": [
+          -15,
+          0,
+          3.5
+        ],
+        "description": "The back of the yacht, often featuring a distinctive design element."
+      },
+      {
+        "name": "Side Windows",
+        "position": [
+          14,
+          2,
+          3
+        ],
+        "description": "Large windows that provide natural light and offer a view of the surroundings."
+      },
+      {
+        "name": "Side Windows",
+        "position": [
+          -14,
+          2,
+          3
+        ],
+        "description": "Large windows that provide natural light and offer a view of the surroundings."
+      },
+      {
+        "name": "Side Windows",
+        "position": [
+          14,
+          2,
+          -3
+        ],
+        "description": "Large windows that provide natural light and offer a view of the surroundings."
+      },
+      {
+        "name": "Side Windows",
+        "position": [
+          -14,
+          2,
+          -3
+        ],
+        "description": "Large windows that provide natural light and offer a view of the surroundings."
+      },
+      {
+        "name": "Upper Deck",
+        "position": [
+          15,
+          8,
+          2.5
+        ],
+        "description": "A raised platform that provides additional space for passengers and crew."
+      },
+      {
+        "name": "Upper Deck",
+        "position": [
+          -15,
+          8,
+          2.5
+        ],
+        "description": "A raised platform that provides additional space for passengers and crew."
+      }
+    ],
+    "style_archetype": "elegant",
+    "complexity_score": 0.8
+  },
+  "elapsed_s": 3.9,
+  "timestamp": 1779185037.5669367,
+  "wave": 1
+}

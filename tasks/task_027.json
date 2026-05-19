@@ -1,0 +1,7 @@
+{
+  "id": 27,
+  "agent": "GeometryCritic",
+  "prompt": "Score this cargo_drone blueprint: {\"base_shape\": \"heavy_lifter\", \"length\": 5.0, \"width\": 6.0, \"height\": 2.0, \"payload_kg\": 2000, \"range_km\": 800}",
+  "desc": "cargo_drone geometry score",
+  "wave": 2
+}

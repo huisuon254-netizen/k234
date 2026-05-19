@@ -1,0 +1,7 @@
+{
+  "id": 28,
+  "agent": "GeometryCritic",
+  "prompt": "Score this quantum_sub blueprint: {\"base_shape\": \"submersible\", \"length\": 30, \"diameter\": 5, \"depth_rating\": 6000, \"crew\": 8, \"endurance_days\": 45}",
+  "desc": "quantum_sub geometry score",
+  "wave": 2
+}

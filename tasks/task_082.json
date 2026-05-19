@@ -1,0 +1,7 @@
+{
+  "id": 82,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this combat_mech: {\"base_shape\": \"humanoid_mech\", \"height\": 6.0, \"width\": 3.0, \"arm_span\": 5.0, \"weapon_loadout\": [\"plasma_cannon\", \"missile_pod\"], \"armor_type\": \"composite\"}",
+  "desc": "combat_mech evolution mutation",
+  "wave": 7
+}

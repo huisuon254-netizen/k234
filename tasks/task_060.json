@@ -1,0 +1,7 @@
+{
+  "id": 60,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=4 W=3 H=2.5, type=exploration_vehicle",
+  "desc": "planetary_rover proportion check",
+  "wave": 4
+}

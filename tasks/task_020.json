@@ -1,0 +1,7 @@
+{
+  "id": 20,
+  "agent": "GeometryCritic",
+  "prompt": "Score this medieval_galleon blueprint: {\"base_shape\": \"sailing_ship\", \"length\": 45, \"beam\": 12, \"draft\": 5, \"mast_count\": 3, \"deck_count\": 2}",
+  "desc": "medieval_galleon geometry score",
+  "wave": 2
+}

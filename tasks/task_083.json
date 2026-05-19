@@ -1,0 +1,7 @@
+{
+  "id": 83,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this stealth_jet: {\"base_shape\": \"stealth_aircraft\", \"length\": 19.5, \"wingspan\": 14.0, \"height\": 4.8, \"radar_signature\": 0.01, \"thrust\": 180}",
+  "desc": "stealth_jet evolution mutation",
+  "wave": 7
+}

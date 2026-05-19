@@ -1,0 +1,7 @@
+{
+  "id": 74,
+  "agent": "MaterialScientist",
+  "prompt": "Enhance alien_chitin: {\"base_color\": [0.1, 0.8, 0.3], \"roughness\": 0.3, \"metallic\": 0.6, \"iridescence\": 0.7}",
+  "desc": "alien_chitin material enhancement",
+  "wave": 6
+}

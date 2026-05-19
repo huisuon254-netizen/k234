@@ -1,0 +1,7 @@
+{
+  "id": 90,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this warp_ship: {\"base_shape\": \"faster_than_light\", \"length\": 250, \"width\": 80, \"height\": 60, \"warp_factor\": 5, \"range_ly\": 1000, \"crew\": 500}",
+  "desc": "warp_ship evolution mutation",
+  "wave": 7
+}

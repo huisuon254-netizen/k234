@@ -1,0 +1,7 @@
+{
+  "id": 34,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this colony: base_shape=toroidal diameter=500 ring_width=30 population=10000 gravity=0.8g",
+  "desc": "space_colony design enhancement",
+  "wave": 3
+}

@@ -1,0 +1,7 @@
+{
+  "id": 29,
+  "agent": "GeometryCritic",
+  "prompt": "Score this space_elevator blueprint: {\"base_shape\": \"tether_station\", \"height\": 36000, \"base_diameter\": 50, \"cable_diameter\": 0.5, \"station_count\": 4}",
+  "desc": "space_elevator geometry score",
+  "wave": 2
+}

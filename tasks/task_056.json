@@ -1,0 +1,7 @@
+{
+  "id": 56,
+  "agent": "ProportionAnalyzer",
+  "prompt": "Analyze proportions: L=150 W=25 H=30, type=airship",
+  "desc": "cargo_zeppelin proportion check",
+  "wave": 4
+}

@@ -1,0 +1,7 @@
+{
+  "id": 93,
+  "agent": "QualityScorer",
+  "prompt": "Score: Generated orbital station with 60000 verts, 90000 tris. Ring diameter 80m, 6 spokes, 24 modules.",
+  "desc": "space_station_complex quality score",
+  "wave": 8
+}

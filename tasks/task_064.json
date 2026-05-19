@@ -1,0 +1,7 @@
+{
+  "id": 64,
+  "agent": "GameDesigner",
+  "prompt": "Design a colony sim with: resource chains (20 types), citizen needs, research tree, natural disasters, trade routes, alien encounters, terraforming",
+  "desc": "colony_manager game design",
+  "wave": 5
+}

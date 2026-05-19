@@ -1,0 +1,7 @@
+{
+  "id": 18,
+  "agent": "GeometryCritic",
+  "prompt": "Score this orbital_station blueprint: {\"base_shape\": \"ring_station\", \"ring_diameter\": 80, \"hub_diameter\": 15, \"spoke_count\": 6, \"panel_count\": 24}",
+  "desc": "orbital_station geometry score",
+  "wave": 2
+}

@@ -1,0 +1,7 @@
+{
+  "id": 81,
+  "agent": "EvolutionMutator",
+  "prompt": "Mutate this sports_car: {\"base_shape\": \"hypercar_spline\", \"length\": 5.0, \"width\": 2.1, \"height\": 1.15, \"wheelbase\": 2.8, \"wing_angle\": 12}",
+  "desc": "sports_car evolution mutation",
+  "wave": 7
+}

@@ -1,0 +1,7 @@
+{
+  "id": 44,
+  "agent": "DesignEnhancer",
+  "prompt": "Enhance this vertiport: base_shape=hexagonal pads=12 air_traffic_capacity=500/day energy=renewable",
+  "desc": "vertiport design enhancement",
+  "wave": 3
+}

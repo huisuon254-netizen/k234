@@ -1,0 +1,7 @@
+{
+  "id": 75,
+  "agent": "MaterialScientist",
+  "prompt": "Enhance force_field: {\"base_color\": [0.2, 0.5, 1.0], \"roughness\": 0.0, \"metallic\": 0.0, \"transmission\": 0.8, \"ior\": 1.5}",
+  "desc": "force_field material enhancement",
+  "wave": 6
+}

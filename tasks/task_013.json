@@ -1,0 +1,7 @@
+{
+  "id": 13,
+  "agent": "ShapeDNA",
+  "prompt": "Analyze a solar_sail_ship: L=40 W=60 H=80 verts=25000 first10: [[20,0,30],[20,0,-30],[-20,0,30],[-20,0,-30],[15,40,25],[-15,40,25],[15,40,-25],[-15,40,-25],[10,60,0],[-10,60,0]]",
+  "desc": "solar_sail_ship DNA extraction",
+  "wave": 1
+}

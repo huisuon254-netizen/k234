@@ -1,0 +1,7 @@
+{
+  "id": 22,
+  "agent": "GeometryCritic",
+  "prompt": "Score this exploration_rover blueprint: {\"base_shape\": \"mars_rover\", \"length\": 3.0, \"width\": 2.5, \"height\": 2.2, \"wheel_count\": 6, \"solar_panel_area\": 4.5}",
+  "desc": "exploration_rover geometry score",
+  "wave": 2
+}
