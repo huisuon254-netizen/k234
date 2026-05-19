@@ -15,18 +15,18 @@
     },
     "match_score": 0.5,
     "adjustments": {
-      "length": 0.0,
-      "width": -0.75,
-      "height": -0.6666666666666666
+      "length": -25.0,
+      "width": 25.0,
+      "height": -15.0
     },
     "notes": [
-      "Expected proportions for an airship: Length/Width = 6, Width/Height = 0.8333333333333334",
-      "Actual Length/Width = 6, Actual Width/Height = 1",
-      "Adjustments: Length = 0%, Width = -30%, Height = -22%",
-      "Match score: 0.5 (50%)"
+      "The length and width proportions match the expected airship proportions.",
+      "The width and height proportions do not match the expected airship proportions.",
+      "The actual width is 25, which is 100% of the expected width.",
+      "The actual height is 30, which is 85.71% of the expected height."
     ]
   },
-  "elapsed_s": 4.0,
-  "timestamp": 1779185403.3396113,
+  "elapsed_s": 4.6,
+  "timestamp": 1779189374.717046,
   "wave": 4
 }

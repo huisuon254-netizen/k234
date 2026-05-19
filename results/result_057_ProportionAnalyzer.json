@@ -17,14 +17,14 @@
     "adjustments": {
       "length": 0,
       "width": -0.25,
-      "height": 0
+      "height": -12.5
     },
     "notes": [
-      "Actual proportions match expected proportions for length to width ratio, but not for width to height ratio.",
-      "Adjustments suggest a slight reduction in width to better match expected proportions."
+      "Actual proportions match expected proportions for length to width ratio.",
+      "Actual height is significantly lower than expected, suggesting a possible design or measurement error."
     ]
   },
-  "elapsed_s": 3.8,
-  "timestamp": 1779185408.0835016,
+  "elapsed_s": 4.4,
+  "timestamp": 1779189397.2594388,
   "wave": 4
 }

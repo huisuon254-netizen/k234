@@ -6,11 +6,11 @@
   "output": {
     "type_detected": "warship",
     "expected_proportions": {
-      "L_W": 8.333333333333334,
+      "L_W": 8.333333333333332,
       "W_H": 1.5
     },
     "actual_proportions": {
-      "L_W": 8.333333333333334,
+      "L_W": 8.333333333333332,
       "W_H": 1.5
     },
     "match_score": 1.0,
@@ -21,7 +21,7 @@
     },
     "notes": []
   },
-  "elapsed_s": 4.0,
-  "timestamp": 1779185393.187206,
+  "elapsed_s": 4.7,
+  "timestamp": 1779189330.1380806,
   "wave": 4
 }
