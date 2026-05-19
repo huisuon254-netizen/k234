@@ -44,7 +44,9 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
 
 # ── Rate limiting ──
 _last_call_time = 0.0
+_last_gemini_time = 0.0
 _pace_lock = threading.Lock()
+_gemini_pace_lock = threading.Lock()
 call_log = []
 call_lock = threading.Lock()
 
@@ -158,7 +160,13 @@ def groq_call(system_prompt, user_prompt, model="llama-3.1-8b-instant", temp=0.3
 
 
 def gemini_call(prompt):
+    global _last_gemini_time
     if not GEMINI_KEY: return {"error":"no_key"}
+    with _gemini_pace_lock:
+        elapsed = time.time() - _last_gemini_time
+        if elapsed < 3.0:
+            time.sleep(3.0 - elapsed)
+        _last_gemini_time = time.time()
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     req = urllib.request.Request(GEMINI_URL, data=json.dumps(body).encode(), headers={"Content-Type":"application/json"}, method="POST")
     try:
@@ -175,6 +183,9 @@ def gemini_call(prompt):
                     return json.loads(text[:i+1])
         return json.loads(text)
     except Exception as e:
+        if "429" in str(e):
+            time.sleep(10)
+            return gemini_call(prompt)
         print(f"  [Gemini] Error: {e}", flush=True)
         return {"error": str(e)}
 
