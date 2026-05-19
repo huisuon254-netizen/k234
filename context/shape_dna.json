@@ -1,0 +1,448 @@
+{
+  "extracted_at": 1779176836.9771469,
+  "assets": [
+    {
+      "name": "bishop",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.4883999824523926,
+        "verts": 576,
+        "tris": 1088
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.739
+      },
+      "symmetry": 0.3907783031463623
+    },
+    {
+      "name": "king",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.742400050163269,
+        "verts": 800,
+        "tris": 1536
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.689
+      },
+      "symmetry": 0.31143540143966675
+    },
+    {
+      "name": "knight",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.2544000148773193,
+        "verts": 512,
+        "tris": 960
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.877
+      },
+      "symmetry": 0.3140956163406372
+    },
+    {
+      "name": "pawn",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.440000057220459,
+        "verts": 576,
+        "tris": 1088
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.764
+      },
+      "symmetry": 0.32887303829193115
+    },
+    {
+      "name": "queen",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.6383999586105347,
+        "verts": 704,
+        "tris": 1344
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.732
+      },
+      "symmetry": 0.3049779534339905
+    },
+    {
+      "name": "rook",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.0404000282287598,
+        "verts": 704,
+        "tris": 1344
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 1.153
+      },
+      "symmetry": 0.21504294872283936
+    },
+    {
+      "name": "board",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 8.0,
+        "width": 8.0,
+        "height": 0.15000000596046448,
+        "verts": 512,
+        "tris": 768
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 53.333
+      },
+      "symmetry": 0.7940000295639038
+    },
+    {
+      "name": "bishop",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.4883999824523926,
+        "verts": 576,
+        "tris": 1088
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.739
+      },
+      "symmetry": 0.3907783031463623
+    },
+    {
+      "name": "king",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.742400050163269,
+        "verts": 800,
+        "tris": 1536
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.689
+      },
+      "symmetry": 0.31143540143966675
+    },
+    {
+      "name": "knight",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.2544000148773193,
+        "verts": 512,
+        "tris": 960
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.877
+      },
+      "symmetry": 0.3140956163406372
+    },
+    {
+      "name": "pawn",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.100000023841858,
+        "width": 1.100000023841858,
+        "height": 1.440000057220459,
+        "verts": 576,
+        "tris": 1088
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.764
+      },
+      "symmetry": 0.32887303829193115
+    },
+    {
+      "name": "queen",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.6383999586105347,
+        "verts": 704,
+        "tris": 1344
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 0.732
+      },
+      "symmetry": 0.3049779534339905
+    },
+    {
+      "name": "rook",
+      "type": "chess_piece",
+      "dimensions": {
+        "length": 1.2000000476837158,
+        "width": 1.2000000476837158,
+        "height": 1.0404000282287598,
+        "verts": 704,
+        "tris": 1344
+      },
+      "proportions": {
+        "L_W": 1.0,
+        "W_H": 1.153
+      },
+      "symmetry": 0.21504294872283936
+    },
+    {
+      "name": "asset",
+      "type": "car",
+      "dimensions": {
+        "length": 4.919999599456787,
+        "width": 2.0796666145324707,
+        "height": 1.3470208644866943,
+        "verts": 10548,
+        "tris": 15488
+      },
+      "proportions": {
+        "L_W": 2.366,
+        "W_H": 1.544
+      },
+      "symmetry": 0.9796937704086304
+    },
+    {
+      "name": "asset",
+      "type": "car",
+      "dimensions": {
+        "length": 4.919999599456787,
+        "width": 2.0980000495910645,
+        "height": 1.3188334703445435,
+        "verts": 10591,
+        "tris": 15540
+      },
+      "proportions": {
+        "L_W": 2.345,
+        "W_H": 1.591
+      },
+      "symmetry": 0.9797029495239258
+    },
+    {
+      "name": "asset",
+      "type": "car",
+      "dimensions": {
+        "length": 4.900000095367432,
+        "width": 2.070499897003174,
+        "height": 1.3376250267028809,
+        "verts": 10548,
+        "tris": 15488
+      },
+      "proportions": {
+        "L_W": 2.367,
+        "W_H": 1.548
+      },
+      "symmetry": 0.9797930121421814
+    },
+    {
+      "name": "asset",
+      "type": "car",
+      "dimensions": {
+        "length": 4.900000095367432,
+        "width": 2.070499897003174,
+        "height": 1.3376250267028809,
+        "verts": 10548,
+        "tris": 15488
+      },
+      "proportions": {
+        "L_W": 2.367,
+        "W_H": 1.548
+      },
+      "symmetry": 0.9797930121421814
+    }
+  ],
+  "design_principles": [
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "chess_piece",
+      "proportion_rules": {
+        "base_to_height": 0.15,
+        "head_ratio": 0.35
+      },
+      "design_language": "classic_staunton"
+    },
+    {
+      "type": "sports_car",
+      "proportion_rules": {
+        "L_W_range": [
+          2.0,
+          2.5
+        ],
+        "W_H_range": [
+          1.3,
+          1.8
+        ],
+        "stance": "low"
+      },
+      "design_language": "aerodynamic_sporty"
+    },
+    {
+      "type": "sports_car",
+      "proportion_rules": {
+        "L_W_range": [
+          2.0,
+          2.5
+        ],
+        "W_H_range": [
+          1.3,
+          1.8
+        ],
+        "stance": "low"
+      },
+      "design_language": "aerodynamic_sporty"
+    },
+    {
+      "type": "sports_car",
+      "proportion_rules": {
+        "L_W_range": [
+          2.0,
+          2.5
+        ],
+        "W_H_range": [
+          1.3,
+          1.8
+        ],
+        "stance": "low"
+      },
+      "design_language": "aerodynamic_sporty"
+    },
+    {
+      "type": "sports_car",
+      "proportion_rules": {
+        "L_W_range": [
+          2.0,
+          2.5
+        ],
+        "W_H_range": [
+          1.3,
+          1.8
+        ],
+        "stance": "low"
+      },
+      "design_language": "aerodynamic_sporty"
+    }
+  ],
+  "compressed_knowledge": {
+    "avg_L_W": 1.3202941176470588,
+    "avg_W_H": 4.086588235294118,
+    "principle_count": 17
+  }
+}
