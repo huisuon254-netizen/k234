@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "mech_squad quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185636.4461558,
+  "timestamp": 1779190484.6810837,
   "wave": 8
 }

@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "alien_ecosystem quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185654.9398882,
+  "timestamp": 1779190573.1869926,
   "wave": 8
 }

@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "fleet_assets quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185649.2113895,
+  "timestamp": 1779190551.2208672,
   "wave": 8
 }

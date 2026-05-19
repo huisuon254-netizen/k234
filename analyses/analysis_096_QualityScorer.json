@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "city_blocks quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185644.3521304,
+  "timestamp": 1779190529.199968,
   "wave": 8
 }

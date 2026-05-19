@@ -3,7 +3,7 @@
   "tasks": 10,
   "completed": 0,
   "failed": 10,
-  "timestamp": 1779185612.469287,
+  "timestamp": 1779190392.4125211,
   "results": [
     {
       "task_id": 81,
@@ -11,8 +11,8 @@
       "description": "sports_car evolution mutation",
       "input_prompt": "Mutate this sports_car: {\"base_shape\": \"hypercar_spline\", \"length\": 5.0, \"width\": 2.1, \"height\": 1.15, \"wheelbase\": 2.8, \"wing_angle\": 12}",
       "output": null,
-      "elapsed_s": 3.9,
-      "timestamp": 1779185562.4594066,
+      "elapsed_s": 1.3,
+      "timestamp": 1779190167.9745324,
       "wave": 7
     },
     {
@@ -21,8 +21,8 @@
       "description": "combat_mech evolution mutation",
       "input_prompt": "Mutate this combat_mech: {\"base_shape\": \"humanoid_mech\", \"height\": 6.0, \"width\": 3.0, \"arm_span\": 5.0, \"weapon_loadout\": [\"plasma_cannon\", \"missile_pod\"], \"armor_type\": \"composite\"}",
       "output": null,
-      "elapsed_s": 9.9,
-      "timestamp": 1779185572.9864676,
+      "elapsed_s": 5.0,
+      "timestamp": 1779190190.3420792,
       "wave": 7
     },
     {
@@ -31,8 +31,8 @@
       "description": "stealth_jet evolution mutation",
       "input_prompt": "Mutate this stealth_jet: {\"base_shape\": \"stealth_aircraft\", \"length\": 19.5, \"wingspan\": 14.0, \"height\": 4.8, \"radar_signature\": 0.01, \"thrust\": 180}",
       "output": null,
-      "elapsed_s": 1.2,
-      "timestamp": 1779185574.7739809,
+      "elapsed_s": 7.0,
+      "timestamp": 1779190213.9016068,
       "wave": 7
     },
     {
@@ -41,8 +41,8 @@
       "description": "battle_cruiser evolution mutation",
       "input_prompt": "Mutate this battle_cruiser: {\"base_shape\": \"capital_ship\", \"length\": 400, \"beam\": 60, \"height\": 80, \"shield_capacity\": 5000, \"weapon_batteries\": 12}",
       "output": null,
-      "elapsed_s": 3.7,
-      "timestamp": 1779185579.7617962,
+      "elapsed_s": 4.4,
+      "timestamp": 1779190236.4684715,
       "wave": 7
     },
     {
@@ -51,8 +51,8 @@
       "description": "dragon_v2 evolution mutation",
       "input_prompt": "Mutate this dragon_v2: {\"base_shape\": \"western_dragon\", \"length\": 12, \"wingspan\": 16, \"breath_type\": \"plasma\", \"scale_color\": \"crimson\", \"age_years\": 5000}",
       "output": null,
-      "elapsed_s": 3.3,
-      "timestamp": 1779185584.295328,
+      "elapsed_s": 5.7,
+      "timestamp": 1779190259.738193,
       "wave": 7
     },
     {
@@ -61,8 +61,8 @@
       "description": "space_station evolution mutation",
       "input_prompt": "Mutate this space_station: {\"base_shape\": \"ring_station\", \"ring_diameter\": 100, \"hub_diameter\": 20, \"spoke_count\": 8, \"module_count\": 24, \"crew\": 200}",
       "output": null,
-      "elapsed_s": 4.9,
-      "timestamp": 1779185589.7480419,
+      "elapsed_s": 5.3,
+      "timestamp": 1779190282.292836,
       "wave": 7
     },
     {
@@ -71,8 +71,8 @@
       "description": "cyberdeck evolution mutation",
       "input_prompt": "Mutate this cyberdeck: {\"base_shape\": \"neural_interface\", \"bandwidth\": 5000, \"channels\": 2048, \"processing\": 100, \"storage\": 5000, \"form\": \"portable\"}",
       "output": null,
-      "elapsed_s": 8.8,
-      "timestamp": 1779185599.4908328,
+      "elapsed_s": 5.5,
+      "timestamp": 1779190305.3233635,
       "wave": 7
     },
     {
@@ -81,8 +81,8 @@
       "description": "hover_tank_v2 evolution mutation",
       "input_prompt": "Mutate this hover_tank_v2: {\"base_shape\": \"hover_vehicle\", \"length\": 9, \"width\": 5, \"height\": 2.5, \"max_speed\": 150, \"armor\": 120, \"weapons\": [\"railgun\", \"point_defense\"]}",
       "output": null,
-      "elapsed_s": 1.0,
-      "timestamp": 1779185600.8033447,
+      "elapsed_s": 5.3,
+      "timestamp": 1779190327.5698426,
       "wave": 7
     },
     {
@@ -91,8 +91,8 @@
       "description": "arcology evolution mutation",
       "input_prompt": "Mutate this arcology: {\"base_shape\": \"self_sufficient_dome\", \"diameter\": 300, \"height\": 150, \"population\": 100000, \"energy_source\": \"fusion\", \"agriculture\": \"hydroponic\"}",
       "output": null,
-      "elapsed_s": 4.9,
-      "timestamp": 1779185606.2994869,
+      "elapsed_s": 5.1,
+      "timestamp": 1779190350.0279741,
       "wave": 7
     },
     {
@@ -101,8 +101,8 @@
       "description": "warp_ship evolution mutation",
       "input_prompt": "Mutate this warp_ship: {\"base_shape\": \"faster_than_light\", \"length\": 250, \"width\": 80, \"height\": 60, \"warp_factor\": 5, \"range_ly\": 1000, \"crew\": 500}",
       "output": null,
-      "elapsed_s": 4.5,
-      "timestamp": 1779185611.3130717,
+      "elapsed_s": 5.6,
+      "timestamp": 1779190372.6887512,
       "wave": 7
     }
   ]

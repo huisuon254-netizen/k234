@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "dragon_family quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185643.3158724,
+  "timestamp": 1779190511.9958892,
   "wave": 8
 }

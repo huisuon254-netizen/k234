@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "weapon_arsenal quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185659.9396577,
+  "timestamp": 1779190595.0014567,
   "wave": 8
 }

@@ -3,8 +3,8 @@
   "agent": "QualityScorer",
   "description": "chess_set_complete quality score",
   "analysis": {
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "analysis_failed"
   },
-  "timestamp": 1779185620.7172384,
+  "timestamp": 1779190439.2106338,
   "wave": 8
 }
